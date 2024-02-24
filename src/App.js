@@ -69,6 +69,8 @@ import UserDashboard from "./Pages/Dashboard/User Dashboard ";
 import Displaycontactperson from "./Pages/Dashboard/Displaycontactperson";
 // userside end
 
+import 'dotenv/config';
+
 const App = () => {
   return (
     <>
