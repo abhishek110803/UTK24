@@ -84,23 +84,29 @@ function EventRegistrationForm() {
             }
         });
         if (Object.keys(errors).length === 0) {
-            try {
-                const response = await dispatch(addEventParticipants(formData));
-                if (response.payload.success) {
-                    setFormData({
-                        teamName: '',
-                        college: '',
-                        // paymentReferenceNumber: '',
-                        participants: [{ participantName: '', participantEmail: '', participantPhone: '' }],
-                    });
-                    setFormErrors({});
-                    navigate(-1);
-                } else {
-                    toast.error(response.data.message);
+            if (location.state.minParticipants > formData.participants.length) {
+                toast.error('Add more participants.');
+            } else if (location.state.maxParticipants < formData.participants.length) {
+                toast.error('You have added more participants');
+            } else {
+                try {
+                    const response = await dispatch(addEventParticipants(formData));
+                    if (response.payload.success) {
+                        setFormData({
+                            teamName: '',
+                            college: '',
+                            // paymentReferenceNumber: '',
+                            participants: [{ participantName: '', participantEmail: '', participantPhone: '' }],
+                        });
+                        setFormErrors({});
+                        navigate(-1);
+                    } else {
+                        toast.error(response.data.message);
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
+                    toast.error('Failed to submit form');
                 }
-            } catch (error) {
-                console.error('Error:', error);
-                toast.error('Failed to submit form');
             }
         } else {
             setFormErrors(errors);
