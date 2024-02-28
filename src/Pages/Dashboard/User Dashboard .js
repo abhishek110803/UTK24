@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { BsCollectionPlayFill, BsTrash } from "react-icons/bs";
-import { MdOutlineModeEdit, MdOutlineDownload } from "react-icons/md";
+import { MdOutlineModeEdit, MdOutlineDownload, MdOutlinePayment, MdUpdate } from "react-icons/md";
 import { MdGppGood, MdPeople, MdOutlineDetails, MdGppBad } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -64,16 +64,18 @@ const UserDashboard = () => {
 
         </div>
 
-        <div  className='table_wrapper'>
+        <div className='table_wrapper'>
           {myEvents.length > 0 && <table className="table overflow-x-scroll" >
             <thead>
               <tr >
                 <th>S No.</th>
                 <th>Event Title</th>
                 <th>Club</th>
-                <th>Total Participants</th>
-                <th>Details</th>
+
+                {/* <th>Your Details</th> */}
                 <th>Contact Person</th>
+                <th>Payment</th>
+                <th>UTR No</th>
                 <th>Status</th>
                 <th>Receipt</th>
 
@@ -96,11 +98,10 @@ const UserDashboard = () => {
                     </td>
                     <td>{element?.club}</td>
                     {/* <td>{element?.createdBy}</td> */}
-                    <td>{element?.numberOfParticipants}</td>
+                    {/* <td>{element?.numberOfParticipants}</td> */}
 
 
-                    <td >
-                      {/* to edit the course */}
+                    {/* <td >
 
                       <MdOutlineDetails onClick={() =>
                         navigate("/event/details", {
@@ -113,9 +114,7 @@ const UserDashboard = () => {
                         })
                       } />
 
-                    </td>
-
-
+                    </td> */}
 
 
                     <td>
@@ -133,6 +132,42 @@ const UserDashboard = () => {
 
 
                     </td>
+
+                    <td>
+
+
+
+
+
+                      {element.participant.some(obj => (obj.enrolledby !== userData._id) && (obj.paymentReferenceNumber === 'NA')) ? < MdOutlinePayment onClick={() =>
+                        navigate("/user/makepayment", {
+                          state: { ...element },
+                        })
+                      } /> : <MdOutlineModeEdit onClick={() =>
+                        navigate("/user/displaycontactperson", {
+                          state: { ...element },
+                        })
+                      } />}
+
+
+
+
+
+
+
+                    </td>
+
+
+                    <td >
+
+                      {element.participant.some(obj => (obj.enrolledby !== userData._id) && (obj.paymentReferenceNumber === 'NA')) ? 'NA' : element.participant.find(obj => obj.enrolledby !== userData._id).paymentReferenceNumber}
+
+
+
+                    </td>
+
+
+
 
 
                     <td>
@@ -164,11 +199,11 @@ const UserDashboard = () => {
                       className="bg-none hover:bg-green-600 transition-all ease-in-out duration-30 text-xl py-2 px-4 rounded-md font-bold color-black"
                     > */}
                       <MdOutlineDownload onClick={
-                        () =>{
+                        () => {
                           return toast.error("Receipt can be downloaded after verification..");
 
                         }
-                      
+
                       } />
                       {/* </button> */}
                     </td>

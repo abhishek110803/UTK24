@@ -67,6 +67,7 @@ import Addfacultycoordinator from "./Pages/Dashboard/Addfacultycoordinator";
 import Displayfacultycoordinator from "./Pages/Dashboard/Displayfacultycoordinator";
 import UserDashboard from "./Pages/Dashboard/User Dashboard ";
 import Displaycontactperson from "./Pages/Dashboard/Displaycontactperson";
+import MakePayment from "./Pages/User/MakePayment";
 // userside end
 
 const App = () => {
@@ -110,6 +111,8 @@ const App = () => {
           <Route path="/merchandise/tshirtdetails/checkout/:id" element={<MerchandiseForm />} />
           <Route path="/merchandise/myOrders" element={<MyOrders />} />
           <Route path="/accommodation/myBookings" element={<MyBookings/>}/>
+          <Route path="/user/makepayment" element={<MakePayment/>}/>
+
         </Route>
         
 
