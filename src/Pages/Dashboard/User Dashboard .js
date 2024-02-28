@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
-import { BsCollectionPlayFill, BsTrash } from "react-icons/bs";
-import { MdOutlineModeEdit, MdOutlineDownload, MdOutlinePayment, MdUpdate } from "react-icons/md";
-import { MdGppGood, MdPeople, MdOutlineDetails, MdGppBad } from "react-icons/md";
+import { MdOutlineModeEdit, MdOutlineDownload, MdOutlinePayment } from "react-icons/md";
+import {  MdPeople} from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { deleteEvent, getAllEvent } from "../../Redux/eventSlice";
@@ -139,7 +138,7 @@ const UserDashboard = () => {
 
 
 
-                      {element.participant.some(obj => (obj.enrolledby !== userData._id) && (obj.paymentReferenceNumber === 'NA')) ? < MdOutlinePayment onClick={() =>
+                      {element.participant.some(obj => (obj.enrolledby !== userData._id) && (obj?.paymentReferenceNumber === 'NA')) ? < MdOutlinePayment onClick={() =>
                         navigate("/user/makepayment", {
                           state: { ...element },
                         })
@@ -160,7 +159,7 @@ const UserDashboard = () => {
 
                     <td >
 
-                      {element.participant.some(obj => (obj.enrolledby !== userData._id) && (obj.paymentReferenceNumber === 'NA')) ? 'NA' : element.participant.find(obj => obj.enrolledby !== userData._id).paymentReferenceNumber}
+                      {element.participant.some(obj => (obj.enrolledby !== userData._id) && (obj?.paymentReferenceNumber === 'NA')) ? 'NA' : element.participant.find(obj => obj.enrolledby !== userData._id)?.paymentReferenceNumber}
 
 
 
