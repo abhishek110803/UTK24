@@ -57,7 +57,7 @@ export default function Pronight() {
                         <source src="https://res.cloudinary.com/dijzvijky/video/upload/v1708605856/fast_clip_1_qdp3s9.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
-                    <h1 className="pronight_title_pro">ProNight</h1>
+                    <h1 className="pronight_title_pro">Pro-Nite</h1>
                     <div className="pronight_card prnc" style={{ width: '20rem' }}>
                         <div className="card-body">
                             <h5 className="pronight_card-title-p prnt">TO BE REVEALED</h5>
