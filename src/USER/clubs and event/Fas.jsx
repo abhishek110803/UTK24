@@ -75,7 +75,7 @@ export default function Fas() {
         if (tabId === "step-five") {
             setEventdetails({
                 eventId: '65d5adc8a74298259eff0cc6',
-                minParticipants: 3,
+                minParticipants: 1,
                 maxParticipants: 3,
                 amount: 100,
                 perTeam: true,
@@ -257,14 +257,14 @@ export default function Fas() {
                                                             </p>
                                                             <br /><br />
                                                             <span style={{ color: 'white' }}>Date: 8-10<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: Not disclosed. </span> <br /><br />
+                                                            {/* <span style={{ color: 'white' }}>Entry Fee: Not disclosed. </span> <br /><br /> */}
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
                                                     {/* Schedule Btn */}
-                                                    <a name="ART EXHIBITION" id="fas0" className="btn confer-btn" onClick={handleClick}>Register </a>
+                                                    {/* <a name="ART EXHIBITION" id="fas0" className="btn confer-btn" onClick={handleClick}>Register </a> */}
                                                 </div>
                                             </div>
                                             {/* More Schedule Btn */}
@@ -583,7 +583,7 @@ export default function Fas() {
                                                                     <font size={4}> Event rules and guidelines</font>
                                                                 </b><br />
                                                                 <br />Time limit: 120 minutes
-                                                                <br />Team size: 1-2 members<br /><br />
+                                                                <br />Team size: 2 members<br /><br />
                                                                 <br />1. Color Combo and the Paper sheet will be provided to each
                                                                 participant.
                                                                 <br />2. Participants will be painting a Madhubani (which is

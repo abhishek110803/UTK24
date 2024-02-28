@@ -66,7 +66,7 @@ export default function PhotoClub() {
 
             });
         }
-        if (tabId === "step-five") {
+        if (tabId === "step-5") {
             setEventdetails({
                 eventId: '65d5b7eea8d0fcbeb3c7c1c7',
                 minParticipants: 1,

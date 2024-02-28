@@ -284,7 +284,7 @@ const Dance = () => {
                                                                     <b>Time Limit:</b><br />
                                                                     • Prelims: 3-4 minutes<br />
                                                                     • Finals: 7-12 minutes <br />
-                                                                    <b>Team size</b>: 7-50<br /><br />
+                                                                    <b>Team size</b>: 5-50<br /><br />
                                                                 </p>
                                                                 <h6 style={{ color: 'white' }}>Rules:</h6>
                                                                 <p>
