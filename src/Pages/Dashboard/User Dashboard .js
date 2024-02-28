@@ -159,7 +159,7 @@ const UserDashboard = () => {
 
                     <td >
 
-                      {element.participant.some(obj => (obj.enrolledby !== userData._id) && (obj?.paymentReferenceNumber === 'NA')) ? 'NA' : element.participant.find(obj => obj.enrolledby !== userData._id)?.paymentReferenceNumber}
+                      {element.participant.some(obj => (obj.enrolledby !== userData._id) && (obj?.paymentReferenceNumber === 'NA')) ? 'NA' : element.participant.find(obj => { obj.enrolledby !== userData._id;  return obj?.paymentReferenceNumber})}
 
 
 
