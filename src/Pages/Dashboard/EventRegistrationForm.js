@@ -122,7 +122,7 @@ function EventRegistrationForm() {
                     <div className="card card-signin my-5" id="user_container">
                         <div className="card-body">
                             <h1 className="card-title text-center" id="titleForEvent">Event Name:{location.state.eventTitle}</h1>
-                            {/* <h3 className="text-center" style={{color:'Black',font:'Times New Roman'}} id="">Registration is going to start Very Soon.....</h3> */}
+                            {/* <h3 className="text-center" style={{ color: 'Black', font: 'Times New Roman' }} id="">Registration is going to start Very Soon.....</h3> */}
                             <div className="container">
                                 <div className="row">
                                     <div className="col-md-6 col-lg-4 mb-3">
@@ -173,6 +173,7 @@ function EventRegistrationForm() {
                                 <div className="col-md-4 mb-3">
                                     <button className="btn btn-danger w-100 mb-2" type="button" onClick={deleteLastMember} disabled={formData.participants.length <= 1}>Delete Last Member</button>
                                 </div>
+
                                 {/* <div className="col-md-4 mb-3">
                                     <button className="btn btn-primary w-100 mb-2" type="button" onClick={() => setPopup(true)} style={{ zIndex: '0' }}>Make Payment</button>
                                 </div>
@@ -180,7 +181,9 @@ function EventRegistrationForm() {
                                 <div className="input-group" style={{ width: '95%', margin: '10px', borderRadius: '10px' }}>
                                     <input style={{ borderRadius: '10px' }} type="text" className={`form-control ${formErrors.paymentReferenceNumber ? 'is-invalid' : ''}`} id="paymentReferenceNumber" name="paymentReferenceNumber" value={formData.paymentReferenceNumber} onChange={handleChange} required />
                                 </div>
-                                {formErrors.paymentReferenceNumber && <div className="invalid-feedback">{formErrors.paymentReferenceNumber}</div>} */}
+                                {formErrors.paymentReferenceNumber && <div className="invalid-feedback">{formErrors.paymentReferenceNumber}</div>}
+ */}
+
                                 <div className="col-md-4 mb-3">
                                     <button className="btn btn-success w-100" type="button" onClick={registerToEvent}>Submit</button>
                                 </div>
