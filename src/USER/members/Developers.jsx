@@ -102,7 +102,7 @@ const Developers = () => {
                         <h3>ECE 2nd Year</h3>
                         <h4>Member</h4>
                         <span>
-                            <img src="https://res.cloudinary.com/dijzvijky/image/upload/v1708777754/sheetal_e6apre.jpg" alt="" />
+                            <img src="https://res.cloudinary.com/dpgxz1q1x/image/upload/v1709060017/WhatsApp_Image_2024-02-28_at_12.21.34_AM_uniyrp.jpg" alt="" />
                         </span>
                         <div className="content">
                             <h2>04</h2>

@@ -151,7 +151,7 @@ export default function VerticalTabs3() {
 
                     </div>
                     <div> 
-                    <h1 className='heads'>Filmy Sangram</h1>
+                    <h1 className='heads'>PRAGYANSH</h1>
                         <p className='para'>Venue:Science Block </p>
                         <p className='para'>Time: 02:00 PM</p>
 
