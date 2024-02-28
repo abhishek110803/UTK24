@@ -17,8 +17,9 @@ function EventRegistrationForm() {
         id: eventId,
         teamName: '',
         college: '',
-        paymentReferenceNumber: 'Pre-registration',
+        paymentReferenceNumber: 'NA',
         participants: [{ participantName: '', participantEmail: '', participantPhone: '' }],
+        amount:0,
     });
     const [formErrors, setFormErrors] = useState({});
     const [popup, setPopup] = useState(false);
@@ -89,6 +90,7 @@ function EventRegistrationForm() {
             } else if (location.state.maxParticipants < formData.participants.length) {
                 toast.error('You have added more participants');
             } else {
+                formData.amount = location.state.amount * ((location.state.perTeam) ? 1 : formData.participants.length);
                 try {
                     const response = await dispatch(addEventParticipants(formData));
                     if (response.payload.success) {
