@@ -87,19 +87,14 @@ const Tshirtdetails = () => {
       </div>
 
       <div className="single-tshirt-details">
-        <h2 style={{ fontFamily: 'Roboto' }}>Basic Utkansh T-shirt</h2>
+        <h2 style={{ fontFamily: 'Roboto' }}>Utkansh Oversized<br></br> T-shirt Boy</h2>
         <h3>₹350.00</h3>
 
         <button onClick={handleClick}>Book Now</button>
 
         <h4>Product Details</h4>
         <span>
-          Embrace the timeless elegance of simplicity with our Classic Utkansh T-Shirt. This design
-          features the iconic Utkansh logo in a clean and minimalistic style, allowing the essence of
-          the fest to speak for itself. The classic Utkansh lettering is artfully integrated, creating
-          a sophisticated and versatile look suitable for various occasions. Whether you're attending
-          events, workshops, or simply expressing your college fest pride, this T-shirt is a perfect
-          choice for those who appreciate understated elegance.
+          Introducing our exclusive Utkansh merch line, crafted with love to capture the essence of Utkansh! 😎
         </span>
       </div>
     </section>}
@@ -163,19 +158,14 @@ const Tshirtdetails = () => {
       </div>
 
       <div className="single-tshirt-details">
-        <h2 style={{ fontFamily: 'Roboto' }}>Basic Utkansh T-shirt</h2>
+        <h2 style={{ fontFamily: 'Roboto' }}>Utkansh Oversized<br></br> T-shirt Girl</h2>
         <h3>₹350.00</h3>
 
         <button onClick={handleClick}>Book Now</button>
 
         <h4>Product Details</h4>
         <span>
-          Embrace the timeless elegance of simplicity with our Classic Utkansh T-Shirt. This design
-          features the iconic Utkansh logo in a clean and minimalistic style, allowing the essence of
-          the fest to speak for itself. The classic Utkansh lettering is artfully integrated, creating
-          a sophisticated and versatile look suitable for various occasions. Whether you're attending
-          events, workshops, or simply expressing your college fest pride, this T-shirt is a perfect
-          choice for those who appreciate understated elegance.
+          Introducing our exclusive Utkansh merch line, crafted with love to capture the essence of Utkansh! 😎
         </span>
       </div>
     </section>}

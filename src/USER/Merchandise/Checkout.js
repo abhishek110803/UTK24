@@ -12,14 +12,14 @@ const MerchandiseForm = () => {
     const navigate = useNavigate();
     const [checkoutDisabled, setCheckoutDisabled] = useState(true);
     const [formData, setFormData] = useState({
-        nameOnCloth: '',
+        nameOnCloth: 'NA',
         applicantName: '',
         clothId: id,
         quantity: 1,
         sizeOfCloth: '',
-        hostelName: '',
+        hostelName: 'NA',
         paymentReferenceNumber: '',
-        rollNumber: '',
+        rollNumber: '0',
         phoneNumber: '',
         wtpNumber: '',
         email: '',
@@ -65,13 +65,13 @@ const MerchandiseForm = () => {
 
                 toast.success(res.data.message);
                 setFormData({
-                    nameOnCloth: '',
+                    // nameOnCloth: '',
                     applicantName: '',
                     quantity: '',
                     sizeOfCloth: '',
-                    hostelName: '',
+                    // hostelName: '',
                     paymentReferenceNumber: '',
-                    rollNumber: '',
+                    // rollNumber: '',
                     phoneNumber: '',
                     wtpNumber: '',
                     email: '',
@@ -92,34 +92,34 @@ const MerchandiseForm = () => {
 
     return (
 
-        // <div className="containercontact">
-        <div className="container" style={{ paddingTop: '100px', minHeight: '90vh' }}>
-            <h3 className="text-center" style={{ color: 'White', font: 'Times New Roman' }} id="">Booking  is going to start Very Soon.....</h3>
-{/*             
+        <div className="containercontact">
+        {/* <div className="container" style={{ paddingTop: '100px', minHeight: '90vh' }}> */}
+            {/* <h3 className="text-center" style={{ color: 'White', font: 'Times New Roman' }} id="">Booking  is going to start Very Soon.....</h3> */}
+            
             <div className="left-section">
                 <form id="personal-form" onChange={handleInputChange}>
                     <h2 style={{ color: 'rgb(71, 71, 71)', marginBottom: '20px' }}>Personal Details</h2>
                     <label htmlFor="name">Applicant Name</label>
                     <input type="text" id="name" name="applicantName" onChange={handleChange} value={formData.applicantName} required />
-                    <label htmlFor="roll">Roll Number</label>
-                    <input type="text" id="roll" name="rollNumber" onChange={handleChange} value={formData.rollNumber} required />
+                    {/* <label htmlFor="roll">Roll Number</label> */}
+                    {/* <input type="text" id="roll" name="rollNumber" onChange={handleChange} value={formData.rollNumber} required /> */}
                     <label htmlFor="phone">Phone Number</label>
                     <input type="tel" id="phone" name="phoneNumber" onChange={handleChange} value={formData.phoneNumber} required />
                     <label htmlFor="whatsapp">WhatsApp Number</label>
                     <input type="tel" id="whatsapp" name="wtpNumber" onChange={handleChange} value={formData.wtpNumber} required />
                     <label htmlFor="email">Email Address</label>
                     <input type="email" id="email" name="email" onChange={handleChange} value={formData.email} required />
-                    <label htmlFor="hostel">Hostel Name</label>
-                    <input type="text" id="hostel" name="hostelName" onChange={handleChange} value={formData.hostelName} required />
+                    {/* <label htmlFor="hostel">Hostel Name</label>
+                    <input type="text" id="hostel" name="hostelName" onChange={handleChange} value={formData.hostelName} required /> */}
                     <p id="personal-message"></p>
                 </form>
-            </div> */}
-            {/* <div className="right-section">
+            </div>
+            <div className="right-section">
                 <div className="upper-section">
                     <form id="tshirt-form" onChange={handleInputChange}>
                         <h2 style={{ color: 'rgb(71, 71, 71)', marginBottom: '20px' }}>T-Shirt Details</h2>
-                        <label htmlFor="print">Name to Print</label>
-                        <input type="text" id="print" name="nameOnCloth" onChange={handleChange} value={formData.nameOnCloth} required />
+                        {/* <label htmlFor="print">Name to Print</label>
+                        <input type="text" id="print" name="nameOnCloth" onChange={handleChange} value={formData.nameOnCloth} required /> */}
                         <label htmlFor="size">Size</label>
                         <select id="size" name="sizeOfCloth" onChange={handleChange} value={formData.sizeOfCloth} required>
                             <option value="">Select a size</option>
@@ -129,9 +129,9 @@ const MerchandiseForm = () => {
                             <option value="XL">Extra Large</option>
                         </select>
                         <label htmlFor="quantity">Quantity</label>
-                        <input type="number" id="quantity" name="quantity" min="1" max="10" onChange={handleChange} value={formData.quantity} required />
+                        <input type="number" id="quantity" name="quantity" min="1" max="5" onChange={handleChange} value={formData.quantity} required />
                         <div>
-                            Payable amount: ₹{formData.quantity * 350}
+                            Payable amount: ₹{formData.quantity * 315}
                           
                         </div>
                         <p id="tshirt-message"></p>
@@ -142,7 +142,7 @@ const MerchandiseForm = () => {
                         <input type="text" id="reference" name="paymentReferenceNumber" onChange={handleChange} value={formData.paymentReferenceNumber} required />
                     </form>
 
-                    {popup && <QRPopup setPopup={setPopup} amount={formData.quantity * 350} />}
+                    {popup && <QRPopup setPopup={setPopup} amount={formData.quantity * 315} />}
 
                 </div>
                 <div className="lower-section" style={{ marginTop: '75px' }}>
@@ -152,7 +152,7 @@ const MerchandiseForm = () => {
                     </button>
                 </div>
 
-            </div> */}
+            </div>
         </div>
     );
 };
