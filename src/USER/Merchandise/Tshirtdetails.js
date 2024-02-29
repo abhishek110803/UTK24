@@ -88,8 +88,8 @@ const Tshirtdetails = () => {
 
       <div className="single-tshirt-details">
         <h2 style={{ fontFamily: 'Roboto' }}>Utkansh Oversized<br></br> T-shirt Boy</h2>
-        <h3>₹350.00</h3>
-
+        <h3> ₹ 315/- Till 2nd March 2024</h3>
+        <h3> ₹ 350/- After 2nd March 2024</h3>
         <button onClick={handleClick}>Book Now</button>
 
         <h4>Product Details</h4>
@@ -159,8 +159,8 @@ const Tshirtdetails = () => {
 
       <div className="single-tshirt-details">
         <h2 style={{ fontFamily: 'Roboto' }}>Utkansh Oversized<br></br> T-shirt Girl</h2>
-        <h3>₹350.00</h3>
-
+        <h3> ₹ 315/- Till 2nd March 2024</h3>
+        <h3> ₹ 350/- After 2nd March 2024</h3>
         <button onClick={handleClick}>Book Now</button>
 
         <h4>Product Details</h4>

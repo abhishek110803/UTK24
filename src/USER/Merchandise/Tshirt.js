@@ -13,10 +13,10 @@ const Merchandise = () => {
                     <figure className="featured-image align-center ">
                         <img src={t2} width="200px" style={{ height: "250px" }} alt="Utkansh Tshirt Black" />
                     </figure>
-                    <h3 className="text-center" style={{ fontFamily: 'mountains,serif', color: '#ffffff' }}>Utkansh Oversized<br></br> T-shirt Boy</h3>
-                    <h5 className="text-center pt-2" style={{ fontFamily: 'mountains,serif', color: '#ffffff' }}>Price 315/-</h5>
-                    {/* <h5 className="text-center pt-2" style={{ fontFamily: 'mountains,serif', color: '#ffffff' }}>Price - Yet To Disclose</h5> */}
-                    {/* Replace anchor tag with Link */}
+                    <h3 className="text-center" style={{ fontFamily: 'mountains,serif', color: '#ffffff' }}>Utkansh Oversized<br></br> T-shirt </h3>
+                    <h5 className="text-center pt-2" style={{ fontFamily: 'mountains,serif', color: '#ffffff' }}>Price 315/- Till 2nd March 2024</h5>
+                    <h5 className="text-center pt-2" style={{ fontFamily: 'mountains,serif', color: '#ffffff' }}>Price 350/- After 2nd March 2024</h5>
+
                     <h2 style={{ fontWeight: 'bold', color: 'blue' }} className="text-center">
                         <Link to="/merchandise/tshirtdetails/1" style={{ color: 'blue', textDecoration: 'none' }}>Order Now</Link>
                     </h2>
@@ -25,16 +25,21 @@ const Merchandise = () => {
                     <figure className="featured-image ">
                         <img src={t6} width="200px" style={{ height: "250px" }} alt="Utkansh Tshirt Gray" />
                     </figure>
-                    <h3 className="text-center" style={{ fontFamily: 'mountains,serif', color: '#ffffff' }}>Utkansh Oversized<br></br> T-shirt Girl</h3>
-                    <h5 className="text-center pt-2" style={{ fontFamily: 'mountains,serif', color: '#ffffff' }}>Price 315/-</h5>
-                    {/* <h5 className="text-center pt-2" style={{ fontFamily: 'mountains,serif', color: '#ffffff' }}>Price - Yet To Disclose</h5> */}
+                    <h3 className="text-center" style={{ fontFamily: 'mountains,serif', color: '#ffffff' }}>Utkansh Oversized<br></br> T-shirt </h3>
+                    <h5 className="text-center pt-2" style={{ fontFamily: 'mountains,serif', color: '#ffffff' }}>Price 315/- Till 2nd March 2024</h5>
+                    <h5 className="text-center pt-2" style={{ fontFamily: 'mountains,serif', color: '#ffffff' }}>Price 350/- After 2nd March 2024</h5>
 
-                    {/* Replace anchor tag with Link */}
                     <h2 style={{ fontWeight: 'bold', color: 'blue' }} className="text-center">
                         <Link to="/merchandise/tshirtdetails/2" style={{ color: 'blue', textDecoration: 'none' }}>Order Now</Link>
                     </h2>
                 </div>
+
+
             </div>
+            <h6 className="Merchandise"> For inquiries:<br></br>
+            Ayush - 9915292152 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             Sameep - 7217532444 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             Harmanpreet Kaur - 7814027117</h6>
         </div>
     );
 };

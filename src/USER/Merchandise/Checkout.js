@@ -98,8 +98,8 @@ const MerchandiseForm = () => {
             
             <div className="left-section">
                 <form id="personal-form" onChange={handleInputChange}>
-                    <h2 style={{ color: 'rgb(71, 71, 71)', marginBottom: '20px' }}>Personal Details</h2>
-                    <label htmlFor="name">Applicant Name</label>
+                    <h2 style={{ color: 'white', marginBottom: '20px' }}>Personal Details</h2>
+                    <label htmlFor="name">Name</label>
                     <input type="text" id="name" name="applicantName" onChange={handleChange} value={formData.applicantName} required />
                     {/* <label htmlFor="roll">Roll Number</label> */}
                     {/* <input type="text" id="roll" name="rollNumber" onChange={handleChange} value={formData.rollNumber} required /> */}
@@ -117,16 +117,17 @@ const MerchandiseForm = () => {
             <div className="right-section">
                 <div className="upper-section">
                     <form id="tshirt-form" onChange={handleInputChange}>
-                        <h2 style={{ color: 'rgb(71, 71, 71)', marginBottom: '20px' }}>T-Shirt Details</h2>
+                        <h2 style={{ color: 'white', marginBottom: '20px' }}>T-Shirt Details</h2>
                         {/* <label htmlFor="print">Name to Print</label>
                         <input type="text" id="print" name="nameOnCloth" onChange={handleChange} value={formData.nameOnCloth} required /> */}
                         <label htmlFor="size">Size</label>
                         <select id="size" name="sizeOfCloth" onChange={handleChange} value={formData.sizeOfCloth} required>
                             <option value="">Select a size</option>
-                            <option value="S">Small</option>
-                            <option value="M">Medium</option>
-                            <option value="L">Large</option>
-                            <option value="XL">Extra Large</option>
+                            <option value="XS">XS</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
                         </select>
                         <label htmlFor="quantity">Quantity</label>
                         <input type="number" id="quantity" name="quantity" min="1" max="5" onChange={handleChange} value={formData.quantity} required />

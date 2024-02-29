@@ -35,39 +35,40 @@ const MyOrders = () => {
                     </h1>
                 </div>
                 <h1 className="text-center text-3xl font-semibold">{(allOrders.length < 1) && `No Order Yet.`}</h1>
-             
-          
 
-                <div  className='table_wrapper'>
-                {(allOrders.length > 0) && <table className="table overflow-x-scroll" >
-                    <thead>
-                        <tr>
-                            <th>S No.</th>
-                            <th>Cloth ID</th>
-                            <th>Name On cloth</th>
-                            <th>Quantity</th>
-                            <th>Payment Reference Number</th>
-                            <th>Verification<br></br>Status</th>
-                        </tr>
-                    </thead>
 
-                    <tbody>
-                        {allOrders.map((element, index) => {
-                            // //console.log("dashboard data");//console.log(element);
-                            // //console.log('log', index, element);
-                            return (
-                                <tr key={index + 1}>
-                                    <td>{index + 1}</td>
-                                    <td>{element.clothId}</td>
-                                    <td>{element.nameOnCloth}</td>
-                                    <td>{element.quantity}</td>
-                                    <td>{element.paymentReferenceNumber}</td>
-                                    <td>{element.paymentVerified ? "Verified" : "Unverified"}</td>
-                                </tr>
-                            );
-                        })}
-                    </tbody>
-                </table>}
+
+                <div className='table_wrapper'>
+                    {(allOrders.length > 0) && <table className="table overflow-x-scroll" >
+                        <thead>
+                            <tr>
+                                <th>S No.</th>
+                                <th>Cloth </th>
+                                {/* <th>Name On cloth</th> */}
+                                <th>Quantity</th>
+                                <th>Payment Reference Number</th>
+                                <th>Verification<br></br>Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            {allOrders.map((element, index) => {
+                                // //console.log("dashboard data");//console.log(element);
+                                // //console.log('log', index, element);
+                                return (
+                                    <tr key={index + 1}>
+                                        <td>{index + 1}</td>
+                                        <td>Utkansh Oversized
+                                            T-shirt</td>
+                                        {/* <td>{element.nameOnCloth}</td> */}
+                                        <td>{element.quantity}</td>
+                                        <td>{element.paymentReferenceNumber}</td>
+                                        <td>{element.paymentVerified ? "Verified" : "Unverified"}</td>
+                                    </tr>
+                                );
+                            })}
+                        </tbody>
+                    </table>}
                 </div>
             </div>
         </div>
