@@ -24,7 +24,7 @@ export default function Quest() {
 
 
     const handleTabClick = (tabId) => {
-        console.log("tabId", tabId);
+        //console.log("tabId", tabId);
         setActiveTab(tabId);
         if (tabId === "step-one") {
             setEventdetails({
@@ -50,7 +50,7 @@ export default function Quest() {
 
     };
     const handleClick = () => {
-        console.log("clicked", eventdetails);
+        //console.log("clicked", eventdetails);
         navigate("/event/registerinevent", { state: { ...eventdetails } });
     };
 

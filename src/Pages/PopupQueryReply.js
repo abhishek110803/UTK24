@@ -29,10 +29,10 @@ const PopupQueryReply = ({ queryId, setPopup,oldMessage="" }) => {
             // Send form data to backend
 
             const data = { queryId, replyMessage: userInput.message };
-            console.log("Popup Data :", data);
+            // //console.log("Popup Data :", data);
             const res = axiosInstance.post('/contact/replyQuery', data)
                 .then(() => {
-                    console.log('Reply sended.')
+                    // //console.log('Reply sended.')
                     // Clear input fields after successful submission
                     setUserInput({
                         message: "",

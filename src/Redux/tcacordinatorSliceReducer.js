@@ -34,7 +34,7 @@ export const addtcacoordinator = createAsyncThunk(
   async (data) => {
     
     try {
-      console.log(data);
+      //console.log(data);
       const res = axiosInstance.post(`/event/tcacoordinator/${data.id}`, data);
     
       toast.promise(res, {
@@ -57,7 +57,7 @@ export const addtcacoordinator = createAsyncThunk(
 export const deleteTcaCordinatot = createAsyncThunk(
   "/course/lecture/delete",
   async (data) => {
-    console.log(data);
+    //console.log(data);
     try {
       const res = axiosInstance.delete(
         `/event/?courseId=${data.courseId}&lectureId=${data.lectureId}`

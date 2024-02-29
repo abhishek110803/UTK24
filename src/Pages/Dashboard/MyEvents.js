@@ -11,7 +11,7 @@ const MyEvents = () => {
 
     const getOrderData = async () => {
         const res = await axiosInstance.post('/merchandise/getAllOrderList');
-        console.log(res.data.orderList);
+        //console.log(res.data.orderList);
         setAllOrders(res.data.orderList);
     }
 
@@ -36,7 +36,7 @@ const MyEvents = () => {
                 //     totalOrders: allOrders.filter(cloth => cloth.clothId === '3').length
                 // },
             ])
-            console.log(cloths);
+            //console.log(cloths);
         })();
     }, []);
 
@@ -80,8 +80,8 @@ const MyEvents = () => {
 
                     <tbody>
                         {cloths.map((element, index) => {
-                            // console.log("dashboard data");console.log(element);
-                            // console.log('log', index, element);
+                            // //console.log("dashboard data");//console.log(element);
+                            // //console.log('log', index, element);
                             return (
 
                                 <tr key={index + 1}>

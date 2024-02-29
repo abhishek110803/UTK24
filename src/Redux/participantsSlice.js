@@ -12,8 +12,8 @@ const initialState = {
 //   async (courseId) => {
 //     try {
 //       const res = axiosInstance.get(`/event/${courseId}`);
-//          console.log("participants");
-//          console.log(res);
+//          //console.log("participants");
+//          //console.log(res);
 //       toast.promise(res, {
 //         loading: "Fetching the lectures...",
 //         success: "Lectures fetched successfully",
@@ -21,8 +21,8 @@ const initialState = {
 //       });
 
 //       const response = await res;
-//       console.log("response");
-//       console.log(response.data);
+//       //console.log("response");
+//       //console.log(response.data);
 //       return response.data;
 //     } catch (error) {
 //       toast.error(error?.response?.data?.message);
@@ -57,7 +57,7 @@ export const getEventParticipants = createAsyncThunk(
 export const addEventParticipants = createAsyncThunk(
   "/course/lecture/add",
   async (data) => {
-   console.log("000data",data);
+   //console.log("000data",data);
 
     try {
       const res = axiosInstance.post(`/event/lecture/${data.id}`, data);
@@ -86,7 +86,7 @@ export const addclubcoordinator = createAsyncThunk(
     // formData.append("description", data.description);
 
     try {
-      console.log(data);
+      //console.log(data);
       const res = axiosInstance.post(`/event/clubcoordinator/${data.id}`, data);
     
       toast.promise(res, {
@@ -109,7 +109,7 @@ export const addclubcoordinator = createAsyncThunk(
 export const deleteEventParticipants = createAsyncThunk(
   "/course/lecture/delete",
   async (data) => {
-    console.log(data);
+    //console.log(data);
     try {
       const res = axiosInstance.delete(
         `/event/?courseId=${data.courseId}&lectureId=${data.lectureId}`
@@ -131,7 +131,7 @@ export const deleteEventParticipants = createAsyncThunk(
 export const changeparticipantsverification = createAsyncThunk(
   "/course/lecture/delete",
   async (data) => {
-    console.log("data at participantsslice",data);
+    //console.log("data at participantsslice",data);
     try {
       const res = axiosInstance.put(
         `/event/?courseId=${data.courseId}&lectureId=${data.lectureId}`

@@ -17,7 +17,7 @@ const AccomodationPage = () => {
   }, []);
 
   const handleClick = (planId) => {
-    console.log("planId", planId);
+    //console.log("planId", planId);
     setPlanno(planId);
     navigate(`/event/registeraccomodation/${planId}`);
   }

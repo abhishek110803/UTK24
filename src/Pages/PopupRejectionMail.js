@@ -29,10 +29,10 @@ const PopupRejectionMail = ({ email, setPopup, subject }) => {
             // Send form data to backend
 
             const data = { email, subject, message: userInput.message };
-            console.log("Popup Data :", data);
+            //console.log("Popup Data :", data);
             const res = axiosInstance.post('/rejectionMail', data)
                 .then(() => {
-                    console.log('Sended.')
+                    //console.log('Sended.')
                     // Clear input fields after successful submission
                     setUserInput({
                         message: "",

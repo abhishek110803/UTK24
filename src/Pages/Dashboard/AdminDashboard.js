@@ -17,8 +17,8 @@ const AdminDashboard = () => {
 
   // getting the courses data from redux toolkit store
   const myEvents = useSelector((state) => state.event.eventsData);
-  // console.log("Admin Dashboard");
-  // console.log(myEvents);
+  // //console.log("Admin Dashboard");
+  // //console.log(myEvents);
 
   // function to handle the course delete
   const handleEventDelete = async (id) => {
@@ -26,7 +26,7 @@ const AdminDashboard = () => {
       const res = await dispatch(deleteEvent(id));
 
       // fetching the new updated data for the course
-      console.log(res);
+      //console.log(res);
       // if (success) {
       await dispatch(getAllEvent());
       // }
@@ -100,7 +100,7 @@ const AdminDashboard = () => {
 
           <tbody>
             {myEvents?.map((element, index) => {
-              // console.log("dashboard data");console.log(element);
+              // //console.log("dashboard data");//console.log(element);
               return (
 
                 <tr key={element?._id}>

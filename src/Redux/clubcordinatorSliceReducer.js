@@ -20,7 +20,7 @@ export const getclubcordinator = createAsyncThunk(
       });
 
       const response = await res;
-      console.log("response.data ",response.data)
+      //console.log("response.data ",response.data)
       return response.data;
     } catch (error) {
       toast.error(error?.response?.data?.message);
@@ -34,7 +34,7 @@ export const addclubcoordinator = createAsyncThunk(
   async (data) => {
     
     try {
-      console.log(data);
+      //console.log(data);
       const res = axiosInstance.post(`/event/clubcoordinator/${data.id}`, data);
     
       toast.promise(res, {
@@ -57,7 +57,7 @@ export const addclubcoordinator = createAsyncThunk(
 export const deleteclubCordinator = createAsyncThunk(
   "/course/lecture/delete",
   async (data) => {
-    console.log(data);
+    //console.log(data);
     try {
       const res = axiosInstance.delete(
         `/event/?courseId=${data.courseId}&lectureId=${data.lectureId}`

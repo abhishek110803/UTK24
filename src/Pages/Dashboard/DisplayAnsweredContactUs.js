@@ -10,7 +10,7 @@ const DisplayAnsweredContactUs = () => {
 
     const getQuery = async () => {
         const res = await axiosInstance.post('/contact/getContactUs', { answerStatus: true });
-        console.log(res.data.data);
+        //console.log(res.data.data);
         setQuery(res.data.data);
     }
 
@@ -20,7 +20,7 @@ const DisplayAnsweredContactUs = () => {
     const [queryId, setQueryId] = useState();
     const [replyMessage, setReplyMessage] = useState('');
     const handleReply = (param) => {
-        console.log(param);
+        //console.log(param);
         setQueryId(param.id);
         setReplyMessage(param.replyMessage)
         setPopup(true);
@@ -63,8 +63,8 @@ const DisplayAnsweredContactUs = () => {
 
                     <tbody>
                         {query?.map((element, index) => {
-                            // console.log("dashboard data");console.log(element);
-                            // console.log('log', index, element);
+                            // //console.log("dashboard data");//console.log(element);
+                            // //console.log('log', index, element);
                             return (
 
                                 <tr key={index + 1}>

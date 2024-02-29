@@ -27,7 +27,7 @@ const MakePayment = () => {
 
     
     const res = await dispatch(verifyAccount(data));
-       console.log("verification response",res.payload.success);
+       //console.log("verification response",res.payload.success);
 
     if (res.payload.success) {
       navigate("/login");

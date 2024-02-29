@@ -13,9 +13,9 @@ const Displaytcacoordinator = () => {
 
   // for getting the data from location of previous component
   const courseDetails = useLocation().state;
-  console.log(courseDetails);
+  //console.log(courseDetails);
   const { tcacoordinator} = useSelector((state) => state.tcacoordinator);
-  // console.log(tcacoordinators);
+  // //console.log(tcacoordinators);
 
   const { role } = useSelector((state) => state.auth);
 

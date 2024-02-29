@@ -21,7 +21,7 @@ const DisplayParticipants = () => {
     courseId: '',
     lectureId: ''
   });
-  console.log("participants",participants);
+  //console.log("participants",participants);
 
   // Initialize currentVideoIndex state
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);

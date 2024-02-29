@@ -27,7 +27,7 @@ export default function Panche() {
 
   
     const handleClick = () => {
-        console.log("clicked", eventdetails);
+        //console.log("clicked", eventdetails);
         navigate("/event/registerinevent", { state: { ...eventdetails } });
     };
     return (

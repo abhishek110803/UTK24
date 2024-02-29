@@ -35,7 +35,7 @@ const Popup = ({ usersdata, setPopup }) => {
       // Send form data to backend
 
       const data = { courseId: usersdata.courseId, lectureId: usersdata.lectureId ,subjects:userInput.subject,messages:userInput.message,isverified:false};
-      console.log("datav swvb b", data);
+      //console.log("datav swvb b", data);
       await dispatch(changeparticipantsverification(data));
       // const res = await axiosInstance.post("/Popup", { ...userInput });
 

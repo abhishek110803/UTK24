@@ -14,7 +14,7 @@ const AccommodationDashboard = () => {
 
   const getOrderData = async () => {
     const res = await axiosInstance.post('/accommodation/getAllRoomList');
-    // console.log(res.data.data);
+    // //console.log(res.data.data);
     setAllBookings(res.data.data);
   }
 
@@ -38,7 +38,7 @@ const AccommodationDashboard = () => {
           totalBookings: allBookings.filter(booking => booking.accommodationType === '3').length
         },
       ])
-      // console.log(types);
+      // //console.log(types);
     })();
   }, []);
 
@@ -79,8 +79,8 @@ const AccommodationDashboard = () => {
 
           <tbody>
             {types.map((element, index) => {
-              // console.log("dashboard data");console.log(element);
-              // console.log('log', index, element);
+              // //console.log("dashboard data");//console.log(element);
+              // //console.log('log', index, element);
               return (
 
                 <tr key={index + 1}>

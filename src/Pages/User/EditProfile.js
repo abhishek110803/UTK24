@@ -24,7 +24,7 @@ const EditProfile = () => {
     const { name, value } = event.target;
     const newUserData = { ...data, [name]: value };
     setData(newUserData);
-    console.log("gvbhnj",data)
+    //console.log("gvbhnj",data)
   };
 
   // function to handle the form submission
@@ -47,9 +47,9 @@ const EditProfile = () => {
     const formData = new FormData();
     // formData.append("fullName", data.fullName);
     // formData.append("avatar", data.avatar);
-    // console.log("gvbhnjformData",formData)
+    // //console.log("gvbhnjformData",formData)
     // const newUserData = [data.userID, formData];
-    //  console.log("newUserData",newUserData[1]);
+    //  //console.log("newUserData",newUserData[1]);
     // dispatching the api call using the thunk
     await dispatch(updateProfile(data));
 

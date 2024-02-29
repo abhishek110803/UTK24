@@ -18,13 +18,13 @@ const ContactSection = () => {
 
   const handleChange = (event) => {
     const { name, value } = event.target;
-    console.log(name);
+    //console.log(name);
     setFormData({ ...formData, [name]: value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
+    //console.log(formData);
 
     try {
       const url = '/contact'
@@ -39,7 +39,7 @@ const ContactSection = () => {
       });
       res = await res;
 
-      console.log(res.data);
+      //console.log(res.data);
       if (res?.data?.success) {
         toast.success(res.data.message)
       } else {
@@ -53,7 +53,7 @@ const ContactSection = () => {
       })
 
     } catch (err) {
-      console.log(err);
+      //console.log(err);
       toast.error('Connection Error');
     }
   }

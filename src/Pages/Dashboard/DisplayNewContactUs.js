@@ -10,7 +10,7 @@ const DisplayNewContactUs = () => {
 
   const getQuery = async () => {
     const res = await axiosInstance.post('/contact/getContactUs', { answerStatus: false });
-    console.log(res.data.data);
+    //console.log(res.data.data);
     setQuery(res.data.data);
   }
 
@@ -60,8 +60,8 @@ const DisplayNewContactUs = () => {
 
           <tbody>
             {query?.map((element, index) => {
-              // console.log("dashboard data");console.log(element);
-              // console.log('log', index, element);
+              // //console.log("dashboard data");//console.log(element);
+              // //console.log('log', index, element);
               return (
 
                 <tr key={index + 1}>

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import { MdOutlineModeEdit, MdOutlineDownload, MdOutlinePayment } from "react-icons/md";
-import {  MdPeople} from "react-icons/md";
+import { MdOutlineModeEdit, MdOutlineDownload, MdOutlinePayment, MdOutlineDetails } from "react-icons/md";
+import { MdPeople } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { deleteEvent, getAllEvent } from "../../Redux/eventSlice";
@@ -14,10 +14,10 @@ const UserDashboard = () => {
 
 
   const userData = useSelector((state) => state?.auth?.data);
-  console.log('a', userData);
+  //console.log('a', userData);
   // getting the courses data from redux toolkit store
   const myEvents = useSelector((state) => state.event.eventsData);
-  console.log("myEvents", myEvents);
+  //console.log("myEvents", myEvents);
 
   // function to handle the course delete
   const handleEventDelete = async (id) => {
@@ -25,7 +25,7 @@ const UserDashboard = () => {
       const res = await dispatch(deleteEvent(id));
 
       // fetching the new updated data for the course
-      console.log(res);
+      //console.log(res);
       // if (success) {
       await dispatch(getAllEvent());
       // }
@@ -71,9 +71,9 @@ const UserDashboard = () => {
                 <th>Event Title</th>
                 <th>Club</th>
 
-                {/* <th>Your Details</th> */}
+                <th>Your Details</th>
                 <th>Contact Person</th>
-                <th>Payment</th>
+                {/* <th>Payment</th> */}
                 <th>UTR No</th>
                 <th>Status</th>
                 <th>Receipt</th>
@@ -83,24 +83,25 @@ const UserDashboard = () => {
 
             <tbody>
               {myEvents?.map((element, index) => {
-                // console.log("dashboard data");console.log(element);
+                // //console.log("dashboard data");//console.log(element);
                 return (
 
                   <tr key={element?._id}>
                     <td>{index + 1}</td>
                     <td>
-                      <textarea
+                      {/* <textarea
                         readOnly
                         className="w-40 h-auto bg-transparent resize-none"
                         value={element?.title}
-                      ></textarea>
+                      ></textarea> */}
+                      {element?.title}
                     </td>
                     <td>{element?.club}</td>
                     {/* <td>{element?.createdBy}</td> */}
                     {/* <td>{element?.numberOfParticipants}</td> */}
 
 
-                    {/* <td >
+                    <td >
 
                       <MdOutlineDetails onClick={() =>
                         navigate("/event/details", {
@@ -113,7 +114,7 @@ const UserDashboard = () => {
                         })
                       } />
 
-                    </td> */}
+                    </td>
 
 
                     <td>
@@ -123,21 +124,9 @@ const UserDashboard = () => {
                           state: { ...element },
                         })
                       } />
-
-
-
-
-
-
-
                     </td>
 
-                    <td>
-
-
-
-
-
+                    {/* <td>
                       {element.participant.some(obj => (obj.enrolledby !== userData._id) && (obj?.paymentReferenceNumber === 'NA')) ? < MdOutlinePayment onClick={() =>
                         navigate("/user/makepayment", {
                           state: { ...element },
@@ -147,22 +136,13 @@ const UserDashboard = () => {
                           state: { ...element },
                         })
                       } />}
-
-
-
-
-
-
-
-                    </td>
+                    </td> */}
 
 
                     <td >
 
-                      {element.participant.some(obj => (obj.enrolledby !== userData._id) && (obj?.paymentReferenceNumber === 'NA')) ? 'NA' : element.participant.find(obj => { obj.enrolledby !== userData._id;  return obj?.paymentReferenceNumber})}
-
-
-
+                      { element.participant.find(obj => obj.enrolledby === userData._id)?.paymentReferenceNumber}
+                      
                     </td>
 
 

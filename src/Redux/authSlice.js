@@ -2,9 +2,9 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { toast } from "react-hot-toast";
 import axiosInstance from "../Helper/axiosInstance";
 
-console.log("isLoggedIn:", localStorage.getItem("isLoggedIn"));
-console.log("data:", localStorage.getItem("data") || "{}");
-console.log("role:", localStorage.getItem("role"));
+//console.log("isLoggedIn:", localStorage.getItem("isLoggedIn"));
+//console.log("data:", localStorage.getItem("data") || "{}");
+//console.log("role:", localStorage.getItem("role"));
 
 const initialState = {
   isLoggedIn: !!localStorage.getItem("isLoggedIn"),
@@ -18,7 +18,7 @@ const initialState = {
 export const createAccount = createAsyncThunk("/auth/signup", async (data) => {
   try {
     let res = axiosInstance.post("user/register", data);
-    console.log(res);
+    //console.log(res);
 
     toast.promise(res, {
       loading: "Wait! Creating your account",
@@ -45,7 +45,7 @@ export const login = createAsyncThunk("auth/login", async (data) => {
     await toast.promise(res, {
       loading: "Loading...",
       success: (data) => {
-        console.log(data?.data?.message);
+        //console.log(data?.data?.message);
         return data?.data?.message;
       },
       // error: (data) => {
@@ -58,7 +58,7 @@ export const login = createAsyncThunk("auth/login", async (data) => {
 
     return res.data;
   } catch (error) {
-    console.log("error", error);
+    //console.log("error", error);
     toast.error(error.response.data.message);
   }
 });
@@ -147,7 +147,7 @@ export const updateProfile = createAsyncThunk(
   "/user/update/profile",
   async (data) => {
     try {
-      console.log("auth",data);
+      //console.log("auth",data);
       let res = axiosInstance.put(`/user/update/${data.userID}`, data);
 
       toast.promise(res, {
@@ -202,11 +202,11 @@ export const verifyAccount = createAsyncThunk("/user/reset", async (data) => {
     });
     // getting response resolved here
     res = await res;
-    console.log("res", res);
+    //console.log("res", res);
     return res.data;
   } catch (error) {
 
-    // console.log("error",error);
+    // //console.log("error",error);
     toast.error(error?.response?.data?.message);
     return error.response.data;
   }

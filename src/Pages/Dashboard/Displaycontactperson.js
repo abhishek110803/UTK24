@@ -13,9 +13,9 @@ const Displaycontactperson = () => {
 
   // for getting the data from location of previous component
   const courseDetails = useLocation().state;
-  console.log(courseDetails);
+  //console.log(courseDetails);
   const { clubcoordinator } = useSelector((state) => state.clubcoordinator);
-  // console.log(tcacoordinators);
+  // //console.log(tcacoordinators);
 
   const { role } = useSelector((state) => state.auth);
 

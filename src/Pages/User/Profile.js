@@ -7,7 +7,7 @@ const Profile = () => {
   const dispatch = useDispatch();
 
   const userData = useSelector((state) => state?.auth?.data);
-   console.log("userData",userData);
+   //console.log("userData",userData);
   // function to handle the cancel subscription of course
   const handleCourseCancelSubscription = async () => {
     await dispatch(getUserData());

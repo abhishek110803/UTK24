@@ -16,7 +16,7 @@ const MyOrders = () => {
         } else {
             toast.success('Error in fetch.')
         }
-        // console.log(res.data.data);
+        // //console.log(res.data.data);
         setAllOrders(res.data.data);
     }
 
@@ -53,8 +53,8 @@ const MyOrders = () => {
 
                     <tbody>
                         {allOrders.map((element, index) => {
-                            // console.log("dashboard data");console.log(element);
-                            // console.log('log', index, element);
+                            // //console.log("dashboard data");//console.log(element);
+                            // //console.log('log', index, element);
                             return (
                                 <tr key={index + 1}>
                                     <td>{index + 1}</td>

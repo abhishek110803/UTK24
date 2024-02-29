@@ -18,8 +18,8 @@ export const getAllEvent = createAsyncThunk("/course/get", async () => {
     });
 
     const response = await res;
-    // console.log("cou-slice");
-    // console.log(response);
+    // //console.log("cou-slice");
+    // //console.log(response);
 
     return response.data.events;
   } catch (error) {
@@ -135,7 +135,7 @@ export const updateEvent = createAsyncThunk("/course/update", async (data) => {
     const response = await res;
     return response.data;
   } catch (error) {
-    console.log(error);
+    //console.log(error);
     toast.error(error?.response?.data?.message);
   }
 });

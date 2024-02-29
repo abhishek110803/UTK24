@@ -17,18 +17,18 @@ const DisplayAccommodation = () => {
         if (verified === '1') {
             const res = await axiosInstance.post(`/accommodation/getVerifiedAccommodationList/${accommodationType}`);
             setAccommodationDetails(res.data.data);
-            // console.log('res', res.data.data);
+            // //console.log('res', res.data.data);
         } else {
             const res = await axiosInstance.post(`/accommodation/getUnverifiedAccommodationList/${accommodationType}`);
             setAccommodationDetails(res.data.data);
-            // console.log('res un', res.data.data);
+            // //console.log('res un', res.data.data);
         }
     }
 
     useEffect(() => {
         (async () => {
             await getAccommodationDetails();
-            // console.log('okj', accommodationDetails);
+            // //console.log('okj', accommodationDetails);
         })();
 
     }, []);
@@ -48,13 +48,13 @@ const DisplayAccommodation = () => {
                 toast.success('Updated');
                 await getAccommodationDetails();
             }
-            // console.log(res.data.message);
+            // //console.log(res.data.message);
         }
 
     };
 
     const handleDelete = async () => {
-        console.log(accommodationDetails);
+        //console.log(accommodationDetails);
         try {
             const res = await axiosInstance.post('/accommodation/deleteAccommodation', {
                 accommodationId: accommodationDetails[currentOrder]._id
@@ -64,7 +64,7 @@ const DisplayAccommodation = () => {
                 await getAccommodationDetails();
             }
         } catch (err) {
-            console.log(err);
+            //console.log(err);
         }
     }
 
