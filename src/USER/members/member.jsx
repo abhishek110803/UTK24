@@ -28,7 +28,7 @@ const FacultyCoordinators = () => {
                         <div className="content">
                             <h2>01</h2>
                             <div>
-                                <a href="https://www.instagram.com/" target="_blank">
+                                <a href="" target="_blank">
                                     <FontAwesomeIcon icon={faInstagram} size="2x" style={{ color: 'black' }} /></a>
                                 <a href="https://www.linkedin.com/home" target="_blank">
                                     <FontAwesomeIcon icon={faLinkedinIn} size="2x" style={{ color: 'black' }} />
@@ -83,9 +83,9 @@ const FacultyCoordinators = () => {
                         <div className="content">
                             <h2>04</h2>
                             <div>
-                                <a href="https://www.instagram.com/tegwal10?igsh=MTRhZmRqajl4YWNvdQ==" target="_blank">
+                                <a href="https://www.instagram.com/tegwal10?igsh=MTRhZmRqajl4YWNvdQ==">
                                     <FontAwesomeIcon icon={faInstagram} size="2x" style={{ color: 'black' }} /></a>
-                                <a href="https://www.linkedin.com/in/sameep-tegwal-117015223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                                <a href="https://www.linkedin.com/in/sameep-tegwal-117015223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                                     <FontAwesomeIcon icon={faLinkedinIn} size="2x" style={{ color: 'black' }} />
                                 </a>
                              
@@ -101,9 +101,9 @@ const FacultyCoordinators = () => {
                         <div className="content">
                             <h2>05</h2>
                             <div>
-                                <a href="https://www.instagram.com/ishabatra786?igsh=MXFqOHltd2xzeDF1bw==" target="_blank">
+                                <a href="https://www.instagram.com/ishabatra786?igsh=MXFqOHltd2xzeDF1bw==">
                                     <FontAwesomeIcon icon={faInstagram} size="2x" style={{ color: 'black' }} /></a>
-                                <a href="http://www.linkedin.com/in/17isha" target="_blank">
+                                <a href=" www.linkedin.com/in/17isha" target="_blank">
                                     <FontAwesomeIcon icon={faLinkedinIn} size="2x" style={{ color: 'black' }} />
                                 </a>
                              
@@ -119,9 +119,9 @@ const FacultyCoordinators = () => {
                         <div className="content">
                             <h2>06</h2>
                             <div>
-                                <a href="https://www.instagram.com/" target="_blank">
+                                <a href="https://www.instagram.com/purushottam__verma?igsh=bGpkMWp1dnMxN3U3" target="_blank">
                                     <FontAwesomeIcon icon={faInstagram} size="2x" style={{ color: 'black' }} /></a>
-                                <a href="https://www.linkedin.com/home" target="_blank">
+                                <a href="https://www.linkedin.com/in/purushottam-verma-949429237" target="_blank">
                                     <FontAwesomeIcon icon={faLinkedinIn} size="2x" style={{ color: 'black' }} />
                                 </a>
                            1
@@ -138,14 +138,12 @@ const FacultyCoordinators = () => {
                         <div className="content">
                             <h2>07</h2>
                             <div>
-                                <a href="https://www.instagram.com/" target="_blank">
+                                <a href="https://www.instagram.com/mandeep__dhinjan?igsh=Y2JrZm1xZGo3dHdt" target="_blank">
                                     <FontAwesomeIcon icon={faInstagram} size="2x" style={{ color: 'black' }} /></a>
-                                <a href="https://www.linkedin.com/home" target="_blank">
+                                <a href="https://www.linkedin.com/in/mandeep-singh-131811221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
                                     <FontAwesomeIcon icon={faLinkedinIn} size="2x" style={{ color: 'black' }} />
                                 </a>
-                                <a href="https://github.com/" target="_blank">
-                                    <FontAwesomeIcon icon={faFacebook} size="2x" style={{ color: 'black' }} />
-                                </a>
+                                
                             </div>
                         </div>
                     </div>
@@ -158,14 +156,12 @@ const FacultyCoordinators = () => {
                         <div className="content">
                             <h2>08</h2>
                             <div>
-                                <a href="https://www.instagram.com/" target="_blank">
+                                <a href="https://www.instagram.com/surendra_palriya?igsh=N3NyaDJweGg1bnc=" target="_blank">
                                     <FontAwesomeIcon icon={faInstagram} size="2x" style={{ color: 'black' }} /></a>
-                                <a href="https://www.linkedin.com/home" target="_blank">
+                                <a href="https://www.linkedin.com/in/surendra-palariya-428378226" target="_blank">
                                     <FontAwesomeIcon icon={faLinkedinIn} size="2x" style={{ color: 'black' }} />
                                 </a>
-                                <a href="https://github.com/" target="_blank">
-                                    <FontAwesomeIcon icon={faFacebook} size="2x" style={{ color: 'black' }} />
-                                </a>
+                                
                             </div>
                         </div>
                     </div>
@@ -178,27 +174,17 @@ const FacultyCoordinators = () => {
                         <div className="content">
                             <h2>09</h2>
                             <div>
-                                <a href="https://www.instagram.com/" target="_blank">
+                                <a href="https://www.instagram.com/gupta_tanu_4?igsh=ODdvOGl3Z284bXQ4" target="_blank">
                                     <FontAwesomeIcon icon={faInstagram} size="2x" style={{ color: 'black' }} /></a>
-                                <a href="https://www.linkedin.com/home" target="_blank">
+                                <a href="https://www.linkedin.com/in/tanushree-gupta-879562224/" target="_blank">
                                     <FontAwesomeIcon icon={faLinkedinIn} size="2x" style={{ color: 'black' }} />
                                 </a>
-                                <a href="https://github.com/" target="_blank">
-                                    <FontAwesomeIcon icon={faFacebook} size="2x" style={{ color: 'black' }} />
-                                </a>
+                                
                             </div>
                         </div>
                     </div>
                     <div className="card4545 card1">
-<<<<<<< Updated upstream
-                        <h3>Harmanp</h3>
-=======
-<<<<<<< HEAD
                         <h3>Harman</h3>
-=======
-                        <h3>Harmanp</h3>
->>>>>>> 3dd82080164bf96ddcf1b9afe97b7cf6e88968a9
->>>>>>> Stashed changes
                         <h4>Deccoration Head</h4>
                         <span>
                             <img src="https://res.cloudinary.com/dijzvijky/image/upload/v1709058583/IMG_5012_rfskgc.jpg" alt="" />
@@ -208,12 +194,10 @@ const FacultyCoordinators = () => {
                             <div>
                                 <a href="https://www.instagram.com/" target="_blank">
                                     <FontAwesomeIcon icon={faInstagram} size="2x" style={{ color: 'black' }} /></a>
-                                <a href="https://www.linkedin.com/home" target="_blank">
+                                <a href="https://www.linkedin.com/in/harmanpreet-kaur-b5b234253/" target="_blank">
                                     <FontAwesomeIcon icon={faLinkedinIn} size="2x" style={{ color: 'black' }} />
                                 </a>
-                                <a href="https://github.com/" target="_blank">
-                                    <FontAwesomeIcon icon={faFacebook} size="2x" style={{ color: 'black' }} />
-                                </a>
+                               
                             </div>
                         </div>
                     </div>
@@ -226,14 +210,12 @@ const FacultyCoordinators = () => {
                         <div className="content">
                             <h2>11</h2>
                             <div>
-                                <a href="https://www.instagram.com/" target="_blank">
+                                <a href="https://www.instagram.com/jashanndhaliwal?igsh=MTA5d2Q4NTFpNWN6ag%3D%3D&utm_source=qr" target="_blank">
                                     <FontAwesomeIcon icon={faInstagram} size="2x" style={{ color: 'black' }} /></a>
-                                <a href="https://www.linkedin.com/home" target="_blank">
+                                <a href="https://www.linkedin.com/in/jashandeep-singh-239b84262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
                                     <FontAwesomeIcon icon={faLinkedinIn} size="2x" style={{ color: 'black' }} />
                                 </a>
-                                <a href="https://github.com/" target="_blank">
-                                    <FontAwesomeIcon icon={faFacebook} size="2x" style={{ color: 'black' }} />
-                                </a>
+                                
                             </div>
                         </div>
                     </div>
@@ -246,9 +228,9 @@ const FacultyCoordinators = () => {
                         <div className="content">
                             <h2>12</h2>
                             <div>
-                                <a href="https://www.instagram.com/" target="_blank">
+                                <a href="https://www.instagram.com/i.tanya._?igsh=MWZ0endhaXIzbmt5Zg==" target="_blank">
                                     <FontAwesomeIcon icon={faInstagram} size="2x" style={{ color: 'black' }} /></a>
-                                <a href="https://www.linkedin.com/home" target="_blank">
+                                <a href="https://www.linkedin.com/in/tanya-pahuja?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
                                     <FontAwesomeIcon icon={faLinkedinIn} size="2x" style={{ color: 'black' }} />
                                 </a>
                                 <a href="https://github.com/" target="_blank">
@@ -344,7 +326,7 @@ const FacultyCoordinators = () => {
                         <div className="content">
                             <h2>17</h2>
                             <div>
-                                <a href="https://www.instagram.com/kohil_godara?igsh=MWtiNXliNzRvMDlpag==" target="_blank">
+                                <a href="https://www.instagram.com/kohil_godara?igsh=MWtiNXliNzRvMDlpag==">
                                     <FontAwesomeIcon icon={faInstagram} size="2x" style={{ color: 'black' }} /></a>
                                 <a href="https://www.linkedin.com/in/kohil-godara-187921257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
                                     <FontAwesomeIcon icon={faLinkedinIn} size="2x" style={{ color: 'black' }} />
@@ -382,14 +364,12 @@ const FacultyCoordinators = () => {
                         <div className="content">
                             <h2>19</h2>
                             <div>
-                                <a href="https://www.instagram.com/" target="_blank">
+                                <a href="https://www.instagram.com/pj.com_18/" target="_blank">
                                     <FontAwesomeIcon icon={faInstagram} size="2x" style={{ color: 'black' }} /></a>
-                                <a href="https://www.linkedin.com/home" target="_blank">
+                                <a href="https://www.linkedin.com/in/prajwal-wankhade-7201a8214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
                                     <FontAwesomeIcon icon={faLinkedinIn} size="2x" style={{ color: 'black' }} />
                                 </a>
-                                <a href="https://github.com/" target="_blank">
-                                    <FontAwesomeIcon icon={faFacebook} size="2x" style={{ color: 'black' }} />
-                                </a>
+                               
                             </div>
                         </div>
                     </div>
