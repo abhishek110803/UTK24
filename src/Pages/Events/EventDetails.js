@@ -49,14 +49,14 @@ const EventDetails = () => {
             <div className="space-y-6">
               <div className="flex flex-col gap-1">
                 <label className="text-lg font-semibold" htmlFor="title">
-                  College Name: {userInput.title}
+                  College Name: {user.collegeName}
                 </label>
               </div>
             </div>
 
             <div className="flex flex-col gap-1">
               <label className="text-lg font-semibold" htmlFor="category">
-                Team Name: {userInput.club}
+                Team Name: {user.teamName}
               </label>
             </div>
 
@@ -74,7 +74,7 @@ const EventDetails = () => {
         <h3 className="text-center text-2xl font-bold">
           <span>Member Details</span>
         </h3>
-
+{console.log('ud',user)};
         <div className='table_wrapper'>
           {user?.participants?.length > 0 && <table className="table overflow-y-scroll" >
             <thead>
