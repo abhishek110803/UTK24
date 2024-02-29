@@ -44,25 +44,25 @@ const EventDetails = () => {
           <span> {userInput.title}</span>
         </h3>
 
-        <main className="grid grid-cols-2 gap-x-10">
+        <main className="grid grid-cols-1 gap-x-10">
           <div className="flex flex-col gap-1 Child1">
             <div className="space-y-6">
               <div className="flex flex-col gap-1">
-                <label className="text-lg font-semibold" htmlFor="title">
+                <label className="text-sm font-semibold" htmlFor="title">
                   College Name: {user.collegeName}
                 </label>
               </div>
             </div>
 
             <div className="flex flex-col gap-1">
-              <label className="text-lg font-semibold" htmlFor="category">
+              <label className="text-sm font-semibold" htmlFor="category">
                 Team Name: {user.teamName}
               </label>
             </div>
 
             <div className="space-y-6">
               <div className="flex flex-col gap-1">
-                <label className="text-lg font-semibold" htmlFor="title">
+                <label className="text-sm font-semibold" htmlFor="title">
                   Payment Reference Number: {user.paymentReferenceNumber}
                 </label>
               </div>
@@ -74,7 +74,7 @@ const EventDetails = () => {
         <h3 className="text-center text-2xl font-bold">
           <span>Member Details</span>
         </h3>
-{console.log('ud',user)};
+{console.log('ud',user)}
         <div className='table_wrapper'>
           {user?.participants?.length > 0 && <table className="table overflow-y-scroll" >
             <thead>
