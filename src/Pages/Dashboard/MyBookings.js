@@ -4,6 +4,8 @@ import toast from "react-hot-toast";
 
 
 const MyBookings = () => {
+
+    // cont [accomodationType,setAccomodationType]=useState("ONE DAY PACK");
     const [allBookings, setAllBookings] = useState([]);
 
     const getOrderData = async () => {
@@ -18,6 +20,7 @@ const MyBookings = () => {
     }
 
     useEffect(() => {
+        // if(Element.accommodationType){setAccomodationType("ONE DAY PACK");}
         (async () => {
             await getOrderData();
             //console.log(allBookings);
@@ -40,7 +43,7 @@ const MyBookings = () => {
                                 <th>S No.</th>
                                 {/* <th>Team Name</th> */}
                                 <th>Type of <br></br>accommodation</th>
-                                <th>Number of Days</th>
+                                <th>Check In<br></br> Date</th>
                                 {/* <th>To date</th> */}
                                 <th>Number of <br></br>Persons</th>
                                 <th>Payment<br></br>Reference No.</th>
@@ -56,7 +59,7 @@ const MyBookings = () => {
                                     <tr key={index + 1}>
                                         <td>{index + 1}</td>
                                         {/* <td>{element.teamName}</td> */}
-                                        <td>{element.accommodationType}</td>
+                                        <td>{element.accommodationType==='1'? "ONE DAY PACK" : (element.accommodationType==='2'? "TWO DAY PACK":"THREE DAY PACK")}</td>
                                         {/* <td>{element.fromDate}</td> */}
                                         {/* <td>{element.toDate}</td> */}
                                         <td>{element.numberOfDays}</td>

@@ -23,9 +23,9 @@ const AccomodationPage = () => {
   }
 
   return (
-    <div className='accomodation' style={{minHeight:'90vh'}}>
-      <div style={{minHeight:'100px'}}></div>
-      <h2 className="titl" style={{ textAlign: 'center',  fontSize: '2.4rem', zIndex: 100 }}>
+    <div className='accomodation' style={{ minHeight: '90vh' }}>
+      <div style={{ minHeight: '100px' }}></div>
+      <h2 className="titl" style={{ textAlign: 'center', fontSize: '2.4rem', zIndex: 100 }}>
         Accommodation
       </h2>
       <div className="containeraco">
@@ -38,12 +38,11 @@ const AccomodationPage = () => {
             <p className="pricing">₹ 400<span className="small">/Per person</span></p>
             <hr />
             <ul className="features">
-              <li>24*7 Wi-Fi</li>
-              <li>Water Hot and Cold</li>
+              <li>1 Meal Included</li>
               <li>Combined Rooms</li>
             </ul>
             <hr />
-            <p className="features"><b>Note: </b>Food Will Cost Extra.</p>
+            {/* <p className="features"><b>Note: </b>Food Will Cost Extra.</p> */}
             <a className="cta_btn" onClick={() => handleClick(1)}>Buy Now</a>
           </div>
 
@@ -52,12 +51,11 @@ const AccomodationPage = () => {
             <p className="pricing">₹ 650<span className="small">/Per person</span></p>
             <hr />
             <ul className="features">
-              <li>24*7 Wi-Fi</li>
-              <li>Water Hot and Cold</li>
+              <li>2 Meal Included</li>
               <li>Combined Rooms</li>
             </ul>
             <hr />
-            <p className="features"><b>Note: </b>Food Will Cost Extra.</p>
+            {/* <p className="features"><b>Note: </b>Food Will Cost Extra.</p> */}
             <a className="cta_btn" onClick={() => handleClick(2)}>Buy Now</a>
           </div>
 
@@ -66,12 +64,11 @@ const AccomodationPage = () => {
             <p className="pricing">₹ 900<span className="small">/Per person</span></p>
             <hr />
             <ul className="features">
-              <li>24*7 Wi-Fi</li>
-              <li>Water Hot and Cold</li>
+            <li>3 Meal Included</li>
               <li>Combined Rooms</li>
             </ul>
             <hr />
-            <p className="features"><b>Note: </b>Food Will Cost Extra.</p>
+            {/* <p className="features"><b>Note: </b>Food Will Cost Extra.</p> */}
             <a className="cta_btn" onClick={() => handleClick(3)}>Buy Now</a>
           </div>
         </div>
