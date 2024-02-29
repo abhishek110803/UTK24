@@ -190,7 +190,15 @@ const FacultyCoordinators = () => {
                         </div>
                     </div>
                     <div className="card4545 card1">
+<<<<<<< Updated upstream
                         <h3>Harmanp</h3>
+=======
+<<<<<<< HEAD
+                        <h3>Harman</h3>
+=======
+                        <h3>Harmanp</h3>
+>>>>>>> 3dd82080164bf96ddcf1b9afe97b7cf6e88968a9
+>>>>>>> Stashed changes
                         <h4>Deccoration Head</h4>
                         <span>
                             <img src="https://res.cloudinary.com/dijzvijky/image/upload/v1709058583/IMG_5012_rfskgc.jpg" alt="" />

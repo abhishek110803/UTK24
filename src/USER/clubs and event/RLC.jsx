@@ -116,7 +116,15 @@ export default function RLC() {
                                                         {/* Single Schedule Info */}
                                                         <div className="single-schedule-info">
                                                             <h3> IKTARA </h3>
+<<<<<<< Updated upstream
                                                             <p><b>"Iktaara" </b>is a vibrant folk song competition that celebrates the rich tapestry of traditional music. Teams from various regions will gather to showcase their talent in the art of folk singing, bringing alive the diverse cultural melodies that define our heritage. Join us for a captivating journey through the soulful rhythms and melodies of folk music at "Iktaara".
+=======
+<<<<<<< HEAD
+                                                            <p>"Iktaara" is a vibrant folk song competition that celebrates the rich tapestry of traditional music. Teams from various regions will gather to showcase their talent in the art of folk singing, bringing alive the diverse cultural melodies that define our heritage. Join us for a captivating journey through the soulful rhythms and melodies of folk music at "Iktaara".
+=======
+                                                            <p><b>"Iktaara" </b>is a vibrant folk song competition that celebrates the rich tapestry of traditional music. Teams from various regions will gather to showcase their talent in the art of folk singing, bringing alive the diverse cultural melodies that define our heritage. Join us for a captivating journey through the soulful rhythms and melodies of folk music at "Iktaara".
+>>>>>>> 3dd82080164bf96ddcf1b9afe97b7cf6e88968a9
+>>>>>>> Stashed changes
                                                             </p><br />
                                                             <h6 style={{ color: 'white' }}>Rules:</h6>
                                                             <p>
