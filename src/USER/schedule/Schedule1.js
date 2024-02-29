@@ -107,7 +107,15 @@ export default function VerticalTabs() {
                    
                 </div>
             </TabPanel>
+<<<<<<< Updated upstream
             <TabPanel  sx={{ blur:'10%' }}value={value} index={2}background="https://res.cloudinary.com/dijzvijky/image/upload/v1709057311/Untitled_design_5_x0nabz.png">
+=======
+<<<<<<< HEAD
+            <TabPanel  sx={{ blur:'10%' }}value={value} index={2}background="">
+=======
+            <TabPanel  sx={{ blur:'10%' }}value={value} index={2}background="https://res.cloudinary.com/dijzvijky/image/upload/v1709057311/Untitled_design_5_x0nabz.png">
+>>>>>>> 3dd82080164bf96ddcf1b9afe97b7cf6e88968a9
+>>>>>>> Stashed changes
                 <div className='each'>
 
                     <div> 
