@@ -78,7 +78,7 @@ export default function VerticalTabs3() {
                 <Tab sx={{ margin: '5px', color: 'white' }} label=" Photography" {...a11yProps(9)} />
                 {/* <Tab sx={{ margin: '5px', color: 'white' }} label=" RLC" {...a11yProps(10)} /> */}
            </Tabs>
-            <TabPanel value={value} index={0} background="https://unsplash.it/1920/500?image=11">
+            <TabPanel value={value} index={0} background="https://res.cloudinary.com/dpgxz1q1x/image/upload/v1709099453/Untitled%20design%20%281%29/3_yf3epd.png">
                 <div className='each'>
 
                     
@@ -92,7 +92,7 @@ export default function VerticalTabs3() {
                     
                 </div>
             </TabPanel>
-            <TabPanel value={value} index={1} background="https://unsplash.it/1920/500?image=11">
+            <TabPanel value={value} index={1} background="https://res.cloudinary.com/dpgxz1q1x/image/upload/v1709099444/Untitled%20design%20%281%29/41_kcaf5n.png">
                 <div className='each'>
                 <div> 
                     <h1 className='heads'>Rangmanch</h1>
@@ -103,7 +103,7 @@ export default function VerticalTabs3() {
                     
                 </div>
             </TabPanel>
-            <TabPanel value={value} index={2} background="https://unsplash.it/1920/500?image=11">
+            <TabPanel value={value} index={2} background="https://res.cloudinary.com/dijzvijky/image/upload/v1709057311/Untitled_design_5_x0nabz.png">
                 <div className='each'>
                 <div> 
                     <h1 className='heads'>Megasonic</h1>
@@ -114,7 +114,8 @@ export default function VerticalTabs3() {
                     
                 </div>
             </TabPanel>
-            <TabPanel value={value} index={3} background="https://unsplash.it/1920/500?image=11">
+            <TabPanel value={value} index={3} 
+          background="https://res.cloudinary.com/dpgxz1q1x/image/upload/v1709099441/Untitled%20design%20%281%29/31_lkejqv.png">
                 <div className='each'>
                 <div> 
                     <h1 className='heads'>Haiku</h1>
@@ -131,7 +132,8 @@ export default function VerticalTabs3() {
                     
                 </div>
             </TabPanel>
-            <TabPanel value={value} index={4} background="https://unsplash.it/1920/500?image=11">
+            <TabPanel value={value} index={4} 
+     background="https://res.cloudinary.com/dpgxz1q1x/image/upload/v1709099393/Untitled%20design%20%281%29/34_qururw.png">
                 <div className='each'>
                 <div> 
                     <h1 className='heads'>Money GPT</h1>
@@ -142,7 +144,8 @@ export default function VerticalTabs3() {
                     
                 </div>
             </TabPanel>
-            <TabPanel value={value} index={5} background="https://unsplash.it/1920/500?image=11">
+            <TabPanel value={value} index={5} 
+          background="https://res.cloudinary.com/dpgxz1q1x/image/upload/v1709099402/Untitled%20design%20%281%29/37_fjbke9.png">
                 <div className='each'>
                 <div> 
                     <h1 className='heads'>Mehfil</h1>
@@ -158,7 +161,7 @@ export default function VerticalTabs3() {
                     </div>
                 </div>
             </TabPanel>
-            <TabPanel value={value} index={6} background="https://unsplash.it/1920/500?image=11">
+            <TabPanel value={value} index={6}  background="https://res.cloudinary.com/dpgxz1q1x/image/upload/v1709099458/Untitled%20design%20%281%29/40_uqbtuy.png">
                 <div className='each'>
                 <div> 
                     <h1 className='heads'>Coscon</h1>
@@ -174,7 +177,7 @@ export default function VerticalTabs3() {
                     </div>
                 </div>
             </TabPanel>
-            <TabPanel value={value} index={7} background="https://unsplash.it/1920/500?image=11">
+            <TabPanel value={value} index={7} background="https://res.cloudinary.com/dpgxz1q1x/image/upload/v1709099425/Untitled%20design%20%281%29/27_bo9hdq.png">
                 <div className='each'>
                 <div> 
                     <h1 className='heads'>Hand Painting</h1>
@@ -202,7 +205,7 @@ export default function VerticalTabs3() {
                     </div>
                 </div>
             </TabPanel>
-            <TabPanel value={value} index={8} background="https://unsplash.it/1920/500?image=11">
+            <TabPanel value={value} index={8} background="https://res.cloudinary.com/dpgxz1q1x/image/upload/v1709099407/Untitled%20design%20%281%29/12_sxnslg.png">
                 <div className='each'>
                 <div> 
                     <h1 className='heads'>Film Making</h1>
@@ -213,7 +216,7 @@ export default function VerticalTabs3() {
                    
                 </div>
             </TabPanel>
-            <TabPanel value={value} index={9} background="https://unsplash.it/1920/500?image=11">
+            <TabPanel value={value} index={9} background="https://res.cloudinary.com/dpgxz1q1x/image/upload/v1709099380/Untitled%20design%20%281%29/20_lu4max.png">
                 <div className='each'>
                 <div> 
                     <h1 className='heads'>Snap Treasure</h1>
