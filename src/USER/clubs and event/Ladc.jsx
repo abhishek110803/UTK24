@@ -260,7 +260,7 @@ export default function Ladc() {
                                                                 Date: 8-9<sup>th</sup> March<br />
                                                                 <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                                 </span><br /><br />
-                                                                <span style={{ color: 'white' }}>Entry Fee: 200/- per person(for external students)<br />*Free for NITJ Students. </span> <br /><br />
+                                                                <span style={{ color: 'white' }}>Entry Fee: 200/- per person </span> <br /><br />
                                                             </p><br /><br />
                                                             <p />
                                                         </div>

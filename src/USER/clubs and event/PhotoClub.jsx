@@ -159,7 +159,7 @@ export default function PhotoClub() {
                                                             <br /><br />
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 4,000/- INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 8-10<sup>th</sup> March.</span><br />
-                                                            {/* <span style={{ color: 'white' }}>Entry Fee: 50 INR/- per participation<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0/- per student(for NITJ student) </span> <br /><br /> */}
+                                                            {/* <span style={{ color: 'white' }}>Entry Fee: 50 INR/- per participation<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span> <br /><br /> */}
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event. </span><br /><br />
                                                         </div>
                                                     </div>
