@@ -16,7 +16,7 @@ function AccomodationRegistrationForm() {
         college: '',
         paymentReferenceNumber: '',
         numberOfPersons: 1,
-        numberOfDays: 1,
+        checkInDate: '',
         persons: [{ participantName: '', participantEmail: '', participantPhone: '' }],
     });
     const [formErrors, setFormErrors] = useState({});
@@ -96,7 +96,7 @@ function AccomodationRegistrationForm() {
                         college: '',
                         paymentReferenceNumber: '',
                         numberOfPersons: 1,
-                        numberOfDays: 1,
+                        checkInDate:'',
                         persons: [{ participantName: '', participantEmail: '', participantPhone: '' }],
                     });
                     toast.success('Request Submitted.')
@@ -143,19 +143,19 @@ function AccomodationRegistrationForm() {
                                         {formErrors.numberOfPersons && <div className="invalid-feedback">{formErrors.numberOfPersons}</div>}
                                     </div>
                                     <div className="col-md-6 col-lg-4 mb-3">
-                                        <label htmlFor="numberOfDays" className="form-label">Check In Date</label>
+                                        <label htmlFor="checkInDate" className="form-label">Check In Date</label>
                                         <input
                                             type="date"
-                                            className={`form-control ${formErrors.numberOfDays ? 'is-invalid' : ''}`}
-                                            id="numberOfDays"
-                                            name="numberOfDays"
-                                            value={formData.numberOfDays}
+                                            className={`form-control ${formErrors.checkInDate ? 'is-invalid' : ''}`}
+                                            id="checkInDate"
+                                            name="checkInDate"
+                                            value={formData.checkInDate}
                                             style={{ backgroundColor: 'gray', color: 'white', WebkitAppearance: 'none' }}
                                             onChange={handleChange}
                                             onClick={(e) => e.target.focus()}
                                             required
                                         />
-                                        {formErrors.numberOfDays && <div className="invalid-feedback">{formErrors.numberOfDays}</div>}
+                                        {formErrors.checkInDate && <div className="invalid-feedback">{formErrors.checkInDate}</div>}
                                     </div>
                                 </div>
                             </div>
