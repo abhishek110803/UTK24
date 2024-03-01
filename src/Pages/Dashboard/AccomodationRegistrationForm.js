@@ -4,19 +4,15 @@ import toast from 'react-hot-toast';
 import QRPopup from '../QRCode';
 import { useParams } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
-// import { useDispatch } from "react-redux";
 import axiosInstance from '../../Helper/axiosInstance';
 
 function AccomodationRegistrationForm() {
     const navigate = useNavigate();
-
-    // const dispatch = useDispatch();
     const { planId } = useParams();
-    const [accomodationType, setAccomodationType] = useState("ONE DAY PACK")
-    const [fee, setFee] = useState(400)
+    const [accomodationType, setAccomodationType] = useState("");
+    const [fee, setFee] = useState(0);
     const [formData, setFormData] = useState({
-        accommodationType: planId,
-        // teamName: '',
+        accommodationType: "",
         college: '',
         paymentReferenceNumber: '',
         numberOfPersons: 1,
@@ -25,14 +21,16 @@ function AccomodationRegistrationForm() {
     });
     const [formErrors, setFormErrors] = useState({});
     const [popup, setPopup] = useState(false);
+
     useEffect(() => {
-
-        if (planId == 1) { setAccomodationType("ONE DAY PACK"); setFee(400); }
-        if (planId == 2) { setAccomodationType("TWO DAY PACK"); setFee(650); }
-        if (planId == 3) { setAccomodationType("THREE DAY PACK"); setFee(900); }
-
-    }, []);
-
+        if (planId === "1") { setAccomodationType("ONE DAY PACK"); setFee(400); }
+        if (planId === "2") { setAccomodationType("TWO DAY PACK"); setFee(650); }
+        if (planId === "3") { setAccomodationType("THREE DAY PACK"); setFee(900); }
+        setFormData(prevState => ({
+            ...prevState,
+            accommodationType: planId,
+        }));
+    }, [planId]);
 
     const handleChange = (e, index) => {
         const { name, value } = e.target;
@@ -52,12 +50,12 @@ function AccomodationRegistrationForm() {
 
     const addMember = () => {
         if (formData.persons.length < formData.numberOfPersons) {
-            setFormData({
-                ...formData,
-                persons: [...formData.persons, { participantName: '', participantEmail: '', participantPhone: '' }],
-            });
+            setFormData(prevState => ({
+                ...prevState,
+                persons: [...prevState.persons, { participantName: '', participantEmail: '', participantPhone: '' }],
+            }));
         } else {
-            toast.error(`You have selected only  (${formData.numberOfPersons}) Persons.To add more Please Increase The Selection.`);
+            toast.error(`You have selected only  (${formData.numberOfPersons}) Persons. To add more, please increase the selection.`);
         }
     };
 
@@ -65,77 +63,71 @@ function AccomodationRegistrationForm() {
         if (formData.persons.length > 1) {
             const newParticipants = [...formData.persons];
             newParticipants.pop();
-            setFormData({ ...formData, persons: newParticipants });
+            setFormData(prevState => ({ ...prevState, persons: newParticipants }));
         } else {
             toast.error(`You need at least one participant.`);
         }
     };
 
     const registerAccommodation = async () => {
-        if (formData.persons.length !== formData.numberOfPersons) { toast.error(`Enter the details of all  (${formData.numberOfPersons}) members.`); }
-        else {
-            const errors = {};
-            for (const key in formData) {
-                if (typeof formData[key] === 'string' && !formData[key].trim()) {
-                    errors[key] = `${key.charAt(0).toUpperCase() + key.slice(1)} is required`;
+        const errors = {};
+        if (formData.persons.length !== parseInt(formData.numberOfPersons)) {
+            toast.error(`Enter the details of all  (${formData.numberOfPersons}) members.`);
+            return;
+        }
+        for (const key in formData) {
+            if (typeof formData[key] === 'string' && !formData[key].trim()) {
+                errors[key] = `${key.charAt(0).toUpperCase() + key.slice(1)} is required`;
+            }
+        }
+        formData.persons.forEach((member, index) => {
+            for (const key in member) {
+                if (!(member[key].trim())) {
+                    errors[`${key}${index}`] = `${key.charAt(0).toUpperCase() + key.slice(1)} is required`;
                 }
             }
-            formData.persons.forEach((member, index) => {
-                for (const key in member) {
-                    if (!(member[key].trim())) {
-                        errors[`${key}${index}`] = `${key.charAt(0).toUpperCase() + key.slice(1)} is required`;
-                    }
+        });
+        if (Object.keys(errors).length === 0) {
+            try {
+                const url = `accommodation/registerAccommodation`;
+                const response = await axiosInstance.post(url, formData);
+                if (response?.data.success) {
+                    setFormData({
+                        college: '',
+                        paymentReferenceNumber: '',
+                        numberOfPersons: 1,
+                        numberOfDays: 1,
+                        persons: [{ participantName: '', participantEmail: '', participantPhone: '' }],
+                    });
+                    toast.success('Request Submitted.')
+                    navigate(`/accomodationPage`);
+                    setFormErrors({});
+                } else {
+                    toast.error(response?.data.message);
                 }
-            });
-            if (Object.keys(errors).length === 0) {
-                try {
-                    // //console.log("formData", formData);
-                    const url = `accommodation/registerAccommodation`
-                    const response = await axiosInstance.post(url, formData);
-                    // //console.log("response", response);
-                    if (response?.data.success) {
-                        setFormData({
-                            // teamName: '',
-                            college: '',
-                            paymentReferenceNumber: '',
-                            numberOfPersons: 1,
-                            numberOfDays: 1,
-                            persons: [{ participantName: '', participantEmail: '', participantPhone: '' }],
-                        });
-                        toast.success('Request Submitted.')
-                        navigate(`/accomodationPage`);
-                        setFormErrors({});
-                    } else {
-                        toast.error(response?.data.message);
-                    }
-                } catch (error) {
-                    console.error('Error:', error);
-                    toast.error('Failed to submit form');
-                }
-            } else {
-                setFormErrors(errors);
+            } catch (error) {
+                console.error('Error:', error);
+                toast.error('Failed to submit form');
             }
+        } else {
+            setFormErrors(errors);
         }
     };
 
     return (
         <div className="container" style={{ paddingTop: '100px', minHeight: '90vh' }}>
-            {/* <h3 className="text-center" style={{ color: 'White', font: 'Times New Roman' }} id="">Booking is going to start Very Soon.....</h3> */}
-
             <div className="row">
                 <div className="col-sm-8 col-md-9 col-lg-12 mx-auto">
                     <div className="card card-signin my-5" id="user_container">
                         <div className="card-body">
-                            <h1 className="card-title text-center" id="titleForEvent">Accomodation Plan :{accomodationType}</h1>
+                            <h1 className="card-title text-center" id="titleForEvent">Accomodation Plan: {accomodationType}</h1>
                             <div className="container">
                                 <div className="row">
-
                                     <div className="col-md-6 col-lg-4 mb-3">
                                         <label htmlFor="college" className="form-label">College Name/Address</label>
                                         <input type="text" className={`form-control ${formErrors.college ? 'is-invalid' : ''}`} id="college" name="college" value={formData.college} onChange={handleChange} required />
                                         {formErrors.college && <div className="invalid-feedback">{formErrors.college}</div>}
                                     </div>
-
                                     <div className="col-md-6 col-lg-4 mb-3">
                                         <label htmlFor="numberOfPersons" className="form-label">Number of Members</label>
                                         <input
@@ -146,7 +138,7 @@ function AccomodationRegistrationForm() {
                                             value={formData.numberOfPersons}
                                             onChange={handleChange}
                                             required
-                                            min="1" // Set minimum value to 1
+                                            min="1"
                                         />
                                         {formErrors.numberOfPersons && <div className="invalid-feedback">{formErrors.numberOfPersons}</div>}
                                     </div>
@@ -158,19 +150,17 @@ function AccomodationRegistrationForm() {
                                             id="numberOfDays"
                                             name="numberOfDays"
                                             value={formData.numberOfDays}
-                                            style={{ backgroundColor: 'gray', color: 'white', WebkitAppearance: 'none' }}  // This sets the color of the text input to red
+                                            style={{ backgroundColor: 'gray', color: 'white', WebkitAppearance: 'none' }}
                                             onChange={handleChange}
-                                            onClick={(e) => e.target.focus()}  // This triggers focus on the input when clicked
+                                            onClick={(e) => e.target.focus()}
                                             required
                                         />
-
                                         {formErrors.numberOfDays && <div className="invalid-feedback">{formErrors.numberOfDays}</div>}
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        {/* {popup && <QRPopup setPopup={setPopup} />} */}
                         {popup && <QRPopup setPopup={setPopup} amount={fee * formData.numberOfPersons} />}
 
                         <div className="card-body">
@@ -203,19 +193,11 @@ function AccomodationRegistrationForm() {
                                 <div className="col-md-4 mb-3">
                                     <button className="btn btn-danger w-100 mb-2" type="button" onClick={deleteLastMember} disabled={formData.persons.length <= 1}>Delete Last Member</button>
                                 </div>
-
-
                                 <div className="col-md-4 mb-3">
-
                                     <button className="btn btn-primary w-100  mb-3" type="button" onClick={() => setPopup(true)} style={{ zIndex: '0' }}>Make Payment</button>
-
-
                                 </div>
-
                                 <label htmlFor="paymentReferenceNumber" className="form-label">Enter Payment Ref. No./UTR No /(Nit Jalandhar Student Has To Fill Their Roll No..)</label>
                                 <input type="text" style={{ width: '94%', marginBottom: '15px' }} className={`form-control ${formErrors.paymentReferenceNumber ? 'is-invalid' : ''}`} id="paymentReferenceNumber" name="paymentReferenceNumber" value={formData.paymentReferenceNumber} onChange={handleChange} required />
-
-
                                 <div className="col-md-4 mb-3">
                                     <button className="btn btn-success w-100" type="button" onClick={registerAccommodation}>Submit</button>
                                 </div>
@@ -227,4 +209,5 @@ function AccomodationRegistrationForm() {
         </div>
     );
 }
+
 export default AccomodationRegistrationForm;
