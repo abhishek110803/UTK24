@@ -62,7 +62,7 @@ const MyBookings = () => {
                                         <td>{element.accommodationType==='1'? "ONE DAY PACK" : (element.accommodationType==='2'? "TWO DAY PACK":"THREE DAY PACK")}</td>
                                         {/* <td>{element.fromDate}</td> */}
                                         {/* <td>{element.toDate}</td> */}
-                                        <td>{element.numberOfDays}</td>
+                                        <td>{element.checkInDate}</td>
                                         <td>{element.numberOfPersons}</td>
                                         <td>{element.paymentReferenceNumber}</td>
                                         <td>{element.paymentVerified ? "Verified" : "Unverified"}</td>
