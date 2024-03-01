@@ -61,7 +61,7 @@
     button {
       padding: 10px;
       border: none;
-      background-color: #03283d;
+      background-color: #f0f0f0;
       color: rgb(103, 103, 103);
       cursor: pointer;
       width: 80%;
@@ -175,7 +175,7 @@
     button {
       padding: 10px;
       border: none;
-      background-color: #072254;
+      background-color: #f0f0f0;
       color: rgb(119, 119, 119);
       cursor: pointer;
       margin: auto
