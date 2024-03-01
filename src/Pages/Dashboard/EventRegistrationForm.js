@@ -50,6 +50,7 @@ function EventRegistrationForm() {
     };
 
     const addMember = () => {
+        
         if (formData.participants.length < location.state.maxParticipants) {
             setFormData({
                 ...formData,

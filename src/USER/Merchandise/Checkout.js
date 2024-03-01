@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Checkout.css'
-import QRPopup from '../../Pages/QRCode';
+import QRPopup2 from '../../Pages/QRCode2';
 import toast from 'react-hot-toast';
 import axiosInstance from '../../Helper/axiosInstance';
 import { useParams } from 'react-router-dom';
@@ -143,12 +143,12 @@ const MerchandiseForm = () => {
                         <input type="text" id="reference" name="paymentReferenceNumber" onChange={handleChange} value={formData.paymentReferenceNumber} required />
                     </form>
 
-                    {popup && <QRPopup setPopup={setPopup} amount={formData.quantity * 315} />}
+                    {popup && <QRPopup2 setPopup={setPopup} amount={formData.quantity * 315} />}
 
                 </div>
                 <div className="lower-section" style={{ marginTop: '75px' }}>
 
-                    <button id="checkout-button" onClick={handleCheckoutButton} disabled={checkoutDisabled}>
+                    <button id="checkout-button" onClick={handleCheckoutButton}  disabled={checkoutDisabled}>
                         <h3>Submit</h3>
                     </button>
                 </div>

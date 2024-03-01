@@ -1,5 +1,5 @@
 import React from "react";
-import qr from './qrCode_tshirt.png.jpg';
+import qr from './qrCode_tshirt.png';
 
 const QRPopup2 = ({ setPopup, amount }) => {
     const handleCloseClick = () => {
