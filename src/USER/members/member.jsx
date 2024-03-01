@@ -28,9 +28,9 @@ const FacultyCoordinators = () => {
                         <div className="content">
                             <h2>01</h2>
                             <div>
-                                <a href="https://www.instagram.com/" target="_blank">
+                                <a href="https://www.instagram.com/adityachopra01?igsh=dHZwdzM2M2YweWY3&utm_source=qr" target="_blank">
                                     <FontAwesomeIcon icon={faInstagram} size="2x" style={{ color: 'black' }} /></a>
-                                <a href="https://www.linkedin.com/home" target="_blank">
+                                <a href="https://www.linkedin.com/in/aditya-chopra-49820624a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
                                     <FontAwesomeIcon icon={faLinkedinIn} size="2x" style={{ color: 'black' }} />
                                 </a>
                               
