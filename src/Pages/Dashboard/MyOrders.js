@@ -44,6 +44,7 @@ const MyOrders = () => {
                             <tr>
                                 <th>S No.</th>
                                 <th>Cloth </th>
+                                <th>Size</th>
                                 {/* <th>Name On cloth</th> */}
                                 <th>Quantity</th>
                                 <th>Payment Reference Number</th>
@@ -61,6 +62,7 @@ const MyOrders = () => {
                                         <td>Utkansh Oversized
                                             T-shirt</td>
                                         {/* <td>{element.nameOnCloth}</td> */}
+                                        <td>{element.sizeOfCloth}</td>
                                         <td>{element.quantity}</td>
                                         <td>{element.paymentReferenceNumber}</td>
                                         <td>{element.paymentVerified ? "Verified" : "Unverified"}</td>
