@@ -134,10 +134,7 @@ export default function Music() {
                                                             <span style={{ color: 'white' }}>Date: 8<sup>th</sup> March</span><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 200/- per participation(for
-                                                                external
-                                                                participant)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0/-
-                                                                per student(for NITJ student) </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 200/- per participation  </span> <br /><br />
                                                         </p>
                                                     </div>
                                                 </div>
@@ -203,9 +200,8 @@ export default function Music() {
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
                                                                 {/* Last date to register XX March<br/></span> */}
-                                                                Entry Fee: 1500/- per team(for external participant)<br />
-                                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                0/- per student(for NITJ student)<br />
+                                                                Entry Fee: 1500/- per team  <br />
+                                                                 <br />
                                                                 <br />
                                                             </span></p>
                                                     </div>

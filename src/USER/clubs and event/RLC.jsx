@@ -134,10 +134,7 @@ export default function RLC() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 16,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 9<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 300 INR/- per person(for
-                                                                external
-                                                                participant)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0/-
-                                                                per student(for NITJ student) </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 300 INR/- per person  </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                         </div>

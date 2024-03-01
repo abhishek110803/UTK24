@@ -167,22 +167,20 @@ const Dance = () => {
                                                                         Date: 9<sup>th</sup> March<br />
                                                                         Note: Reach 1 day prior to the venue.<br />
                                                                         Registration date: On spot registration. <br />
-                                                                        Entry Fee: 200/- per person(for external participant)<br />
-                                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0/- per student(for NITJ student)<br />
-                                                                        Note: Reach 1 day prior to the venue.<br /><br />
+                                                                        Entry Fee: 200/- per person   <br />
                                                                     </span>
 
                                                                     <br />
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                       
+
                                                         <a onClick={handleClick} className="btn confer-btn">Register </a>
-                                                      
+
                                                     </div>
                                                 </div>
 
-                                               
+
 
                                             </div>
                                         </div>
@@ -250,9 +248,7 @@ const Dance = () => {
                                                                     Date: 10<sup>th</sup> March<br />
                                                                     Note: Reach 1 day prior to the venue.<br />
                                                                     Registration date: On spot registration. <br />
-                                                                    Entry Fee: 200/- per person(for external participant)<br />
-                                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0/- per student(for NITJ student)<br />
-                                                                    Note: Reach 1 day prior to the venue.<br /><br />
+                                                                    Entry Fee: 200/- per person  <br />
                                                                 </span>
                                                                 <br />
                                                                 {/* <p><br />On Spot Registration!</p> */}
@@ -326,8 +322,7 @@ const Dance = () => {
                                                                 </p>
                                                                 <span style={{ color: 'white' }}><b>Prize Pool: INR 18,000/-</b></span><br /><br />
                                                                 Date: 8<sup>th</sup> March<br />
-                                                                Entry Fee: 120/- per person(for external participant)<br />
-                                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0/- per student(for NITJ student)<br />
+                                                                Entry Fee: 120/- per person  <br />
                                                                 Note: Reach 1 day prior to the venue.<br /><br />
                                                             </div>
                                                         </div>

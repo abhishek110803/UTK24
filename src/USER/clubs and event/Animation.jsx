@@ -186,9 +186,8 @@ export default function Animation() {
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
                                                                 {/* Last date to register XX March<br/></span> */}
-                                                                Entry Fee: 1000/- per team(for external participant)<br />
-                                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                0/- per student(for NITJ student)<br />
+                                                                Entry Fee: 1000/- per team  <br />
+                                                                 <br />
                                                                 <br />
                                                             </span></p>
                                                     </div>

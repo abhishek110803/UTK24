@@ -110,7 +110,7 @@ const BhangraClub = () => {
                                                                 <span style={{ color: 'white' }}><b>Prize Pool: INR 60,000/-</b></span><br /><br />
                                                                 <span style={{ color: 'white' }}>Date: 9<sup>th</sup> March</span><br />
                                                                 <span style={{ color: 'white' }}>*Reach 1 day prior to your event. </span><br /><br />
-                                                                <span style={{ color: 'white' }}>Entry Fee: 200/- per person(for external participant)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0/- per student(for NITJ student) </span><br /><br />
+                                                                <span style={{ color: 'white' }}>Entry Fee: 200/- per person</span><br /><br />
                                                             </p>
                                                         </div>
 

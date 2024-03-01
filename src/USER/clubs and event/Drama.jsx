@@ -122,7 +122,7 @@ const Drama = () => {
                                             className={`nav-link ${activeTab === 'step-one' ? 'active' : ''}`}
 
                                             data-toggle="tab"
-                                            
+
                                             id="tab-onr"
                                             role="tab"
                                             onClick={() => handleTabClick('step-one')}
@@ -139,7 +139,7 @@ const Drama = () => {
                                             className={`nav-link ${activeTab === 'step-two' ? 'active' : ''}`}
 
                                             data-toggle="tab"
-                                            
+
                                             id="tab-two"
                                             role="tab"
                                             onClick={() => handleTabClick('step-two')}
@@ -156,7 +156,7 @@ const Drama = () => {
                                             className={`nav-link ${activeTab === 'step-three' ? 'active' : ''}`}
 
                                             data-toggle="tab"
-                                            
+
                                             id="tab-three"
                                             role="tab"
                                             onClick={() => handleTabClick('step-three')}
@@ -205,7 +205,7 @@ const Drama = () => {
                                         </a>
                                     </li> */}
 
-                                    <li className="nav-item" 
+                                    <li className="nav-item"
                                     // style={{ paddingTop: '10px' }}
                                     >
                                         <a
@@ -214,7 +214,7 @@ const Drama = () => {
                                             className={`nav-link ${activeTab === 'step-six' ? 'active' : ''}`}
 
                                             data-toggle="tab"
-                                            
+
                                             id="tab-7"
                                             role="tab"
                                             onClick={() => handleTabClick('step-six')}
@@ -270,9 +270,7 @@ const Drama = () => {
                                                                 <span style={{ color: 'white' }}><b>Prize Pool: INR 20,000/-</b></span><br /><br />
                                                                 <span style={{ color: 'white' }}>Date: 8<sup>th</sup> March</span><br />
                                                                 <span style={{ color: 'white' }}>Reach 1 day prior to your event.</span><br /><br />
-                                                                <span style={{ color: 'white' }}>Entry Fee: 1500/- per team(for external participant)<br />
-                                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0/-
-                                                                    per student(for NITJ student)</span> <br /><br />
+                                                                <span style={{ color: 'white' }}>Entry Fee: 1500/- per team  <br /></span> <br /><br />
                                                             </p>
                                                         </div>
                                                     </div>
@@ -334,9 +332,8 @@ const Drama = () => {
                                                                 </span><br /><br />
                                                                 <span style={{ color: 'white' }}>
 
-                                                                    Entry Fee: 1500/- per team(for external participant)<br />
-                                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                    0/- per student(for NITJ student)<br />
+                                                                    Entry Fee: 1500/- per team  <br />
+                                                                    <br />
                                                                 </span>
                                                                 <br />
                                                             </p>
@@ -402,9 +399,8 @@ const Drama = () => {
                                                                     <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                                     </span> <span style={{ color: 'white' }}>
 
-                                                                        Entry Fee: 200/- per person(for external participant)<br />
-                                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                        0/- per student(for NITJ student)<br />
+                                                                        Entry Fee: 200/- per person  <br />
+                                                                        <br />
                                                                     </span>
 
                                                                 </p><br /><br />
@@ -464,9 +460,8 @@ const Drama = () => {
                                                                 Date: 26<sup>th</sup> March<br />
                                                                 <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                                 </span><br /><br />
-                                                                Entry fee: 500/- per team (for external participants)<br />
-                                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                0/- per student (for NITJ students) <br />
+                                                                Entry fee: 500/- per team    <br />
+                                                                <br />
                                                             </p><br /><br />
                                                         </div>
                                                     </div>
@@ -516,9 +511,8 @@ const Drama = () => {
                                                                 Date: 26<sup>th</sup> March<br />
                                                                 <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                                 </span><br /><br />
-                                                                Entry fee: 500/- per team (for external participants)<br />
-                                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                0/- per student (for NITJ students) <br />
+                                                                Entry fee: 500/- per team    <br />
+                                                                <br />
                                                             </p><br /><br />
                                                         </div>
                                                     </div>
@@ -577,9 +571,8 @@ const Drama = () => {
                                                                     </span><br /><br />
                                                                     <span style={{ color: 'white' }}>
 
-                                                                        Entry Fee: 100/- per team(for external participant)<br />
-                                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                        0/- per student(for NITJ student)<br />
+                                                                        Entry Fee: 100/- per team  <br />
+                                                                        <br />
                                                                     </span>
                                                                     <br />
                                                                 </p>

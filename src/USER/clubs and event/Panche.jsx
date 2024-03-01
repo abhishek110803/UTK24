@@ -104,9 +104,7 @@ export default function Panche() {
                                                             <span style={{ color: 'white' }}>Date: 8<sup>th</sup>March</span><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 2500/- per team(for external
-                                                                participant)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0/-
-                                                                per student(for NITJ student) </span><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 2500/- per team  </span><br />
                                                             <br />
                                                         </div>
                                                     </div>
