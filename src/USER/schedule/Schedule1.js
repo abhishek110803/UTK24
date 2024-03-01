@@ -160,7 +160,8 @@ export default function VerticalTabs() {
                    
                 </div>
             </TabPanel>
-            <TabPanel  sx={{ blur:'10%' }}value={value} index={6}background="https://res.cloudinary.com/dpgxz1q1x/image/upload/v1709099458/Untitled%20design%20%281%29/40_uqbtuy.png">
+            <TabPanel  sx={{ blur:'10%' }}value={value} index={6}
+            background="https://res.cloudinary.com/dpgxz1q1x/image/upload/v1709099458/Untitled%20design%20%281%29/40_uqbtuy.png">
                 <div className='each'>
 
                     <div> 
