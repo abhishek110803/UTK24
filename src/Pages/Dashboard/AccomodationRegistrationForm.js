@@ -196,7 +196,7 @@ function AccomodationRegistrationForm() {
                                 <div className="col-md-4 mb-3">
                                     <button className="btn btn-primary w-100  mb-3" type="button" onClick={() => setPopup(true)} style={{ zIndex: '0' }}>Make Payment</button>
                                 </div>
-                                <label htmlFor="paymentReferenceNumber" className="form-label">Enter Payment Ref. No./UTR No /(Nit Jalandhar Student Has To Fill Their Roll No..)</label>
+                                <label htmlFor="paymentReferenceNumber" className="form-label">Enter Payment Ref. No./UTR No </label>
                                 <input type="text" style={{ width: '94%', marginBottom: '15px' }} className={`form-control ${formErrors.paymentReferenceNumber ? 'is-invalid' : ''}`} id="paymentReferenceNumber" name="paymentReferenceNumber" value={formData.paymentReferenceNumber} onChange={handleChange} required />
                                 <div className="col-md-4 mb-3">
                                     <button className="btn btn-success w-100" type="button" onClick={registerAccommodation}>Submit</button>

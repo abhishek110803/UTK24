@@ -178,7 +178,7 @@ function EventRegistrationForm() {
                                 <div className="col-md-4 mb-3">
                                     <button className="btn btn-primary w-100 mb-2" type="button" onClick={() => setPopup(true)} style={{ zIndex: '0' }}>Make Payment</button>
                                 </div>
-                                <label htmlFor="paymentReferenceNumber" className="form-label">Enter Payment Ref. No./UTR No /(Nit Jalandhar Student Has To Fill Their Roll No..)</label>
+                                <label htmlFor="paymentReferenceNumber" className="form-label">Enter Payment Ref. No./UTR No </label>
                                 <div className="input-group" style={{ width: '95%', margin: '10px', borderRadius: '10px' }}>
                                     <input style={{ borderRadius: '10px' }} type="text" className={`form-control ${formErrors.paymentReferenceNumber ? 'is-invalid' : ''}`} id="paymentReferenceNumber" name="paymentReferenceNumber" value={formData.paymentReferenceNumber} onChange={handleChange} required />
                                 </div>
