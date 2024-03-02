@@ -86,7 +86,7 @@ const DisplayParticipants = () => {
           <ul className="w-[28rem] p-2 rounded-lg shadow-[0_0_10px_black] space-y-4">
             <li className="font-semibold text-xl text-yellow-500 flex items-center justify-between">
               <p>Participants List</p>
-              {role === "ADMIN" && (
+              {/* {role === "ADMIN" && (
                 <button
                   onClick={() =>
                     navigate("/event/registerinevent", {
@@ -101,7 +101,7 @@ const DisplayParticipants = () => {
                 >
                   Add New Participant
                 </button>
-              )}
+              )} */}
             </li>
             {participants &&
               participants.map((element, index) => {
