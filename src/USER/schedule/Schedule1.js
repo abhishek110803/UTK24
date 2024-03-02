@@ -113,7 +113,7 @@ export default function VerticalTabs() {
                     <div> 
                     <h1 className='heads'> The Voice</h1>
                         <p className='para'>Venue:Open Air Theatre</p>
-                        <p className='para'>Time:10:00 AM</p>
+                        <p className='para'>Time:01:00 PM</p>
                     </div>
                   
                    
@@ -124,7 +124,7 @@ export default function VerticalTabs() {
 
                     <div> 
                     <h1 className='heads'> Debate League</h1>
-                        <p className='para'>Venue:LT(2-3)</p>
+                        <p className='para'>Venue:LT</p>
                         <p className='para'>Time:10:00 AM</p>
                     </div>
                   
@@ -136,7 +136,7 @@ export default function VerticalTabs() {
 
                     <div> 
                     <h1 className='heads'> Cognito</h1>
-                        <p className='para'>Venue:Conference Hall(IT)</p>
+                        {/* <p className='para'>Venue:Conference Hall(IT)</p> */}
                         <p className='para'>Time:10:00 AM</p>
                     </div>
                   
@@ -243,8 +243,8 @@ export default function VerticalTabs() {
 
                     <div> 
                     <h1 className='heads'>Panache</h1>
-                        {/* <p className='para'>Venue:Open Air Theater</p> */}
-                        {/* <p className='para'>Time:04:00 PM</p> */}
+                        {/* <p className='para '>Venue:Open Air Theater</p> */}
+                        <p className='para'>Time:06:00 PM</p>
                     </div>
                 
                 </div>

@@ -166,7 +166,7 @@ export default function VerticalTabs3() {
                 <div> 
                     <h1 className='heads'>Coscon</h1>
                         <p className='para'>Venue:MBH Ground </p>
-                        <p className='para'>Time:All Day</p>
+                        <p className='para'>Time:04:00 PM</p>
 
                     </div>
                     <div> 

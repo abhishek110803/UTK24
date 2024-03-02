@@ -32,7 +32,7 @@ const DisplayNewContactUs = () => {
 
   return (
     // <Layout>
-    <div className="min-h-[90vh] pt-5 flex flex-col flex-wrap gap-10 text-white" style={{minHeight:'100vh'}}>
+    <div className="min-h-[90vh]  pt-5 flex flex-col flex-wrap gap-10  text-white" style={{minHeight:'100vh',overflow:'scroll'}}>
       <h1 className="text-center text-3xl font-semibold text-yellow-500" style={{ marginTop: '50px'}}>
         New Arrived Queries:
       </h1>
@@ -40,20 +40,20 @@ const DisplayNewContactUs = () => {
 
       {/* CRUD courses section */}
 
-      {(query.length > 0) ? <div className="mx-[10%] w-[80%] self-center flex flex-col items-center justify-center gap-10 mb-10">
+      {(query.length > 0) ? <div className="mx-[10%]  self-center flex flex-col items-center justify-center gap-10 mb-10">
         <div className="flex w-full items-center justify-between">
           <h1 className="text-center text-3xl font-semibold">
             Queries:
           </h1>
         </div>
 
-        <table className="table overflow-x-scroll" >
+        <table className="table  w-[400px]" >
           <thead>
             <tr>
               <th>S No.</th>
               <th>Sender Name</th>
               <th>Sender Email</th>
-              <th>Query</th>
+              <th style={{width:'500px'}}>Query</th>
               <th>Action</th>
             </tr>
           </thead>
@@ -64,11 +64,11 @@ const DisplayNewContactUs = () => {
               // //console.log('log', index, element);
               return (
 
-                <tr key={index + 1}>
+                <tr key={index + 1} style={{height:'100px'}}>
                   <td>{index + 1}</td>
                   <td>{element.name}</td>
                   <td>{element.email}</td>
-                  <td>{element.message}</td>
+                  <td style={{width:'500px',textWrap:'wrap',textoverflowY:'scroll'}}>{element.message}</td>
 
                   <td>
                     <button
