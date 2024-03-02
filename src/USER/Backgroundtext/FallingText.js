@@ -21,14 +21,17 @@ const FallingText = () => {
         <span className="w4">A</span>
         <span className="w5">N</span>
         <span className="w6">S</span>
-        <span className="w7">H-</span>
+        <span className="w7">H'</span>
         <span className="w7">2</span>
         <span className="w7">4</span>
       </div>
       <div className="tagline">
         <h2 className='main_slogan'>The cultural Kaleidoscope</h2>
+        <h2 className='main_slogan'>08 March - 10 March</h2>
       </div>
-
+      {/* <div className="tagline">
+      
+      </div> */}
     </div>
     <div className="regbutton">
       <button className="button-49" role="button" onClick={handleClick}>{isLoggedIn?`VIEW PROFILE`:`REGISTER/LOGIN`}</button>
