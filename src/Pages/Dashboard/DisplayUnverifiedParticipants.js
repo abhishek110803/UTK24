@@ -55,13 +55,13 @@ const DisplayParticipants = () => {
 
   let size = participants.length
   return (
-    <>
+    <> < div className="flex flex-col gap-10 items-center justify-center min-h-[120vh] py-10 text-white mx-[5%]">
       {size === 0 && <h1 className="text-center text-2xl font-semibold text-yellow-500">
         No More Participants To Verify...
       </h1>}
       {/* <Layout> */}
       {size !== 0 &&
-        < div className="flex flex-col gap-10 items-center justify-center min-h-[90vh] py-10 text-white mx-[5%]">
+        < div className="flex flex-col gap-10 items-center justify-center min-h-[120vh] py-10 text-white mx-[5%]">
           <h1 className="text-center text-2xl font-semibold text-yellow-500" style={{ marginTop: '50px' }}>
             Event Name : {eventDetails?.title}
           </h1>
@@ -91,7 +91,7 @@ const DisplayParticipants = () => {
               </div>
 
 
-              {role === "ADMIN" && (
+              {/* {role === "ADMIN" && (
                 <button
                   onClick={() =>
                     handleparticipantDelete(eventDetails?._id, participants[currentVideoIndex]?._id)
@@ -100,7 +100,7 @@ const DisplayParticipants = () => {
                 >
                   Delete Participant
                 </button>
-              )}
+              )} */}
               {role === "ADMIN" && (
                 <button
                   onClick={() =>
@@ -159,7 +159,7 @@ const DisplayParticipants = () => {
           </div>
         </div>}
       {PopUp && <Popup usersdata={userdata} setPopup={setPopUp} />}
-      {/* </Layout> */}
+      {/* </Layout> */}</div>
     </>
   );
 };

@@ -70,7 +70,7 @@ const DisplayParticipants = () => {
               </p>
             </div>
 
-            {role === "ADMIN" && (
+            {/* {role === "ADMIN" && (
                       <button
                         onClick={() =>
                           handleLectureDelete(eventDetails?._id, participants[currentVideoIndex]?._id)
@@ -79,7 +79,7 @@ const DisplayParticipants = () => {
                       >
                         Delete Participant
                       </button>
-                    )}
+                    )} */}
           </div>
 
           {/* right section for displaying all the participants of the course */}

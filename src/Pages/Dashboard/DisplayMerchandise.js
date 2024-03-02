@@ -135,12 +135,12 @@ const DisplayMerchandise = () => {
                                 >
                                     Reject
                                 </button>
-                                <button
+                                {/* <button
                                     onClick={() => handleDelete()}
                                     className="btn-primary px-2 py-1 rounded-md font-semibold text-sm bg-red-500 hover:bg-red-600 text-white"
                                 >
                                     Delete
-                                </button>
+                                </button> */}
                             </div>}
                         </div>
                     </div>
