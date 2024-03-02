@@ -125,18 +125,22 @@ const DisplayParticipants = () => {
             <ul className="w-[28rem] p-2 rounded-lg shadow-[0_0_10px_black] space-y-4">
               <li className="font-semibold text-xl text-yellow-500 flex items-center justify-between">
                 <p>Participants List</p>
-                {role === "ADMIN" && (
+                {/* {role === "ADMIN" && (
                   <button
-                    onClick={() =>
-                      navigate("/event/AddParticipant", {
-                        state: { ...eventDetails },
-                      })
-                    }
-                    className="btn-primary px-2 py-1 rounded-md font-semibold text-sm"
-                  >
-                    Add New Participant
-                  </button>
-                )}
+                  onClick={() =>
+                    navigate("/event/registerinevent", {
+                      state: { 
+                        eventId: eventDetails._id,
+                        minParticipants: eventDetails.minparticipant,
+                        maxParticipants: eventDetails.minparticipant
+                         },
+                    })
+                  }
+                  className="btn-primary px-2 py-1 rounded-md font-semibold text-sm"
+                >
+                  Add New Participant
+                </button>
+                )} */}
               </li>
               {participants &&
                 participants.map((element, index) => {
