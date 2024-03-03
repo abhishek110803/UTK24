@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useEffect } from 'react';
 import toast from 'react-hot-toast';
-import QRPopup from '../QRCode';
+import QRPopup3 from '../QRCode3';
 import { useParams } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import axiosInstance from '../../Helper/axiosInstance';
@@ -94,7 +94,7 @@ function AccomodationRegistrationForm() {
                 if (response?.data.success) {
                     setFormData({
                         college: '',
-                        paymentReferenceNumber: '',
+                        paymentReferenceNumber: 'NA',
                         numberOfPersons: 1,
                         checkInDate:'',
                         persons: [{ participantName: '', participantEmail: '', participantPhone: '' }],
@@ -161,7 +161,7 @@ function AccomodationRegistrationForm() {
                             </div>
                         </div>
 
-                        {popup && <QRPopup setPopup={setPopup} amount={fee * formData.numberOfPersons} />}
+                        {popup && <QRPopup3 setPopup={setPopup} amount={fee * formData.numberOfPersons} />}
 
                         <div className="card-body">
                             {formData.persons.map((member, index) => (
@@ -196,8 +196,8 @@ function AccomodationRegistrationForm() {
                                 <div className="col-md-4 mb-3">
                                     <button className="btn btn-primary w-100  mb-3" type="button" onClick={() => setPopup(true)} style={{ zIndex: '0' }}>Make Payment</button>
                                 </div>
-                                <label htmlFor="paymentReferenceNumber" className="form-label">Enter Payment Ref. No./UTR No </label>
-                                <input type="text" style={{ width: '94%', marginBottom: '15px' }} className={`form-control ${formErrors.paymentReferenceNumber ? 'is-invalid' : ''}`} id="paymentReferenceNumber" name="paymentReferenceNumber" value={formData.paymentReferenceNumber} onChange={handleChange} required />
+                                {/* <label htmlFor="paymentReferenceNumber" className="form-label">Enter Payment Ref. No./UTR No </label>
+                                <input type="text" style={{ width: '94%', marginBottom: '15px' }} className={`form-control ${formErrors.paymentReferenceNumber ? 'is-invalid' : ''}`} id="paymentReferenceNumber" name="paymentReferenceNumber" value={formData.paymentReferenceNumber} onChange={handleChange} required /> */}
                                 <div className="col-md-4 mb-3">
                                     <button className="btn btn-success w-100" type="button" onClick={registerAccommodation}>Submit</button>
                                 </div>
