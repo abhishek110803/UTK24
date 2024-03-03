@@ -55,20 +55,29 @@ const DisplayParticipants = () => {
         <div className="flex justify-center gap-10 w-full">
           {/* left section for playing the video and displaying course details to admin */}
           <div className="space-y-5 w-[28rem] p-2 rounded-lg shadow-[0_0_10px_black]">
-            
-            <div>
-              <h1>
-                <span className="text-yellow-500">Team Name : </span>
-                {participants && participants[currentVideoIndex]?.title }
-              </h1>
-              <p>
-                {" "}
-                <span className="text-yellow-500 line-clamp-4">
-                  Description :{" "}
-                </span>
-                {participants && participants[currentVideoIndex]?.description}
-              </p>
-            </div>
+          <div>
+                <h1>
+                  <span className="text-yellow-500" style={{fontSize:'20px'}}>Team Name : 
+                  {participants && participants[currentVideoIndex]?.teamName}</span>
+                </h1>
+                <p>
+                  {" "}
+                  <span className="text-yellow-500 line-clamp-4">
+                    college Name :{" "}
+               
+                  {participants && participants[currentVideoIndex]?.collegeName}   </span>
+                </p>
+                <p>
+                  {" "}
+                  <span className="text-yellow-500 line-clamp-4">
+                    Payment ID :{" "}
+               
+                  {participants && participants[currentVideoIndex]?.paymentReferenceNumber}   </span>
+                </p>
+
+
+              </div>
+
 
             {/* {role === "ADMIN" && (
                       <button
