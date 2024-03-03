@@ -35,7 +35,7 @@ const AccomodationPage = () => {
         <div className="gridaco">
           <div className="cardss">
             <h2 className="card_title">One Day Pack</h2>
-            <p className="pricing">₹ 400<span className="small">/Per person</span></p>
+            <p className="pricing">₹ 300<span className="small">/Per person</span></p>
             <hr />
             <ul className="features">
               <li>1 Meal Included</li>
@@ -48,7 +48,7 @@ const AccomodationPage = () => {
 
           <div className="cardss">
             <h2 className="card_title">Two Day Pack</h2>
-            <p className="pricing">₹ 650<span className="small">/Per person</span></p>
+            <p className="pricing">₹ 500<span className="small">/Per person</span></p>
             <hr />
             <ul className="features">
               <li>2 Meal Included</li>
@@ -61,7 +61,7 @@ const AccomodationPage = () => {
 
           <div className="cardss">
             <h2 className="card_title">Three Day Pack</h2>
-            <p className="pricing">₹ 900<span className="small">/Per person</span></p>
+            <p className="pricing">₹ 700<span className="small">/Per person</span></p>
             <hr />
             <ul className="features">
             <li>3 Meal Included</li>
