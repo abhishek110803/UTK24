@@ -4,8 +4,6 @@ import QRPopup from '../QRCode';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useDispatch } from "react-redux";
 import { addEventParticipants } from "../../Redux/participantsSlice";
-// Require useHistory  from 'react-router-dom';
-
 
 function EventRegistrationForm() {
     const location = useLocation();
@@ -47,6 +45,45 @@ function EventRegistrationForm() {
                 return { ...prevFormData, [name]: value };
             }
         });
+
+        // Email validation regex pattern
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        // Mobile number validation regex pattern
+        const mobileRegex = /^[0-9]{10}$/;
+
+        // Check if the field is an email field
+        if (name.startsWith('participantEmail')) {
+            // Validate the email format
+            if (!emailRegex.test(value)) {
+                setFormErrors(prevErrors => ({
+                    ...prevErrors,
+                    [`${name}${index}`]: 'Invalid email format',
+                }));
+            } else {
+                // Clear the error if the email format is valid
+                setFormErrors(prevErrors => ({
+                    ...prevErrors,
+                    [`${name}${index}`]: undefined,
+                }));
+            }
+        }
+
+        // Check if the field is a mobile number field
+        if (name.startsWith('participantPhone')) {
+            // Validate the mobile number format
+            if (!mobileRegex.test(value)) {
+                setFormErrors(prevErrors => ({
+                    ...prevErrors,
+                    [`${name}${index}`]: 'Invalid mobile number format (10 digits)',
+                }));
+            } else {
+                // Clear the error if the mobile number format is valid
+                setFormErrors(prevErrors => ({
+                    ...prevErrors,
+                    [`${name}${index}`]: undefined,
+                }));
+            }
+        }
     };
 
     const addMember = () => {

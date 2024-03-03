@@ -34,6 +34,45 @@ function AccomodationRegistrationForm() {
 
     const handleChange = (e, index) => {
         const { name, value } = e.target;
+        // Email validation regex pattern
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        // Mobile number validation regex pattern
+        const mobileRegex = /^[0-9]{10}$/;
+
+        // Check if the field is an email field
+        if (name.startsWith('participantEmail')) {
+            // Validate the email format
+            if (!emailRegex.test(value)) {
+                setFormErrors(prevErrors => ({
+                    ...prevErrors,
+                    [`${name}${index}`]: 'Invalid email format',
+                }));
+            } else {
+                // Clear the error if the email format is valid
+                setFormErrors(prevErrors => ({
+                    ...prevErrors,
+                    [`${name}${index}`]: undefined,
+                }));
+            }
+        }
+
+        // Check if the field is a mobile number field
+        if (name.startsWith('participantPhone')) {
+            // Validate the mobile number format
+            if (!mobileRegex.test(value)) {
+                setFormErrors(prevErrors => ({
+                    ...prevErrors,
+                    [`${name}${index}`]: 'Invalid mobile number format (10 digits)',
+                }));
+            } else {
+                // Clear the error if the mobile number format is valid
+                setFormErrors(prevErrors => ({
+                    ...prevErrors,
+                    [`${name}${index}`]: undefined,
+                }));
+            }
+        }
+
         setFormData(prevFormData => {
             if (name.startsWith('participant')) {
                 return {
@@ -187,13 +226,13 @@ function AccomodationRegistrationForm() {
                                         </div>
                                         <div className="col-md-4 mb-3">
                                             <label htmlFor={`participantEmail${index}`} className="form-label">Email</label>
-                                            <input type="email" className={`form-control ${formErrors.participantEmail ? 'is-invalid' : ''}`} id={`participantEmail${index}`} name="participantEmail" value={member.participantEmail} onChange={(e) => handleChange(e, index)} required />
-                                            {formErrors.participantEmail && <div className="invalid-feedback">{formErrors.participantEmail}</div>}
+                                            <input type="email" className={`form-control ${formErrors[`participantEmail${index}`] ? 'is-invalid' : ''}`} id={`participantEmail${index}`} name="participantEmail" value={member.participantEmail} onChange={(e) => handleChange(e, index)} required />
+                                            {formErrors[`participantEmail${index}`] && <div className="invalid-feedback">{formErrors[`participantEmail${index}`]}</div>}
                                         </div>
                                         <div className="col-md-4 mb-3">
                                             <label htmlFor={`participantPhone${index}`} className="form-label">Mobile Number</label>
-                                            <input type="text" className={`form-control ${formErrors.participantPhone ? 'is-invalid' : ''}`} id={`participantPhone${index}`} name="participantPhone" value={member.participantPhone} onChange={(e) => handleChange(e, index)} required />
-                                            {formErrors.participantPhone && <div className="invalid-feedback">{formErrors.participantPhone}</div>}
+                                            <input type="text" className={`form-control ${formErrors[`participantPhone${index}`] ? 'is-invalid' : ''}`} id={`participantPhone${index}`} name="participantPhone" value={member.participantPhone} onChange={(e) => handleChange(e, index)} required />
+                                            {formErrors[`participantPhone${index}`] && <div className="invalid-feedback">{formErrors[`participantPhone${index}`]}</div>}
                                         </div>
                                     </div>
                                 </div>
