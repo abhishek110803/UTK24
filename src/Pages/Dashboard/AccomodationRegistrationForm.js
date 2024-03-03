@@ -14,7 +14,7 @@ function AccomodationRegistrationForm() {
     const [formData, setFormData] = useState({
         accommodationType: "",
         college: '',
-        paymentReferenceNumber: '',
+        paymentReferenceNumber: 'NA',
         numberOfPersons: 1,
         checkInDate: '',
         persons: [{ participantName: '', participantEmail: '', participantPhone: '' }],
@@ -23,9 +23,9 @@ function AccomodationRegistrationForm() {
     const [popup, setPopup] = useState(false);
 
     useEffect(() => {
-        if (planId === "1") { setAccomodationType("ONE DAY PACK"); setFee(400); }
-        if (planId === "2") { setAccomodationType("TWO DAY PACK"); setFee(650); }
-        if (planId === "3") { setAccomodationType("THREE DAY PACK"); setFee(900); }
+        if (planId === "1") { setAccomodationType("ONE DAY PACK"); setFee(300); }
+        if (planId === "2") { setAccomodationType("TWO DAY PACK"); setFee(500); }
+        if (planId === "3") { setAccomodationType("THREE DAY PACK"); setFee(700); }
         setFormData(prevState => ({
             ...prevState,
             accommodationType: planId,
@@ -90,13 +90,25 @@ function AccomodationRegistrationForm() {
         if (Object.keys(errors).length === 0) {
             try {
                 const url = `accommodation/registerAccommodation`;
-                const response = await axiosInstance.post(url, formData);
+
+                var response =  axiosInstance.post(url, formData);
+                toast.promise(response, {
+                    loading: "Wait! Submitting Your Request",
+                    success: (data) => {
+                        return data?.data?.message;
+                    },
+                    error: "Failed to submit",
+                });
+
+                // getting response resolved here
+                response = await response;
+
                 if (response?.data.success) {
                     setFormData({
                         college: '',
-                        paymentReferenceNumber: 'NA',
+                        paymentReferenceNumber: '',
                         numberOfPersons: 1,
-                        checkInDate:'',
+                        checkInDate: '',
                         persons: [{ participantName: '', participantEmail: '', participantPhone: '' }],
                     });
                     toast.success('Request Submitted.')
@@ -197,7 +209,9 @@ function AccomodationRegistrationForm() {
                                     <button className="btn btn-primary w-100  mb-3" type="button" onClick={() => setPopup(true)} style={{ zIndex: '0' }}>Make Payment</button>
                                 </div>
                                 {/* <label htmlFor="paymentReferenceNumber" className="form-label">Enter Payment Ref. No./UTR No </label>
-                                <input type="text" style={{ width: '94%', marginBottom: '15px' }} className={`form-control ${formErrors.paymentReferenceNumber ? 'is-invalid' : ''}`} id="paymentReferenceNumber" name="paymentReferenceNumber" value={formData.paymentReferenceNumber} onChange={handleChange} required /> */}
+                                <input type="text" style={{ width: '94%', marginBottom: '15px' }} className={`form-control ${formErrors.paymentReferenceNumber ? 'is-invalid' : ''}`} id="paymentReferenceNumber" name="paymentReferenceNumber" value={formData.paymentReferenceNumber} onChange={handleChange} required />  */}
+
+
                                 <div className="col-md-4 mb-3">
                                     <button className="btn btn-success w-100" type="button" onClick={registerAccommodation}>Submit</button>
                                 </div>
