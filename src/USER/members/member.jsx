@@ -205,7 +205,7 @@ const FacultyCoordinators = () => {
                     </div>
                   
                     <div className="card4545 card1">
-                        <h3>Prajawal Wankhade</h3>
+                        <h3>Prajwal Wankhade</h3>
                         <h4>Digital Head</h4>
                         <span>
                             <img src="https://res.cloudinary.com/dijzvijky/image/upload/v1708798002/DSC_0248_copy_1_hcenvs.jpg" alt="" />
