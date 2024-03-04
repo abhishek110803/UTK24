@@ -71,13 +71,13 @@ export default function Quest() {
                                     <li className="nav-item">
                                         <a onClick={() => handleTabClick('step-1')}
 
-                                            className={`nav-link ${activeTab === 'step-1' ? 'active' : ''}`} id="tab-onr" data-toggle="tab"  role="tab" aria-controls="step-one" aria-expanded="true"> COGNITO </a>
+                                            className={`nav-link ${activeTab === 'step-1' ? 'active' : ''}`} id="tab-onr" data-toggle="tab" role="tab" aria-controls="step-one" aria-expanded="true"> COGNITO </a>
                                     </li>
                                     {/* Nav Item */}
                                     <li className="nav-item">
                                         <a onClick={() => handleTabClick('step-2')}
 
-                                            className={`nav-link ${activeTab === 'step-2' ? 'active' : ''}`} id="tab-two" data-toggle="tab"  role="tab" aria-controls="step-two" aria-expanded="true">MONEY GPT </a>
+                                            className={`nav-link ${activeTab === 'step-2' ? 'active' : ''}`} id="tab-two" data-toggle="tab" role="tab" aria-controls="step-two" aria-expanded="true">MONEY GPT </a>
                                     </li>
                                 </ul>
                             </div>
@@ -122,7 +122,10 @@ export default function Quest() {
                                                                 <span style={{ color: 'white' }}>Date: 8<sup>th</sup> March</span><br />
                                                                 <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                                 </span><br /><br />
-                                                                <span style={{ color: 'white' }}>Entry Fee: 100/- per person <br /></span> <br /><br />
+                                                                <span style={{ color: 'white' }}>Entry Fee:  &nbsp;&nbsp;50 INR lone wolf
+                                                                   </span> <br></br>
+                                                                <span style={{ color: 'white' }}>
+                                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  100 INR per team <br /></span> <br /><br />
                                                             </p>
                                                         </div>
                                                     </div>
@@ -185,8 +188,12 @@ export default function Quest() {
                                                                 <span style={{ color: 'white' }}>Date: 10<sup>th</sup> March</span><br />
                                                                 <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                                 </span><br /><br />
-                                                                <span style={{ color: 'white' }}>Entry Fee: 100/- per person<br /></span> <br /><br />
-                                                                <br />
+                                                                <span style={{ color: 'white' }}>
+                                                                   <br /></span> <br /><br />
+                                                                   <span style={{ color: 'white' }}>Entry Fee:  &nbsp;&nbsp;50 INR lone wolf
+                                                                   </span> <br></br>
+                                                                <span style={{ color: 'white' }}>
+                                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  100 INR per team <br /></span> <br /><br />
                                                             </p>
                                                         </div>
                                                         <a className="btn confer-btn" onClick={handleClick}>Register
