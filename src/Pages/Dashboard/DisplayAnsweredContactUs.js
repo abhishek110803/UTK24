@@ -50,13 +50,13 @@ const DisplayAnsweredContactUs = () => {
                     </h1>
                 </div>
 
-                <table className="table overflow-x-scroll" >
+                <table className="table  w-[400px]" >
                     <thead>
                         <tr>
                             <th>S No.</th>
                             <th>Sender Name</th>
                             <th>Sender Email</th>
-                            <th>Query</th>
+                            <th style={{width:'500px'}}>Query</th>
                             <th>Modify Reply</th>
                         </tr>
                     </thead>
@@ -67,11 +67,11 @@ const DisplayAnsweredContactUs = () => {
                             // //console.log('log', index, element);
                             return (
 
-                                <tr key={index + 1}>
+                                <tr key={index + 1} style={{height:'100px'}}>
                                     <td>{index + 1}</td>
                                     <td>{element.name}</td>
                                     <td>{element.email}</td>
-                                    <td>{element.message}</td>
+                                    <td style={{width:'500px',textWrap:'wrap',textoverflowY:'scroll'}}>{element.message}</td>
 
                                     <td>
                                         <button
