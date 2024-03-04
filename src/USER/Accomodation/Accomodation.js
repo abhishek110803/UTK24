@@ -38,7 +38,7 @@ const AccomodationPage = () => {
             <p className="pricing">₹ 300<span className="small">/Per person</span></p>
             <hr />
             <ul className="features">
-              <li>1 Meal Included</li>
+              {/* <li>1 Meal Included</li> */}
               <li>Combined Rooms</li>
             </ul>
             <hr />
@@ -51,7 +51,7 @@ const AccomodationPage = () => {
             <p className="pricing">₹ 500<span className="small">/Per person</span></p>
             <hr />
             <ul className="features">
-              <li>2 Meal Included</li>
+              {/* <li>2 Meal Included</li> */}
               <li>Combined Rooms</li>
             </ul>
             <hr />
@@ -64,7 +64,7 @@ const AccomodationPage = () => {
             <p className="pricing">₹ 700<span className="small">/Per person</span></p>
             <hr />
             <ul className="features">
-            <li>3 Meal Included</li>
+            {/* <li>3 Meal Included</li> */}
               <li>Combined Rooms</li>
             </ul>
             <hr />
