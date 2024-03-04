@@ -194,7 +194,7 @@ export default function Ladc() {
                                                                 <span style={{ color: 'white' }}>Date: 10<sup>th</sup> March</span><br />
                                                                 <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                                 </span><br /><br />
-                                                                <span style={{ color: 'white' }}>Entry Fee: Not disclosed. </span> <br /><br />
+                                                                <span style={{ color: 'white' }}>Entry Fee: Free </span> <br /><br />
                                                                 <br />
                                                             </p>
                                                         </div>
