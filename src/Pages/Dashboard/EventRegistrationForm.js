@@ -18,7 +18,13 @@ function EventRegistrationForm() {
         paymentReferenceNumber: '',
         participants: [{ participantName: '', participantEmail: '', participantPhone: '' }],
         amount: 0,
+        bankName: '',
+        accountHolderName: '',
+        IFSC_Code: '',
+        accountNumber: '',
     });
+    //const { college, teamName, participants, paymentReferenceNumber, amount, bankName, accountHolderName, IFSC_Code, accountNumber } = req.body;
+
     const [formErrors, setFormErrors] = useState({});
     const [popup, setPopup] = useState(false);
 
@@ -87,7 +93,6 @@ function EventRegistrationForm() {
     };
 
     const addMember = () => {
-        
         if (formData.participants.length < location.state.maxParticipants) {
             setFormData({
                 ...formData,
@@ -137,6 +142,10 @@ function EventRegistrationForm() {
                             college: '',
                             // paymentReferenceNumber: '',
                             participants: [{ participantName: '', participantEmail: '', participantPhone: '' }],
+                            bankName: '',
+                            accountHolderName: '',
+                            IFSC_Code: '',
+                            AccountNumber: '',
                         });
                         setFormErrors({});
                         navigate(-1);
@@ -221,11 +230,36 @@ function EventRegistrationForm() {
                                 </div>
                                 {formErrors.paymentReferenceNumber && <div className="invalid-feedback">{formErrors.paymentReferenceNumber}</div>}
 
-
+                                
+                            </div>
+                            <div className='mb-2'>
+                                <div className='row'>
+                                    <div className="col-md-6 mb-4">
+                                        <label htmlFor="bankName" className="form-label">Your bank name</label>
+                                        <input style={{ borderRadius: '10px' }} type="text" className={`form-control ${formErrors.bakName ? 'is-invalid' : ''}`} name="bankName" value={formData.bankName} onChange={handleChange} required />
+                                    </div>
+                                    <div className="col-md-6 mb-4">
+                                        <label htmlFor="paymentReferenceNumber" className="form-label">Account holder name </label>
+                                        <input style={{ borderRadius: '10px' }} type="text" className={`form-control ${formErrors.accountHolderName ? 'is-invalid' : ''}`} name="accountHolderName" value={formData.accountHolderName} onChange={handleChange} required />
+                                    </div>
+                                    <div className="col-md-6 mb-4">
+                                        <label htmlFor="paymentReferenceNumber" className="form-label">Account number </label>
+                                        <input style={{ borderRadius: '10px' }} type="text" className={`form-control ${formErrors.accountNumber ? 'is-invalid' : ''}`} name="accountNumber" value={formData.accountNumber} onChange={handleChange} required />
+                                    </div>
+                                    <div className="col-md-6 mb-4">
+                                        <label htmlFor="paymentReferenceNumber" className="form-label">IFSC Code </label>
+                                        <input style={{ borderRadius: '10px' }} type="text" className={`form-control ${formErrors.IFSC_Code ? 'is-invalid' : ''}`} name="IFSC_Code" value={formData.IFSC_Code} onChange={handleChange} required />
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <div className="row justify-content-center">
                                 <div className="col-md-4 mb-3">
                                     <button className="btn btn-success w-100" type="button" onClick={registerToEvent}>Submit</button>
                                 </div>
                             </div>
+
+
                         </div>
                     </div>
                 </div>
