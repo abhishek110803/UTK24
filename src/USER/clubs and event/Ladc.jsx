@@ -82,19 +82,19 @@ export default function Ladc() {
                                     <li className="nav-item">
                                         <a onClick={() => handleTabClick('step-1')}
 
-                                            className={`nav-link ${activeTab === 'step-1' ? 'active' : ''}`} id="tab-onr" data-toggle="tab"  role="tab" aria-controls="step-one" aria-expanded="true"> HAIKU </a>
+                                            className={`nav-link ${activeTab === 'step-1' ? 'active' : ''}`} id="tab-onr" data-toggle="tab" role="tab" aria-controls="step-one" aria-expanded="true"> HAIKU </a>
                                     </li>
                                     {/* Nav Item */}
                                     <li className="nav-item">
                                         <a onClick={() => handleTabClick('step-2')}
 
-                                            className={`nav-link ${activeTab === 'step-2' ? 'active' : ''}`} id="tab-two" data-toggle="tab"  role="tab" aria-controls="step-two" aria-expanded="true">OPEN MIC </a>
+                                            className={`nav-link ${activeTab === 'step-2' ? 'active' : ''}`} id="tab-two" data-toggle="tab" role="tab" aria-controls="step-two" aria-expanded="true">OPEN MIC </a>
                                     </li>
                                     {/* Nav Item */}
                                     <li className="nav-item">
                                         <a onClick={() => handleTabClick('step-3')}
 
-                                            className={`nav-link ${activeTab === 'step-3' ? 'active' : ''}`} id="tab-three" data-toggle="tab"  role="tab" aria-controls="step-three" aria-expanded="true">VOXWARS</a>
+                                            className={`nav-link ${activeTab === 'step-3' ? 'active' : ''}`} id="tab-three" data-toggle="tab" role="tab" aria-controls="step-three" aria-expanded="true">VOXWARS</a>
                                     </li>
                                     {/* Nav Item */}
                                     {/* <li className="nav-item">
@@ -130,29 +130,23 @@ export default function Ladc() {
                                                         <div className="single-schedule-info">
                                                             <h3>HAIKU </h3>
                                                             <p>
-                                                                Oratorio is a series of mini events all revolving around
-                                                                literature, oration and pure fun. In HAIKU the
-                                                                participants are given a random sentence to begin with and they
-                                                                have to build a whole story around it. It makes for a witty,
-                                                                sharp, and fun games.<br /><br />
+                                                                Each participant will be given a word and they will have to write a poem with each
+                                                                line starting from that particular letter of the word. They will be given 15 mins to
+                                                                write the poem after which they will have to come on stage and recite it in front of
+                                                                judges. The best poem wins<br /><br />
                                                             </p>
                                                             <h6 style={{ color: 'white' }}>Rules:</h6>
                                                             <p>
-                                                                <br />1. NO such strict eligibility is specified as anyone can
-                                                                participate.
-                                                                <br />2. Two persons will pick chits and will be given 2 mins to
-                                                                frame their story and then, both of them will be given a time of
-                                                                2 mins to speak before their individual judges simultaneously.
-                                                                At the same time before starting their story, another two fresh
-                                                                participants will pick up their chit and start framing their
-                                                                stories for the time in which the previous participants will be
-                                                                reciting their masterpieces.<br /> <br />
+                                                                <br />Evaluation based on creativity, writing skills, originality,
+                                                                and their way of speaking the poetry
+
+                                                                <br />
                                                                 <span style={{ color: 'white' }}><b>Prize Pool: INR
                                                                     4,000/-</b></span><br /><br />
                                                                 <span style={{ color: 'white' }}>Date: 10<sup>th</sup> March</span><br />
                                                                 <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                                 </span><br /><br />
-                                                                <span style={{ color: 'white' }}>Entry Fee: Not disclosed. </span> <br /><br />
+                                                                <span style={{ color: 'white' }}>Entry Fee: Free. </span> <br /><br />
                                                             </p>
                                                         </div>
                                                     </div>
@@ -180,12 +174,11 @@ export default function Ladc() {
                                                         <div className="single-schedule-info">
                                                             <h3>OPEN MIC</h3>
                                                             <p>
-                                                                Oratorio is a series of mini events all revolving around
-                                                                literature, oration, and pure fun. In OPEN MIC a page
-                                                                from a book is taken and given to each participant.
-                                                                Their task is to blackout a few words from this page and form a
-                                                                poem out of the remaining words. A tricky and mindful challenge
-                                                                for all the participants!
+                                                                No shying away, no double thoughts! Gather all your courage and put that creative
+                                                                mind to work with the most exciting - OPEN MIC! A Fest bringing you storytelling,
+                                                                poetry, and comedy together. This will provide a platform where people are
+                                                                innately encouraged to be themselves and voice their feelings and opinions
+                                                                without hesitance
                                                                 <br /><br />
                                                             </p>
                                                             <h6 style={{ color: 'white' }}>Rules:</h6>
@@ -201,7 +194,7 @@ export default function Ladc() {
                                                                 <span style={{ color: 'white' }}>Date: 10<sup>th</sup> March</span><br />
                                                                 <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                                 </span><br /><br />
-                                                                <span style={{ color: 'white' }}>Entry Fee: Not disclosed. </span> <br /><br />
+                                                                <span style={{ color: 'white' }}>Entry Fee: Free </span> <br /><br />
                                                                 <br />
                                                             </p>
                                                         </div>
@@ -231,11 +224,11 @@ export default function Ladc() {
                                                         <div className="single-schedule-info">
                                                             <h3>VOXWARS </h3>
                                                             <p>
-                                                                Oratorio is a series of mini-events all revolving around
-                                                                literature, oration, and pure fun. In VOXWARS every
-                                                                contestant will have a panel before them. They have to convince
-                                                                the panel as to why their favorite book is worth a read!
-                                                                Convince your way into the panel's heart!
+                                                                Asian Parliamentary Debating is a dynamic and rigorous format that simulates
+                                                                legislative discussions. In this fast-paced style, two teams, the government and the
+                                                                opposition, engage in spontaneous debates on diverse topics. Participants must
+                                                                construct persuasive arguments, think on their feet, and respond strategically to
+                                                                the opposing side.
                                                                 <br /><br />
                                                             </p>
                                                             <h6 style={{ color: 'white' }}>Rules:</h6>
@@ -254,13 +247,20 @@ export default function Ladc() {
                                                                 <li>In the preliminary and elimination round, sides (government or opposition) will be determined by coin toss.</li>
                                                                 <li>Adjudicators’ decision cannot be cancelled, but we can seek for responsibility.</li>
                                                                 <li>Case-building may not involve anyone other than the three team members.</li>
+                                                                <li>During case building, team members may not
+                                                                    communicate with anyone other than their teammates. </li>
+                                                                <li>Printed materials or electronic devices may not be
+                                                                    brought to the speaker’s podium. Only half A4 sheet is
+                                                                    allowed to the podium for speaking.</li>
+                                                                <li> Speakers may bring stopwatches to the podium.</li>
+
                                                             </p><p style={{ color: 'white' }}>
                                                                 <span style={{ color: 'white' }}><b>Prize Pool: INR
                                                                     7,000/-</b></span><br /><br />
                                                                 Date: 8-9<sup>th</sup> March<br />
                                                                 <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                                 </span><br /><br />
-                                                                <span style={{ color: 'white' }}>Entry Fee: 200/- per person </span> <br /><br />
+                                                                <span style={{ color: 'white' }}>Entry Fee: 200/- per team </span> <br /><br />
                                                             </p><br /><br />
                                                             <p />
                                                         </div>

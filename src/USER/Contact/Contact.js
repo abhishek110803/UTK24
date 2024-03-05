@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBuilding, faEnvelope, faMapMarkerAlt, faUser, faUserGroup } from '@fortawesome/free-solid-svg-icons';
+import { faBuilding, faEnvelope, faMapMarkerAlt, faPhone, faUser, faUserGroup } from '@fortawesome/free-solid-svg-icons';
 import axiosInstance from '../../Helper/axiosInstance';
 import toast from 'react-hot-toast';
 import { useLocation } from 'react-router-dom';
@@ -87,6 +87,8 @@ const ContactSection = () => {
                       <div className="sub-title">NIT Jalandhar</div>
                     </div>
                   </div>
+
+
                   <div className="row">
                     <FontAwesomeIcon icon={faEnvelope} />
                     <div className="info">
@@ -94,6 +96,17 @@ const ContactSection = () => {
                       <div className="sub-title">utkansh@nitj.ac.in</div>
                     </div>
                   </div>
+
+                  
+                  <div className="row">
+                    <FontAwesomeIcon icon={faPhone} />
+                    <div className="info">
+                      <div className="head">Phone No.</div>
+                      <div className="sub-title">8905060066</div>
+                    </div>
+                  </div>
+
+
                 </div>
               </div>
 
