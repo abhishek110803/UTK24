@@ -16,7 +16,7 @@ export default function RLC() {
     const [eventdetails, setEventdetails] = useState({
         eventId: '65d5b86ea8d0fcbeb3c7c1cd',
         minParticipants: 1,
-        maxParticipants: 4,
+        maxParticipants: 6,
         amount: 300,
         eventTitle: 'FOLK SINGING',
 
@@ -31,7 +31,7 @@ export default function RLC() {
             setEventdetails({
                 eventId: '65d5b86ea8d0fcbeb3c7c1cd',
                 minParticipants: 1,
-                maxParticipants: 4,
+                maxParticipants: 6,
                 amount: 300,
                 eventTitle: 'FOLK SINGING',
 
@@ -124,7 +124,7 @@ export default function RLC() {
                                                                     <font size={4}> Event rules and guidelines</font>
                                                                 </b><br />
                                                                 <li>Maximum time of performance will be of 7 minutes and the warning bell ring after 4 minutes.</li>
-                                                                <li>A team can have a maximum of 4 members.</li>
+                                                                <li>A team can have a maximum of 4 members. + ( 2 helpers if needed)</li>
                                                                 <li>Folk song will not be sung on the recorded music of instruments.</li>
                                                                 <li>In Folk song performance western instruments are not allowed, the allowed instruments are like tumbi, sarngi, algoze, vanjli, dhad, dhol, dholki, gharha, chimta, bugdu or bugchu, garhwa, hamel, khartal, been, sankh, ngara etc.</li>
                                                                 <li>Use of Harmonium is allowed.</li>
@@ -134,7 +134,7 @@ export default function RLC() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 16,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 9<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 300 INR/- per person  </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 300 INR/- per team  </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
 
