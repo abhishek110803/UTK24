@@ -8,6 +8,8 @@ import { Provider } from "react-redux";
 import { Toaster } from "react-hot-toast";
 import Navbar from './USER/navbar/Navbar';
 import Footer from './USER/Footer/Footer';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 // import Layout from "./Layout/Layout";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
