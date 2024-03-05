@@ -70,7 +70,7 @@ export default function RLC() {
                                     <li className="nav-item">
                                         <a onClick={() => handleTabClick('step-1')}
 
-                                            className={`nav-link ${activeTab === 'step-1' ? 'active' : ''}`} id="tab-onr" data-toggle="tab"  role="tab" aria-controls="step-one" aria-expanded="true"> FOLK SINGING </a>
+                                            className={`nav-link ${activeTab === 'step-1' ? 'active' : ''}`} id="tab-onr" data-toggle="tab" role="tab" aria-controls="step-one" aria-expanded="true"> FOLK SINGING </a>
                                     </li>
                                     {/* Nav Item */}
                                     {/* <li className="nav-item">
@@ -137,14 +137,15 @@ export default function RLC() {
                                                             <span style={{ color: 'white' }}>Entry Fee: 300 INR/- per person  </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
-                                                            <span style={{ color: 'white' }}>
-                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
-                                                                *Exclusively relevant to events with single participants
-                                                            </span> <br /><br />
+
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
                                                     {/* Schedule Btn */}
+                                                    <span style={{ color: 'white' }}>
+                                                        *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                        *Exclusively relevant to events with single participants
+                                                    </span> <br /><br />
                                                     <a onClick={handleClick} className="btn confer-btn">Register </a>
                                                 </div>
                                             </div>
@@ -193,15 +194,20 @@ export default function RLC() {
                                                                 per student(for NITJ student) </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
-                                                            <span style={{ color: 'white' }}>
-                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
-                                                                *Exclusively relevant to events with single participants
-                                                            </span> <br /><br />
+
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
                                                     {/* Schedule Btn */}
-                                                    <a onClick={handleClick} className="btn confer-btn">Register </a>
+                                                    <p>
+
+                                                        <span style={{ color: 'white' }}>
+                                                            *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                            *Exclusively relevant to events with single participants
+                                                        </span> <br /><br />
+                                                        <a onClick={handleClick} className="btn confer-btn">Register </a>
+
+                                                    </p>
                                                 </div>
                                             </div>
                                             {/* More Schedule Btn */}
@@ -254,15 +260,19 @@ export default function RLC() {
                                                                 per student(for NITJ student) </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
-                                                            <span style={{ color: 'white' }}>
-                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
-                                                                *Exclusively relevant to events with single participants
-                                                            </span> <br /><br />
+
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
                                                     {/* Schedule Btn */}
-                                                    <a onClick={handleClick} className="btn confer-btn">Register </a>
+
+                                                    <p>
+                                                        <span style={{ color: 'white' }}>
+                                                            *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                            *Exclusively relevant to events with single participants
+                                                        </span> <br /><br />
+                                                        <a onClick={handleClick} className="btn confer-btn">Register </a>
+                                                    </p>
                                                 </div>
                                             </div>
                                             {/* More Schedule Btn */}
@@ -295,14 +305,19 @@ export default function RLC() {
                                                             E) Indiscipline will not be allowed in any case.<br />
                                                             F) Use of mobile phones in the venue is strictly prohibited<p />
                                                             {/* <span style="color:white">Reach 1 day prior to your event. </span><br><br>  */}
+
+                                                            {/* <p> */}
+                                                                <span style={{ color: 'white' }}>
+                                                                    *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                    *Exclusively relevant to events with single participants
+                                                                </span> <br /><br />
+                                                                <a className="btn confer-btn" onClick={handleClick}>Register</a>
+                                                            {/* </p> */}
                                                         </div>
                                                         <br></br><br></br>
-                                                        <span style={{ color: 'white' }}>
-                                                            *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
-                                                            *Exclusively relevant to events with single participants
-                                                        </span> <br /><br />
+
                                                     </div>
-                                                    <a className="btn confer-btn" onClick={handleClick}>Register</a>
+
 
                                                     {/* Single Schedule Info */}
                                                     {/* Schedule Btn */}
@@ -310,8 +325,11 @@ export default function RLC() {
                                                 </div>
                                             </div>
                                             {/* More Schedule Btn */}
+
+
                                         </div>
                                     </div>
+                                   
                                 </div>}
                                 {activeTab === 'step-5' && <div className="tab-pane fade show active" id="step-five" role="tabpanel" aria-labelledby="monday-tab">
                                     {/* Single Tab Content */}
@@ -343,11 +361,13 @@ export default function RLC() {
                                                         </div>
                                                         <br>
                                                         </br><br></br>
-                                                        <span style={{ color: 'white' }}>
-                                                            *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
-                                                            *Exclusively relevant to events with single participants
-                                                        </span> <br /><br />
+
                                                     </div>
+
+                                                    <span style={{ color: 'white' }}>
+                                                        *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                        *Exclusively relevant to events with single participants
+                                                    </span> <br /><br />
                                                     <a className="btn confer-btn" onClick={handleClick}>Register</a>
 
                                                     {/* Single Schedule Info */}
@@ -388,11 +408,12 @@ export default function RLC() {
                                                             {/* <span style="color:white">Reach 1 day prior to your event. </span><br><br>  */}
                                                         </div>
                                                         <br><br></br></br>
-                                                        <span style={{ color: 'white' }}>
-                                                            *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
-                                                            *Exclusively relevant to events with single participants
-                                                        </span> <br /><br />
+
                                                     </div>
+                                                    <span style={{ color: 'white' }}>
+                                                        *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                        *Exclusively relevant to events with single participants
+                                                    </span> <br /><br />
                                                     <a className="btn confer-btn" onClick={handleClick}>Register</a>
 
                                                     {/* Single Schedule Info */}

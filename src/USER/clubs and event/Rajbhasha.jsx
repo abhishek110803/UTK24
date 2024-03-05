@@ -337,12 +337,14 @@ export default function Rajbhasha() {
                                                             <li>There will be total 3 winning teams at 3 positions.</li>
                                                             <li>The judgement of judges will be final.</li>
                                                             {/* <span style="color:white">Reach 1 day prior to your event. </span><br><br>  */}
+                                                            <br></br><br></br>
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
-                                                        <br></br><br></br>
-                                                        <span style={{ color: 'white' }}>
-                                                            *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
-                                                            *Exclusively relevant to events with single participants
-                                                        </span> <br /><br />
+                                                        
+                                                       
                                                     </div>
                                                     {/* Single Schedule Info */}
                                                     {/* Schedule Btn */}
@@ -380,12 +382,14 @@ export default function Rajbhasha() {
                                                             <li>The judgement will be based on content to likes ratio 7:3.</li>
                                                             <li>The judgment of judges will be final.</li>
                                                             {/* <span style="color:white">Reach 1 day prior to your event. </span><br><br>  */}
+                                                            <br></br><br></br>
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
-                                                        <br></br><br></br>
-                                                        <span style={{ color: 'white' }}>
-                                                            *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
-                                                            *Exclusively relevant to events with single participants
-                                                        </span> <br /><br />
+                                                        
+                                                      
                                                     </div>
                                                     <a className="btn confer-btn" onClick={handleClick}>Register</a>
                                                     {/* Single Schedule Info */}

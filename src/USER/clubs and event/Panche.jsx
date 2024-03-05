@@ -105,6 +105,7 @@ export default function Panche() {
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>Entry Fee: 2500/- per team  </span><br />
+                                                            <br></br>
                                                             <span style={{ color: 'white' }}>
                                                                 *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
                                                                 *Exclusively relevant to events with single participants

@@ -123,7 +123,7 @@ export default function Quest() {
                                                                 <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                                 </span><br /><br />
                                                                 <span style={{ color: 'white' }}>Entry Fee:  &nbsp;&nbsp;50 INR lone wolf
-                                                                   </span> <br></br>
+                                                                </span> <br></br>
                                                                 <span style={{ color: 'white' }}>
                                                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  100 INR per team <br /></span> <br /><br />
                                                                 <span style={{ color: 'white' }}>
@@ -191,13 +191,13 @@ export default function Quest() {
                                                                 </b></span><br /><br />
                                                                 <span style={{ color: 'white' }}>Date: 10<sup>th</sup> March</span><br />
                                                                 <span style={{ color: 'white' }}>Reach 1 day prior to your event.
-                                                                </span><br /><br />
+                                                                </span><br></br>
                                                                 <span style={{ color: 'white' }}>
-                                                                   <br /></span> <br /><br />
-                                                                   <span style={{ color: 'white' }}>Entry Fee:  &nbsp;&nbsp;50 INR lone wolf
-                                                                   </span> <br></br>
+                                                                    <br /></span>
+                                                                <span style={{ color: 'white' }}>Entry Fee:  &nbsp;&nbsp;50 INR lone wolf
+                                                                </span> <br></br>
                                                                 <span style={{ color: 'white' }}>
-                                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  100 INR per team <br /></span> <br /><br />
+                                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  100 INR per team <br /></span> <br></br>
                                                                 <span style={{ color: 'white' }}>
                                                                     *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
                                                                     *Exclusively relevant to events with single participants
