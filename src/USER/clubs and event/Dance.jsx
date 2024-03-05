@@ -171,6 +171,10 @@ const Dance = () => {
                                                                     </span>
 
                                                                     <br />
+                                                                    <span style={{ color: 'white' }}>
+                                                                        *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                        *Exclusively relevant to events with single participants
+                                                                    </span> <br /><br />
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -251,6 +255,10 @@ const Dance = () => {
                                                                     Entry Fee: 200/- per person  <br />
                                                                 </span>
                                                                 <br />
+                                                                <span style={{ color: 'white' }}>
+                                                                    *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                    *Exclusively relevant to events with single participants
+                                                                </span> <br /><br />
                                                                 {/* <p><br />On Spot Registration!</p> */}
                                                                 <a className="btn confer-btn" onClick={handleClick}>Register </a>
 
@@ -324,6 +332,10 @@ const Dance = () => {
                                                                 Date: 8<sup>th</sup> March<br />
                                                                 Entry Fee: 120/- per person  <br />
                                                                 Note: Reach 1 day prior to the venue.<br /><br />
+                                                                <span style={{ color: 'white' }}>
+                                                                    *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                    *Exclusively relevant to events with single participants
+                                                                </span> <br /><br />
                                                             </div>
                                                         </div>
                                                     </div>

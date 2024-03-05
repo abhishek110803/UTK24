@@ -179,6 +179,10 @@ export default function Rajbhasha() {
                                                             <span style={{ color: 'white' }}>Entry Fee: 100 INR/- per person </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
@@ -235,6 +239,10 @@ export default function Rajbhasha() {
                                                             </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
@@ -289,6 +297,10 @@ export default function Rajbhasha() {
                                                             <span style={{ color: 'white' }}>Entry Fee: 100 INR/- per student </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
@@ -326,6 +338,11 @@ export default function Rajbhasha() {
                                                             <li>The judgement of judges will be final.</li>
                                                             {/* <span style="color:white">Reach 1 day prior to your event. </span><br><br>  */}
                                                         </div>
+                                                        <br></br><br></br>
+                                                        <span style={{ color: 'white' }}>
+                                                            *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                            *Exclusively relevant to events with single participants
+                                                        </span> <br /><br />
                                                     </div>
                                                     {/* Single Schedule Info */}
                                                     {/* Schedule Btn */}
@@ -364,6 +381,11 @@ export default function Rajbhasha() {
                                                             <li>The judgment of judges will be final.</li>
                                                             {/* <span style="color:white">Reach 1 day prior to your event. </span><br><br>  */}
                                                         </div>
+                                                        <br></br><br></br>
+                                                        <span style={{ color: 'white' }}>
+                                                            *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                            *Exclusively relevant to events with single participants
+                                                        </span> <br /><br />
                                                     </div>
                                                     <a className="btn confer-btn" onClick={handleClick}>Register</a>
                                                     {/* Single Schedule Info */}

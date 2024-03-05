@@ -76,7 +76,7 @@ export default function VerticalTabs() {
                 <Tab sx={{ margin: '5px', color: 'white' }} label="Fine arts" {...a11yProps(7)} />
                 <Tab sx={{ margin: '5px', color: 'white' }} label="Movies" {...a11yProps(8)} />
                 <Tab sx={{ margin: '5px', color: 'white' }} label=" Photography" {...a11yProps(9)} />
-                <Tab sx={{ margin: '5px', color: 'white' }} label="Fashion" {...a11yProps(10)} />
+                {/* <Tab sx={{ margin: '5px', color: 'white' }} label="Fashion" {...a11yProps(10)} /> */}
                 {/* <Tab sx={{ margin: '5px', color: 'white' }} label=" RLC" {...a11yProps(10)} /> */}
                 {/* <Tab sx={{ margin: '5px', color: 'white' }} label="Sanskriti" {...a11yProps(12)} />` */}
             </Tabs>

@@ -271,6 +271,10 @@ const Drama = () => {
                                                                 <span style={{ color: 'white' }}>Date: 8<sup>th</sup> March</span><br />
                                                                 <span style={{ color: 'white' }}>Reach 1 day prior to your event.</span><br /><br />
                                                                 <span style={{ color: 'white' }}>Entry Fee: 1500/- per team  <br /></span> <br /><br />
+                                                                <span style={{ color: 'white' }}>
+                                                                    *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                    *Exclusively relevant to events with single participants
+                                                                </span> <br /><br />
                                                             </p>
                                                         </div>
                                                     </div>
@@ -336,6 +340,10 @@ const Drama = () => {
                                                                     <br />
                                                                 </span>
                                                                 <br />
+                                                                <span style={{ color: 'white' }}>
+                                                                    *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                    *Exclusively relevant to events with single participants
+                                                                </span> <br /><br />
                                                             </p>
                                                         </div>
                                                         <a className="btn confer-btn" onClick={handleClick}>Register</a>
@@ -402,6 +410,10 @@ const Drama = () => {
                                                                         Entry Fee: 200/- per person  <br />
                                                                         <br />
                                                                     </span>
+                                                                    <span style={{ color: 'white' }}>
+                                                                        *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                        *Exclusively relevant to events with single participants
+                                                                    </span> <br /><br />
 
                                                                 </p><br /><br />
                                                             </p>
@@ -462,6 +474,10 @@ const Drama = () => {
                                                                 </span><br /><br />
                                                                 Entry fee: 500/- per team    <br />
                                                                 <br />
+                                                                <span style={{ color: 'white' }}>
+                                                                    *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                    *Exclusively relevant to events with single participants
+                                                                </span> <br /><br />
                                                             </p><br /><br />
                                                         </div>
                                                     </div>
@@ -513,6 +529,10 @@ const Drama = () => {
                                                                 </span><br /><br />
                                                                 Entry fee: 500/- per team    <br />
                                                                 <br />
+                                                                <span style={{ color: 'white' }}>
+                                                                    *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                    *Exclusively relevant to events with single participants
+                                                                </span> <br /><br />
                                                             </p><br /><br />
                                                         </div>
                                                     </div>
@@ -575,6 +595,10 @@ const Drama = () => {
                                                                         <br />
                                                                     </span>
                                                                     <br />
+                                                                    <span style={{ color: 'white' }}>
+                                                                        *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                        *Exclusively relevant to events with single participants
+                                                                    </span> <br /><br />
                                                                 </p>
                                                             </div>
                                                             <a className="btn confer-btn" onClick={handleClick}>Register</a>
