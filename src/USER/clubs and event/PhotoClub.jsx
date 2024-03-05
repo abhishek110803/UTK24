@@ -161,6 +161,10 @@ export default function PhotoClub() {
                                                             <span style={{ color: 'white' }}>Date: 8-10<sup>th</sup> March.</span><br />
                                                             {/* <span style={{ color: 'white' }}>Entry Fee: 50 INR/- per participation<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span> <br /><br /> */}
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event. </span><br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
@@ -207,6 +211,10 @@ export default function PhotoClub() {
                                                             <span style={{ color: 'white' }}>Registration : <a href='https://forms.gle/1CuXDg6tY8sTKugXA' target='_blank'> Link</a></span> <br /><br />
 
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event. </span><br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
@@ -251,6 +259,10 @@ export default function PhotoClub() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 4,000/- INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 10<sup>th</sup> March.</span><br />
                                                             <span style={{ color: 'white' }}>Entry Fee: Free </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Schedule Btn */}

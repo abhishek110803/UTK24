@@ -18,7 +18,7 @@ export default function Animation() {
         minParticipants: 1,
         maxParticipants: 100,
         amount: 0,
-        eventTitle:'COSCON',
+        eventTitle: 'COSCON',
     });
 
 
@@ -30,8 +30,8 @@ export default function Animation() {
                 eventId: '65d5e550d6dab049c797fe5c',
                 minParticipants: 1,
                 maxParticipants: 100,
-                amount:0,
-                eventTitle:'COSCON',
+                amount: 0,
+                eventTitle: 'COSCON',
 
             });
         }
@@ -58,7 +58,7 @@ export default function Animation() {
                                 <li className="nav-item">
                                     <a aria-controls="step-one" aria-expanded="true" onClick={() => handleTabClick('step-1')}
 
-                                        className={`nav-link ${activeTab === 'step-1' ? 'active' : ''}`} data-toggle="tab"  id="tab-onr" role="tab"> COSCON </a>
+                                        className={`nav-link ${activeTab === 'step-1' ? 'active' : ''}`} data-toggle="tab" id="tab-onr" role="tab"> COSCON </a>
                                 </li>
                                 {/* Nav Item */}
                                 {/* <li className="nav-item">
@@ -121,6 +121,10 @@ export default function Animation() {
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>Entry Fee: Not disclosed. </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </p>
                                                     </div>
                                                 </div>
@@ -187,12 +191,17 @@ export default function Animation() {
                                                             <span style={{ color: 'white' }}>
                                                                 {/* Last date to register XX March<br/></span> */}
                                                                 Entry Fee: 1000/- per team  <br />
-                                                                 <br />
+                                                                <br />
                                                                 <br />
                                                             </span></p>
+                                                        <span style={{ color: 'white' }}>
+                                                            *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                            *Exclusively relevant to events with single participants
+                                                        </span> <br /><br />
                                                     </div>
                                                     <a className="btn confer-btn" id="mu1" name="EXHIBITION" onClick={handleClick}>Register
                                                     </a>
+                                                    
                                                 </div>
                                                 {/* Single Schedule Info */}
                                             </div>
@@ -204,8 +213,12 @@ export default function Animation() {
                             </div>}
                         </div>
                     </div>
+                 
                 </div>
             </div>
+            
+
+
         </section>
         {/* Our Schedule Area End */}
         <div className="d-flex justify-content-around mb-3">

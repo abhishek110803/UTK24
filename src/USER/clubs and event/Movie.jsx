@@ -148,6 +148,10 @@ export default function Movie() {
                                                             <span style={{ color: 'white' }}>Date: 10<sup>th</sup> March.</span><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event. </span><br /><br />
                                                             <span style={{ color: 'white' }}>Entry Fee: 250/- </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
@@ -197,6 +201,10 @@ export default function Movie() {
                                                             <span style={{ color: 'white' }}>Date: 9<sup>th</sup> March.</span><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event. </span><br /><br />
                                                             <span style={{ color: 'white' }}>Entry Fee: 200/- </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     <a name="Filmmaking" id="movie0" className="btn confer-btn" onClick={handleClick}>Register </a>
@@ -241,6 +249,10 @@ export default function Movie() {
                                                             <span style={{ color: 'white' }}>Date: 8<sup>th</sup> March.</span><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event. </span><br /><br />
                                                             <span style={{ color: 'white' }}>Entry Fee: 200/- </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}

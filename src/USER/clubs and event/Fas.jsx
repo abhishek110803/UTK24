@@ -259,7 +259,12 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}>Date: 8-10<sup>th</sup> March.</span><br />
                                                             {/* <span style={{ color: 'white' }}>Entry Fee: Not disclosed. </span> <br /><br /> */}
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
+                                                                
                                                             </span><br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
@@ -307,6 +312,10 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}>Entry Fee: 50/- (external participant)<br />     </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
@@ -357,6 +366,10 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}>Entry Fee: 50-/ Per person(External students)<br />      </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
@@ -405,6 +418,10 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}>Entry Fee: 50/- per person<br />    </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
@@ -454,6 +471,10 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}>Entry Fee: 100/-   <br />      </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
@@ -502,6 +523,10 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}>Entry Fee: 50/- per person<br />     </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
@@ -547,6 +572,10 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}>Entry Fee: 50/- per person  </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
@@ -597,6 +626,10 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}>Entry Fee: 100/- Per person  </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
@@ -644,6 +677,10 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}>Entry Fee: 100/- per person   </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}
@@ -695,6 +732,10 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}>Entry Fee: 50/- per person   </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </div>
                                                     </div>
                                                     {/* Single Schedule Info */}

@@ -135,6 +135,10 @@ export default function Music() {
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>Entry Fee: 200/- per participation  </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
                                                         </p>
                                                     </div>
                                                 </div>
@@ -203,7 +207,12 @@ export default function Music() {
                                                                 Entry Fee: 1500/- per team  <br />
                                                                  <br />
                                                                 <br />
-                                                            </span></p>
+                                                            </span>
+                                                            <span style={{ color: 'white' }}>
+                                                                *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
+                                                                *Exclusively relevant to events with single participants
+                                                            </span> <br /><br />
+                                                        </p>
                                                     </div>
                                                     <a className="btn confer-btn" id="mu1" name="MEGA SONIC" onClick={handleClick}>Register
                                                     </a>

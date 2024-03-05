@@ -77,7 +77,7 @@ export default function VerticalTabs2() {
                 <Tab sx={{ margin: '5px', color: 'white' }} label="movies" {...a11yProps(6)} />
                 <Tab sx={{ margin: '5px', color: 'white' }} label="Photography" {...a11yProps(7)} />
                 <Tab sx={{ margin: '5px', color: 'white' }} label="RLC" {...a11yProps(8)} />
-                {/* <Tab sx={{ margin: '5px', color: 'white' }} label="Fashion" {...a11yProps(11)} /> */}
+                <Tab sx={{ margin: '5px', color: 'white' }} label="Fashion" {...a11yProps(11)} />
                 <Tab sx={{ margin: '5px', color: 'white' }} label="Sanskriti" {...a11yProps(9)} />
             </Tabs>
             <TabPanel value={value} index={0} background="https://res.cloudinary.com/dpgxz1q1x/image/upload/v1709099448/Untitled%20design%20%281%29/6_b3gudd.png">
@@ -221,24 +221,25 @@ export default function VerticalTabs2() {
 
                 </div>
             </TabPanel>
-            {/* <TabPanel value={value} index={11} background="https://unsplash.it/1920/500?image=11">
-                <div className='each'>
-                <div> 
-                    <h1 className='heads'>PANACHE</h1>
-                        <p className='para'>Venue:--- </p>
-                        <p className='para'>Time:--- AM</p>
-
-                    </div>
-
-                </div>
-            </TabPanel> */}
-            <TabPanel value={value} index={9} background="https://res.cloudinary.com/dpgxz1q1x/image/upload/v1709099450/Untitled%20design%20%281%29/7_bi3tow.png">
+           
+            <TabPanel value={value} index={10} background="https://res.cloudinary.com/dpgxz1q1x/image/upload/v1709099450/Untitled%20design%20%281%29/7_bi3tow.png">
                 <div className='each'>
                     <div>
                         <h1 className='heads'>CULTURAL EXHIBITION</h1>
                         <p className='para'>Venue:CENTRAL LAWN / NIGHT CANTEEN</p>
                         <p className='para'>Time:02:00 PM</p>
 
+                    </div>
+
+                </div>
+            </TabPanel>
+            <TabPanel sx={{ blur: '10%' }} value={value} index={9} background="https://res.cloudinary.com/dpgxz1q1x/image/upload/v1709099419/Untitled%20design%20%281%29/11_pok1fm.png">
+                <div className='each'>
+
+                    <div>
+                        <h1 className='heads'>Panache</h1>
+                        {/* <p className='para '>Venue:Open Air Theater</p> */}
+                        <p className='para'>Time:06:00 PM</p>
                     </div>
 
                 </div>
