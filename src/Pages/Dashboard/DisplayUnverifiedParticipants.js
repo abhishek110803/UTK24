@@ -91,7 +91,7 @@ const DisplayParticipants = () => {
               </div>
 
 
-              {role === "ADMIN" && (
+              {/* {role === "ADMIN" && (
                 <button
                   onClick={() =>
                     handleparticipantDelete(eventDetails?._id, participants[currentVideoIndex]?._id)
@@ -100,7 +100,7 @@ const DisplayParticipants = () => {
                 >
                   Delete Participant
                 </button>
-              )}
+              )} */}
               {role === "ADMIN" && (
                 <button
                   onClick={() =>
