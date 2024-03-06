@@ -54,7 +54,7 @@ const DisplayParticipants = () => {
 
       <div className="flex justify-center gap-10 w-full">
         {/* left section for playing the video and displaying course details to admin */}
-        <div className="space-y-5 w-[28rem] p-2 rounded-lg shadow-[0_0_10px_black]">
+        <div className="space-y-5 w-full p-2 rounded-lg shadow-[0_0_10px_black]">
           <div>
             <h1>
               <span className="text-yellow-500" style={{ fontSize: '20px' }}>Team Name :
@@ -74,7 +74,34 @@ const DisplayParticipants = () => {
 
                 {participants && participants[currentVideoIndex]?.paymentReferenceNumber}   </span>
             </p>
-            
+
+
+            <div className='table_wrapper'>
+              {participants && <table className="table overflow-x-scroll" >
+                <thead>
+                  <tr >
+                    {/* <th></th> */}
+                    <th>S No.</th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  {participants && participants[currentVideoIndex]?.participants?.map((element, index) => {
+                    return (
+                      <tr key={element._id}>
+                        <td>{index + 1}</td>
+                        <td>{element.participantName}</td>
+                        <td>{element.participantPhone}</td>
+                        <td>{element.participantEmail}</td>
+                      </tr>
+                    )
+                  })}
+                </tbody>
+              </table>}
+            </div>
 
 
           </div>
