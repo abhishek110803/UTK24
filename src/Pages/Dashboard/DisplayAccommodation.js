@@ -111,7 +111,7 @@ const DisplayAccommodation = () => {
                             <span className="text-yellow-500 line-clamp-7">
                                 Accommodation Type :{accommodationDetails[currentOrder].accommodationType}<br />
                                 Number of persons :{accommodationDetails[currentOrder].numberOfPersons}<br />
-                                Number of Days :{accommodationDetails[currentOrder].numberOfDays}<br />
+                                {/* Number of Days :{accommodationDetails[currentOrder].numberOfDays}<br /> */}
                                 Payment Reference Number :{accommodationDetails[currentOrder].paymentReferenceNumber}<br />
                                 Check in date : {accommodationDetails[currentOrder]?.checkInDate}
                             </span>

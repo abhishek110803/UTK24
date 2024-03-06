@@ -122,7 +122,7 @@ export default function Quest() {
                                                                 <span style={{ color: 'white' }}>Date: 8<sup>th</sup> March</span><br />
                                                                 <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                                 </span><br /><br />
-                                                                <span style={{ color: 'white' }}>Entry Fee:  &nbsp;&nbsp;50 INR lone wolf
+                                                                <span style={{ color: 'white' }}>Entry Fee:  &nbsp;&nbsp;50 INR lone wolf (Free for NITJ students.)
                                                                 </span> <br></br>
                                                                 <span style={{ color: 'white' }}>
                                                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  100 INR per team <br /></span> <br /><br />
@@ -194,7 +194,7 @@ export default function Quest() {
                                                                 </span><br></br>
                                                                 <span style={{ color: 'white' }}>
                                                                     <br /></span>
-                                                                <span style={{ color: 'white' }}>Entry Fee:  &nbsp;&nbsp;50 INR lone wolf
+                                                                <span style={{ color: 'white' }}>Entry Fee:  &nbsp;&nbsp;50 INR lone wolf (Free for NITJ students.)
                                                                 </span> <br></br>
                                                                 <span style={{ color: 'white' }}>
                                                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  100 INR per team <br /></span> <br></br>

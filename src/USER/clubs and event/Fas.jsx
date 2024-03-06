@@ -191,31 +191,31 @@ export default function Fas() {
                                         <a
                                             onClick={() => handleTabClick('step-six')}
 
-                                            className={`nav-link ${activeTab === 'step-six' ? 'active' : ''}`} id="tab-6" data-toggle="tab"  role="tab" aria-controls="step-6" aria-expanded="true">PEBBLE PAINTING EXTRAVAGANZA</a>
+                                            className={`nav-link ${activeTab === 'step-six' ? 'active' : ''}`} id="tab-6" data-toggle="tab" role="tab" aria-controls="step-6" aria-expanded="true">PEBBLE PAINTING EXTRAVAGANZA</a>
                                     </li>
                                     <li className="nav-item" >
                                         <a
                                             onClick={() => handleTabClick('step-seven')}
 
-                                            className={`nav-link ${activeTab === 'step-seven' ? 'active' : ''}`} id="tab-8" data-toggle="tab"  role="tab" aria-controls="step-8" aria-expanded="true">10-MIN CHALLENGE</a>
+                                            className={`nav-link ${activeTab === 'step-seven' ? 'active' : ''}`} id="tab-8" data-toggle="tab" role="tab" aria-controls="step-8" aria-expanded="true">10-MIN CHALLENGE</a>
                                     </li>
                                     <li className="nav-item" >
                                         <a
                                             onClick={() => handleTabClick('step-eight')}
 
-                                            className={`nav-link ${activeTab === 'step-eight' ? 'active' : ''}`} id="tab-9" data-toggle="tab"  role="tab" aria-controls="step-9" aria-expanded="true">ART BEYOND SIGHT</a>
+                                            className={`nav-link ${activeTab === 'step-eight' ? 'active' : ''}`} id="tab-9" data-toggle="tab" role="tab" aria-controls="step-9" aria-expanded="true">ART BEYOND SIGHT</a>
                                     </li>
                                     <li className="nav-item" >
                                         <a
                                             onClick={() => handleTabClick('step-nine')}
 
-                                            className={`nav-link ${activeTab === 'step-nine' ? 'active' : ''}`} id="tab-10" data-toggle="tab"  role="tab" aria-controls="step-10" aria-expanded="true"> HAND PAINTING</a>
+                                            className={`nav-link ${activeTab === 'step-nine' ? 'active' : ''}`} id="tab-10" data-toggle="tab" role="tab" aria-controls="step-10" aria-expanded="true"> HAND PAINTING</a>
                                     </li>
                                     <li className="nav-item" >
                                         <a
                                             onClick={() => handleTabClick('step-ten')}
 
-                                            className={`nav-link ${activeTab === 'step-ten' ? 'active' : ''}`} id="tab-11" data-toggle="tab"  role="tab" aria-controls="step-11" aria-expanded="true">DOODODDLE DELIGHT</a>
+                                            className={`nav-link ${activeTab === 'step-ten' ? 'active' : ''}`} id="tab-11" data-toggle="tab" role="tab" aria-controls="step-11" aria-expanded="true">DOODODDLE DELIGHT</a>
                                     </li>
 
                                 </ul>
@@ -259,7 +259,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}>Date: 8-10<sup>th</sup> March.</span><br />
                                                             {/* <span style={{ color: 'white' }}>Entry Fee: Not disclosed. </span> <br /><br /> */}
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
-                                                                
+
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
                                                                 *If the event registration fee is less than Rs. 200/person then participant have to pay Rs. 200 college entry fee.<br></br>
@@ -306,10 +306,9 @@ export default function Fas() {
                                                                 the provided art medium.
                                                             </p>
                                                             <br /><br />
-                                                            <span style={{ color: 'white' }}><b>Prize Pool: 5,000/-
-                                                                INR</b></span><br /><br />
+                                                            <span style={{ color: 'white' }}><b>Prize Pool: 5,000/- INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 8<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 50/-<br />     </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 50/-  (Free for NITJ students.)</span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
@@ -363,7 +362,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 5,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 8<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 50-/ Per person<br />      </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 50-/ Per person (Free for NITJ students.)     </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
@@ -415,7 +414,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 5,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 10<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 50/- per person<br />    </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 50/- per person (Free for NITJ students.)   </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
@@ -468,7 +467,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 6,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 8<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 100/-   <br />      </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 100/- (Free for NITJ students.)  <br />      </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
@@ -520,7 +519,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 5,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 9<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 50/- per person<br />     </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 50/- per person     (Free for NITJ students.)<br />     </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
@@ -569,7 +568,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 5,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 9<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 50/- per person  </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 50/- per person     (Free for NITJ students.) </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
@@ -623,7 +622,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 6,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 9<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 100/- Per person  </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 100/- Per person (Free for NITJ students.) </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
@@ -674,7 +673,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 6,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 10<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 100/- per person   </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 100/- per person  (Free for NITJ students.)  </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
@@ -729,7 +728,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 5,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 10<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 50/- per person   </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 50/- per person  (Free for NITJ students.) </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
