@@ -74,6 +74,7 @@ const DisplayParticipants = () => {
 
                 {participants && participants[currentVideoIndex]?.paymentReferenceNumber}   </span>
             </p>
+            
 
 
           </div>
