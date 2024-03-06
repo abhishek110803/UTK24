@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FaBars, FaTimes } from 'react-icons/fa';
 // import { MdOutlineNavigation } from "react-icons/md";
 import './Layout.css'
+import bar from './fabar.png';
 const Layout = ({ children }) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -40,27 +41,27 @@ const Layout = ({ children }) => {
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content"  >
           <label htmlFor="my-drawer" className="cursor-pointer" onClick={changeWidth} >
-            < FaBars   style={{ right: '2%', top: '5%', position: 'fixed' }} />
+            < img src={bar} style={{ right: '20px', top: '30px', position: 'fixed', height: '1rem', width: '1rem', color: 'white' }} />
           </label>
         </div>
 
         <div className="drawer-side w-0" >
           <label htmlFor="my-drawer" className="drawer-overlay"></label>
 
-          <ul className="menu p-4 w-48 sm:w-80 bg-base-100 text-base-content relative margin_km_kro" style={{ overflow: 'visible',background:'linear-gradient(-45deg, #190b07, #110208, #08151a, #051814)' }}>
-            <h5 style={{ fontWeight: '700',color: '#fff'  }}>Dashboard</h5>
+          <ul className="menu p-4 w-48 sm:w-80 bg-base-100 text-base-content relative margin_km_kro" style={{ overflow: 'visible', background: 'linear-gradient(-45deg, #190b07, #110208, #08151a, #051814)' }}>
+            <h5 style={{ fontWeight: '700', color: '#fff' }}>Dashboard</h5>
             <hr style={{ borderColor: 'white' }}></hr>
             <div className="hidden-div" >
-              <li onClick={hideDrawer}><Link style={{ textDecoration: 'none',color: '#fff'  }} to="/" >Home</Link></li>
+              <li onClick={hideDrawer}><Link style={{ textDecoration: 'none', color: '#fff' }} to="/" >Home</Link></li>
               {/* <li onClick={hideDrawer}><Link style={{ textDecoration: 'none' }} to="/Gallery" >Gallery</Link></li> */}
-              <li onClick={hideDrawer}><Link style={{ textDecoration: 'none',color: '#fff'  }} to="/clubsandevent" >Events</Link></li>
-              <li onClick={hideDrawer}><Link style={{ textDecoration: 'none',color: '#fff'  }} to="/megaevent" >Mega Events</Link></li>
-              <li onClick={hideDrawer}><Link style={{ textDecoration: 'none',color: '#fff' }} to="/merchandise" >Merchandise</Link></li>
-              <li onClick={hideDrawer}><Link style={{ textDecoration: 'none',color: '#fff'  }} to="/accomodationPage" >Accommodation</Link></li>
-              <li onClick={hideDrawer}><Link style={{ textDecoration: 'none',color: '#fff'  }} to="/TeamMembers" >Team Members</Link></li>
-              <li onClick={hideDrawer}><Link style={{ textDecoration: 'none',color: '#fff'  }} to="/FacultyCoordinators" >Faculty Coordinator </Link></li>
-              <li onClick={hideDrawer}><Link style={{ textDecoration: 'none',color: '#fff'  }} to="/Developers" >Developers</Link></li>
-              <li onClick={hideDrawer}><Link style={{ textDecoration: 'none',color: '#fff'  }} to="/Contacts" >Contact us</Link></li>
+              <li onClick={hideDrawer}><Link style={{ textDecoration: 'none', color: '#fff' }} to="/clubsandevent" >Events</Link></li>
+              <li onClick={hideDrawer}><Link style={{ textDecoration: 'none', color: '#fff' }} to="/megaevent" >Mega Events</Link></li>
+              <li onClick={hideDrawer}><Link style={{ textDecoration: 'none', color: '#fff' }} to="/merchandise" >Merchandise</Link></li>
+              <li onClick={hideDrawer}><Link style={{ textDecoration: 'none', color: '#fff' }} to="/accomodationPage" >Accommodation</Link></li>
+              <li onClick={hideDrawer}><Link style={{ textDecoration: 'none', color: '#fff' }} to="/TeamMembers" >Team Members</Link></li>
+              <li onClick={hideDrawer}><Link style={{ textDecoration: 'none', color: '#fff' }} to="/FacultyCoordinators" >Faculty Coordinator </Link></li>
+              <li onClick={hideDrawer}><Link style={{ textDecoration: 'none', color: '#fff' }} to="/Developers" >Developers</Link></li>
+              <li onClick={hideDrawer}><Link style={{ textDecoration: 'none', color: '#fff' }} to="/Contacts" >Contact us</Link></li>
 
             </div>
 
@@ -73,40 +74,40 @@ const Layout = ({ children }) => {
 
             {isLoggedIn && role === "ADMIN" && (
               <li onClick={hideDrawer}>
-                <Link style={{ textDecoration: 'none',color: '#fff'  }} to={"/admin/dashboard"}>Events Dashboard</Link>
+                <Link style={{ textDecoration: 'none', color: '#fff' }} to={"/admin/dashboard"}>Events Dashboard</Link>
               </li>
             )}
             {isLoggedIn && role === "ADMIN" && (
               <li onClick={hideDrawer}>
-                <Link style={{ textDecoration: 'none',color: '#fff'  }} to={"/admin/merchandise"}>Merchandise Dashboard</Link>
+                <Link style={{ textDecoration: 'none', color: '#fff' }} to={"/admin/merchandise"}>Merchandise Dashboard</Link>
               </li>
             )}
             {isLoggedIn && role === "ADMIN" && (
               <li onClick={hideDrawer}>
-                <Link style={{ textDecoration: 'none',color: '#fff'  }} to={"/admin/accommodation"}>Accomodation Dashboard</Link>
+                <Link style={{ textDecoration: 'none', color: '#fff' }} to={"/admin/accommodation"}>Accomodation Dashboard</Link>
               </li>
             )}
 
             {isLoggedIn && role === "USER" && (
               <li onClick={hideDrawer}>
-                <Link style={{ textDecoration: 'none',color: '#fff'  }} to={"/user/dashboard"}>My Events</Link>
+                <Link style={{ textDecoration: 'none', color: '#fff' }} to={"/user/dashboard"}>My Events</Link>
               </li>
             )}
             {isLoggedIn && role === "USER" && (
               <li onClick={hideDrawer}>
-                <Link style={{ textDecoration: 'none',color: '#fff'  }} to={"/merchandise/myOrders"}>My Orders</Link>
+                <Link style={{ textDecoration: 'none', color: '#fff' }} to={"/merchandise/myOrders"}>My Orders</Link>
               </li>
             )}
             {isLoggedIn && role === "USER" && (
               <li onClick={hideDrawer}>
-                <Link style={{ textDecoration: 'none',color: '#fff'  }} to={"/accommodation/myBookings"}>My Bookings</Link>
+                <Link style={{ textDecoration: 'none', color: '#fff' }} to={"/accommodation/myBookings"}>My Bookings</Link>
               </li>
             )}
 
 
             {isLoggedIn && role === "COORDINATOR" && (
               <li onClick={hideDrawer}>
-                <Link style={{ textDecoration: 'none',color: '#fff'  }} to={"/admin/dashboard"}>COORDINATOR Dashboard</Link>
+                <Link style={{ textDecoration: 'none', color: '#fff' }} to={"/admin/dashboard"}>COORDINATOR Dashboard</Link>
               </li>
             )}
 
@@ -115,7 +116,7 @@ const Layout = ({ children }) => {
               role === 'ADMIN' &&
               (
                 <li onClick={hideDrawer}>
-                  <Link style={{ textDecoration: 'none',color: '#fff'  }} className="text-decoration-none no-underline" to={"/contact/newQuery"}>New Queries</Link>
+                  <Link style={{ textDecoration: 'none', color: '#fff' }} className="text-decoration-none no-underline" to={"/contact/newQuery"}>New Queries</Link>
                 </li>
               )
             }
@@ -126,13 +127,13 @@ const Layout = ({ children }) => {
               role === 'ADMIN' &&
               (
                 <li onClick={hideDrawer}>
-                  <Link style={{ textDecoration: 'none',color: '#fff'  }} className="text-decoration-none no-underline" to={"/contact/answeredQuery"}>Old Queries</Link>
+                  <Link style={{ textDecoration: 'none', color: '#fff' }} className="text-decoration-none no-underline" to={"/contact/answeredQuery"}>Old Queries</Link>
                 </li>
               )
             }
             {isLoggedIn && (
               <li onClick={hideDrawer}>
-                <Link style={{ textDecoration: 'none',color: '#fff'  }} to={"/user/profile"}>My Profile</Link>
+                <Link style={{ textDecoration: 'none', color: '#fff' }} to={"/user/profile"}>My Profile</Link>
               </li>
             )}
             <li style={{ textDecoration: 'none', opacity: '0' }} className="text-decoration-none no-underline"></li>

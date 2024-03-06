@@ -28,7 +28,7 @@ class ProNightSection extends React.Component {
                     <button className='revelbutton1' onClick={this.handleClick}><h5 className="main_pro main_text">Live<br></br> Band</h5></button >
                     <button className='revelbutton2' onClick={this.handleClick}><h5 className="main_pro main_text">Kavi <br></br> Sammelan</h5></button>
                     <button className='revelbutton3' onClick={this.handleClick}><h5 className="main_pro main_text">Bollywood<br></br>  Dance Music</h5></button>
-                    <button className='revelbutton4' onClick={this.handleClick}><h5 className="main_pro main_text">Faishon<br></br> Show</h5></button>
+                    <button className='revelbutton4' onClick={this.handleClick}><h5 className="main_pro main_text">Fashion<br></br> Show</h5></button>
                     <button className='revelbutton5' onClick={this.handleClick}><h5 className="main_pro main_text">Star<br></br> Night</h5></button>
                     {/* </div> */}</div > 
             </>
