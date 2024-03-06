@@ -35,7 +35,7 @@ const FallingText = () => {
       </div> */}
     </div>
     <div className="regbutton">
-      <button className="button-49" role="button" onClick={handleClick}>{isLoggedIn ? `VIEW PROFILE` : `SIGN-UP/LOGIN`}</button>
+      <button className="button-49" role="button" onClick={handleClick}>{isLoggedIn ? `VIEW EVENTS` : `SIGN-UP/LOGIN`}</button>
       {/* clubsandevent */}
 
     </div>
