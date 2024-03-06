@@ -10,7 +10,8 @@ const FallingText = () => {
 
   const handleClick = () => {
     if (!isLoggedIn) navigate('/login');
-    else navigate('/user/profile');
+    // else navigate('/user/profile');
+    else navigate('/clubsandevent');
   }
   return (<div>
     <div className="container56">
@@ -34,7 +35,8 @@ const FallingText = () => {
       </div> */}
     </div>
     <div className="regbutton">
-      <button className="button-49" role="button" onClick={handleClick}>{isLoggedIn?`VIEW PROFILE`:`REGISTER/LOGIN`}</button>
+      <button className="button-49" role="button" onClick={handleClick}>{isLoggedIn ? `VIEW PROFILE` : `SIGN-UP/LOGIN`}</button>
+      {/* clubsandevent */}
 
     </div>
     </div>
