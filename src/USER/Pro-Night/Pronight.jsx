@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import './pronight.css';
-import arrow from './arrow-down-double-line.svg';
 
 export default function Pronight() {
 
@@ -51,7 +50,7 @@ export default function Pronight() {
 
     return (
         <div>
-            <section className="pronight_pro_night prn" style={{backgroundColor:'black'}}>
+            <section className="pronight_pro_night prn" style={{ backgroundColor: 'black' }}>
                 <div id="pro-night">
                     <video className="pronight_pro_video prnv" loop autoPlay muted>
                         <source src="https://res.cloudinary.com/dijzvijky/video/upload/v1708605856/fast_clip_1_qdp3s9.mp4" type="video/mp4" />
@@ -59,12 +58,16 @@ export default function Pronight() {
                     </video>
                     <h1 className="pronight_title_pro">Pro-Nite</h1>
                     <div className="pronight_card prnc" style={{ width: '20rem' }}>
+                        <img class="card-img-top" src="./star image.jpg" alt="Card image cap" />
                         <div className="card-body">
                             <h5 className="pronight_card-title-p prnt">TO BE REVEALED</h5>
                         </div>
                     </div>
-                    <div className="pronight_arrow">
-                        <img src={arrow} alt="arrow" srcSet="" />
+                    <div className="pronight_card prnc" style={{ width: '20rem' }}>
+                        <img class="card-img-top" src="./star image.jpg" alt="Card image cap" />
+                        <div className="card-body">
+                            <h5 className="pronight_card-title-p prnt">TO BE REVEALED</h5>
+                        </div>
                     </div>
                 </div>
             </section>

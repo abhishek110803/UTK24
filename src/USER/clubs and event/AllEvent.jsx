@@ -31,7 +31,7 @@ function AllEvent() {
                 <ClubCard clubName="Fashion" link="/Clubevents/Panache" />
                 <ClubCard clubName="Music" link="/Clubevents/Music" />
                 <ClubCard clubName="Regional Language Club" link="/Clubevents/RLC" />
-                <ClubCard clubName="Animation" link="/Clubevents/Animation" />
+                {/* <ClubCard clubName="Animation" link="/Clubevents/Animation" /> */}
                 <ClubCard clubName="Movie" link="/Clubevents/Movie" />
                 <ClubCard clubName="LADC" link="/Clubevents/Ladc" />
                 <ClubCard clubName="Photography" link="/Clubevents/PhotoClub" />
