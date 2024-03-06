@@ -100,7 +100,7 @@ const DisplayAccommodation = () => {
 
             {(accommodationDetails.length > 0) ? <div className="flex justify-center gap-10 w-full">
                 {/* left section for playing the video and displaying course details to admin */}
-                <div className="space-y-5 w-[28rem] p-4 rounded-lg shadow-[0_0_10px_black]">
+                <div className="space-y-5 w-full p-4 rounded-lg shadow-[0_0_10px_black]">
 
                     <div>
                         <h3>
@@ -114,18 +114,47 @@ const DisplayAccommodation = () => {
                                 Number of Days :{accommodationDetails[currentOrder].numberOfDays}<br />
                                 Payment Reference Number :{accommodationDetails[currentOrder].paymentReferenceNumber}<br />
                             </span>
+
+                            <div className='table_wrapper'>
+                                {accommodationDetails[currentOrder] && <table className="table overflow-x-scroll" >
+                                    <thead>
+                                        <tr >
+                                            {/* <th></th> */}
+                                            <th>S No.</th>
+                                            <th>Name</th>
+                                            <th>Phone</th>
+                                            <th>Email</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        {accommodationDetails[currentOrder]?.persons?.map((element, index) => {
+                                            return (
+                                                <tr key={element._id}>
+                                                    <td>{index + 1}</td>
+                                                    <td>{element.participantName}</td>
+                                                    <td>{element.participantPhone}</td>
+                                                    <td>{element.participantEmail}</td>
+                                                </tr>
+                                            )
+                                        })}
+                                    </tbody>
+                                </table>}
+                            </div>
                         </p>
                         <br />
 
                         <div className="text-center space-x-4">
                             {(verified === '0') && <div>
                                 <button
+                                style={{padding:'4px'}}
                                     onClick={() => handleVerificationStatus(true)}
                                     className="btn-primary px-2 py-1 rounded-md font-semibold text-sm bg-green-500 hover:bg-green-600 text-white"
                                 >
                                     Verify
                                 </button>
                                 <button
+                                style={{padding:'4px',margin:'4px'}}
                                     onClick={() => {
                                         setPopup(true);
                                         handleVerificationStatus(false)
