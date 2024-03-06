@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content"  >
           <label htmlFor="my-drawer" className="cursor-pointer" onClick={changeWidth} >
-            < img src={bar} style={{ right: '20px', top: '30px', position: 'fixed', height: '1rem', width: '1rem', color: 'white' }} />
+            < img src={bar} style={{ right: '20px', top: '30px', position: 'fixed', height: '1rem', width: '1rem', color: 'white', zIndex:'999' }} />
           </label>
         </div>
 

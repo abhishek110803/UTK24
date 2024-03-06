@@ -11,12 +11,12 @@ const DisplayParticipants = () => {
   const navigate = useNavigate();
 
   // for getting the data from location of previous component
- 
+
   const eventDetails = useLocation().state;
 
   const { participants } = useSelector((state) => state.lecture);
-  
- 
+
+
   const { role } = useSelector((state) => state.auth);
 
 
@@ -28,7 +28,7 @@ const DisplayParticipants = () => {
     const data = { courseId, lectureId };
     await dispatch(deleteEventParticipants(data));
     // await dispatch(getEventParticipants(eventDetails._id));
-    await dispatch(getEventParticipants({ courseId: eventDetails._id, isVerified: true}));
+    await dispatch(getEventParticipants({ courseId: eventDetails._id, isVerified: true }));
   };
 
   // fetching the course lecture data
@@ -40,46 +40,46 @@ const DisplayParticipants = () => {
     })();
   }, []);
 
- 
 
-  
+
+
   return (
-    
+
     <div className="flex flex-col gap-10 items-center justify-center min-h-[90vh] py-10 text-white mx-[5%]" style={{ minHeight: '90vh' }}>
-        {/* displaying the course name */}
+      {/* displaying the course name */}
 
       <h1 className="text-center text-2xl font-semibold text-yellow-500" style={{ marginTop: '50px' }}>
-          Event Name : {eventDetails?.title}
-        </h1>
+        Event Name : {eventDetails?.title}
+      </h1>
 
-        <div className="flex justify-center gap-10 w-full">
-          {/* left section for playing the video and displaying course details to admin */}
-          <div className="space-y-5 w-[28rem] p-2 rounded-lg shadow-[0_0_10px_black]">
+      <div className="flex justify-center gap-10 w-full">
+        {/* left section for playing the video and displaying course details to admin */}
+        <div className="space-y-5 w-[28rem] p-2 rounded-lg shadow-[0_0_10px_black]">
           <div>
-                <h1>
-                  <span className="text-yellow-500" style={{fontSize:'20px'}}>Team Name : 
-                  {participants && participants[currentVideoIndex]?.teamName}</span>
-                </h1>
-                <p>
-                  {" "}
-                  <span className="text-yellow-500 line-clamp-4">
-                    college Name :{" "}
-               
-                  {participants && participants[currentVideoIndex]?.collegeName}   </span>
-                </p>
-                <p>
-                  {" "}
-                  <span className="text-yellow-500 line-clamp-4">
-                    Payment ID :{" "}
-               
-                  {participants && participants[currentVideoIndex]?.paymentReferenceNumber}   </span>
-                </p>
+            <h1>
+              <span className="text-yellow-500" style={{ fontSize: '20px' }}>Team Name :
+                {participants && participants[currentVideoIndex]?.teamName}</span>
+            </h1>
+            <p>
+              {" "}
+              <span className="text-yellow-500 line-clamp-4">
+                college Name :{" "}
+
+                {participants && participants[currentVideoIndex]?.collegeName}   </span>
+            </p>
+            <p>
+              {" "}
+              <span className="text-yellow-500 line-clamp-4">
+                Payment ID :{" "}
+
+                {participants && participants[currentVideoIndex]?.paymentReferenceNumber}   </span>
+            </p>
 
 
-              </div>
+          </div>
 
 
-            {/* {role === "ADMIN" && (
+          {/* {role === "ADMIN" && (
                       <button
                         onClick={() =>
                           handleLectureDelete(eventDetails?._id, participants[currentVideoIndex]?._id)
@@ -89,13 +89,13 @@ const DisplayParticipants = () => {
                         Delete Participant
                       </button>
                     )} */}
-          </div>
+        </div>
 
-          {/* right section for displaying all the participants of the course */}
-          <ul className="w-[28rem] p-2 rounded-lg shadow-[0_0_10px_black] space-y-4">
-            <li className="font-semibold text-xl text-yellow-500 flex items-center justify-between">
-              <p>Participants List</p>
-              {/* {role === "ADMIN" && (
+        {/* right section for displaying all the participants of the course */}
+        <ul className="w-[28rem] p-2 rounded-lg shadow-[0_0_10px_black] space-y-4">
+          <li className="font-semibold text-xl text-yellow-500 flex items-center justify-between">
+            <p>Participants List</p>
+            {/* {role === "ADMIN" && (
                 <button
                   onClick={() =>
                     navigate("/event/registerinevent", {
@@ -111,29 +111,29 @@ const DisplayParticipants = () => {
                   Add New Participant
                 </button>
               )} */}
-            </li>
-            {participants &&
-              participants.map((element, index) => {
-                return (
-                  <li className="space-y-2" key={element._id}>
-                    <p
-                      className="cursor-pointer"
-                      onClick={() => setCurrentVideoIndex(index)}
-                    >
-                      <span className="text-yellow-500">
-                        {" "}
-                        Participant {index + 1} :{" "}
-                      </span>
-                      {element?.collegeName}
-                    </p>
-                    
-                  </li>
-                );
-              })}
-          </ul>
-        </div>
+          </li>
+          {participants &&
+            participants.map((element, index) => {
+              return (
+                <li className="space-y-2" key={element._id}>
+                  <p
+                    className="cursor-pointer"
+                    onClick={() => setCurrentVideoIndex(index)}
+                  >
+                    <span className="text-yellow-500">
+                      {" "}
+                      Participant {index + 1} :{" "}
+                    </span>
+                    {element?.collegeName}
+                  </p>
+
+                </li>
+              );
+            })}
+        </ul>
       </div>
-  
+    </div>
+
   );
 };
 
