@@ -3,7 +3,9 @@ import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../Redux/authSlice";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+// import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { FaBars, FaTimes } from 'react-icons/fa';
+// import { MdOutlineNavigation } from "react-icons/md";
 import './Layout.css'
 const Layout = ({ children }) => {
   const dispatch = useDispatch();
@@ -38,7 +40,7 @@ const Layout = ({ children }) => {
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content"  >
           <label htmlFor="my-drawer" className="cursor-pointer" onClick={changeWidth} >
-            <FontAwesomeIcon icon={faBars} style={{ right: '20px', top: '30px', position: 'fixed' }} />
+            < FaBars   style={{ right: '2%', top: '5%', position: 'fixed' }} />
           </label>
         </div>
 
@@ -65,7 +67,7 @@ const Layout = ({ children }) => {
 
             <li className="w-fit absolute right-3 z-50">
               <button onClick={hideDrawer}>
-                <FontAwesomeIcon icon={faTimes} />
+                <FaTimes />
               </button>
             </li>
 
