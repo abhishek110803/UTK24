@@ -222,6 +222,8 @@ const FacultyCoordinators = () => {
                             </div>
                         </div>
                     </div>
+
+                    
                     <div className="card4545 card1">
                         <h3>Purushottam </h3>
                         <h4>Purchase Head</h4>
