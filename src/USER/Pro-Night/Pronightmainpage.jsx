@@ -20,7 +20,7 @@ class ProNightSection extends React.Component {
                 <div className='containerpro'>
                     {/* <video src={videoFile}  loop autoPlay muted /> */}
                     <video className="pro_video" loop autoPlay muted>
-                        <source src="https://res.cloudinary.com/dijzvijky/video/upload/v1708605856/fast_clip_1_qdp3s9.mp4" type="video/mp4" />
+                        <source src="https://res.cloudinary.com/diiyq5fwx/video/upload/v1709737073/fast_clip_1_qdp3s9_hyokwp.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                     {/* <h1 className="pronighthome">ProNight</h1> */}

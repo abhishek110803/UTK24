@@ -38,7 +38,7 @@ const Displayclubcoordinator = () => {
   }, []);
 
   return (
-    <Layout>
+    // <Layout>
       <div className="flex flex-col gap-10 items-center justify-center min-h-[90vh] py-10 text-white mx-[5%]">
      
 
@@ -119,7 +119,7 @@ const Displayclubcoordinator = () => {
           </ul>
         </div>
       </div>
-    </Layout>
+    // </Layout>
   );
 };
 
