@@ -108,13 +108,13 @@ const DisplayAccommodation = () => {
                             {accommodationDetails[currentOrder]?.registrantId.email}
                         </h3>
                         <p>
-                            <span className="text-yellow-500 line-clamp-4">
+                            <span className="text-yellow-500 line-clamp-7">
                                 Accommodation Type :{accommodationDetails[currentOrder].accommodationType}<br />
                                 Number of persons :{accommodationDetails[currentOrder].numberOfPersons}<br />
                                 Number of Days :{accommodationDetails[currentOrder].numberOfDays}<br />
                                 Payment Reference Number :{accommodationDetails[currentOrder].paymentReferenceNumber}<br />
+                                Check in date : {accommodationDetails[currentOrder]?.checkInDate}
                             </span>
-
                             <div className='table_wrapper'>
                                 {accommodationDetails[currentOrder] && <table className="table overflow-x-scroll" >
                                     <thead>
@@ -147,14 +147,14 @@ const DisplayAccommodation = () => {
                         <div className="text-center space-x-4">
                             {(verified === '0') && <div>
                                 <button
-                                style={{padding:'4px'}}
+                                    style={{ padding: '4px' }}
                                     onClick={() => handleVerificationStatus(true)}
                                     className="btn-primary px-2 py-1 rounded-md font-semibold text-sm bg-green-500 hover:bg-green-600 text-white"
                                 >
                                     Verify
                                 </button>
                                 <button
-                                style={{padding:'4px',margin:'4px'}}
+                                    style={{ padding: '4px', margin: '4px' }}
                                     onClick={() => {
                                         setPopup(true);
                                         handleVerificationStatus(false)
