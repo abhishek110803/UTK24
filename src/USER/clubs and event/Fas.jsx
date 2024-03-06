@@ -309,7 +309,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 5,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 8<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 50/- (external participant)<br />     </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 50/-<br />     </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
@@ -363,7 +363,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 5,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 8<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 50-/ Per person(External students)<br />      </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 50-/ Per person<br />      </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
