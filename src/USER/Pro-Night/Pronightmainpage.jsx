@@ -17,7 +17,7 @@ class ProNightSection extends React.Component {
                 <h2 className="titlp" >
                     Pro Nite
                 </h2>
-                <div className='containerpro'>
+                <div className='containerpro' onClick={this.handleClick} style={{cursor:'pointer'}}>
                     {/* <video src={videoFile}  loop autoPlay muted /> */}
                     <video className="pro_video" loop autoPlay muted>
                         <source src="https://res.cloudinary.com/diiyq5fwx/video/upload/v1709737073/fast_clip_1_qdp3s9_hyokwp.mp4" type="video/mp4" />
@@ -25,12 +25,13 @@ class ProNightSection extends React.Component {
                     </video>
                     {/* <h1 className="pronighthome">ProNight</h1> */}
 
-                    <button className='revelbutton1' onClick={this.handleClick}><h5 className="main_pro main_text">Live<br></br> Band</h5></button >
-                    <button className='revelbutton2' onClick={this.handleClick}><h5 className="main_pro main_text">Kavi <br></br> Sammelan</h5></button>
-                    <button className='revelbutton3' onClick={this.handleClick}><h5 className="main_pro main_text">Bollywood<br></br>  Dance Music</h5></button>
-                    <button className='revelbutton4' onClick={this.handleClick}><h5 className="main_pro main_text">Fashion<br></br> Show</h5></button>
-                    <button className='revelbutton5' onClick={this.handleClick}><h5 className="main_pro main_text">Star<br></br> Night</h5></button>
-                    {/* </div> */}</div > 
+                    <button className='revelbutton1' disabled ><h5 className="main_pro main_text">Live Band</h5></button >
+                    {/* <button className='revelbutton2' onClick={this.handleClick}><h5 className="main_pro main_text">Kavi <br></br> Sammelan</h5></button> */}
+                    <button className='revelbutton3' disabled><h5 className="main_pro main_text">BDM Night</h5></button>
+                    <button className='revelbutton4' disabled ><h5 className="main_pro main_text">Fashion Show</h5></button>
+                    <button className='revelbutton5' disabled><h5 className="main_pro main_text">Star Night</h5></button>
+                    {/* </div> */}
+                    </div >
             </>
         );
     }
