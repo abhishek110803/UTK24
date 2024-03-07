@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './pronight.css';
+import p1 from './f1.jpg'
 
 export default function Pronight() {
 
@@ -50,25 +51,20 @@ export default function Pronight() {
 
     return (
         <div>
-            <section className="pronight_pro_night prn" style={{ backgroundColor: 'black' }}>
+            <section className="pronight_pro_night prn" style={{ backgroundColor: 'black'}}>
                 <div id="pro-night">
                     <video className="pronight_pro_video prnv" loop autoPlay muted>
-                        <source src="https://res.cloudinary.com/dijzvijky/video/upload/v1708605856/fast_clip_1_qdp3s9.mp4" type="video/mp4" />
+                        <source src="https://res.cloudinary.com/diiyq5fwx/video/upload/v1709737073/fast_clip_1_qdp3s9_hyokwp.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                     <h1 className="pronight_title_pro">Pro-Nite</h1>
-                    <div className="pronight_card prnc" style={{ width: '20rem' }}>
-                        <img class="card-img-top" src="./star image.jpg" alt="Card image cap" />
-                        <div className="card-body">
-                            <h5 className="pronight_card-title-p prnt">TO BE REVEALED</h5>
-                        </div>
+                    <div className="pronight_card prnc" >
+                       
+                       
+                            <img src={p1} alt=""  />
+                     
                     </div>
-                    <div className="pronight_card prnc" style={{ width: '20rem' }}>
-                        <img class="card-img-top" src="./star image.jpg" alt="Card image cap" />
-                        <div className="card-body">
-                            <h5 className="pronight_card-title-p prnt">TO BE REVEALED</h5>
-                        </div>
-                    </div>
+
                 </div>
             </section>
         </div>

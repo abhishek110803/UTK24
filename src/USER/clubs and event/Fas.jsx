@@ -308,7 +308,7 @@ export default function Fas() {
                                                             <br /><br />
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 5,000/- INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 8<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 50/-  (Free for NITJ students.)</span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 50/-  (Free for NITJ students, user your college roll number and bring your college ID cards of all participants.)</span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
@@ -362,7 +362,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 5,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 8<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 50-/ Per person (Free for NITJ students.)     </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 50-/ Per person (Free for NITJ students, user your college roll number and bring your college ID cards of all participants.)     </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
@@ -414,7 +414,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 5,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 10<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 50/- per person (Free for NITJ students.)   </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 50/- per person (Free for NITJ students, user your college roll number and bring your college ID cards of all participants.)   </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
@@ -467,7 +467,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 6,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 8<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 100/- (Free for NITJ students.)  <br />      </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 100/- (Free for NITJ students, user your college roll number and bring your college ID cards of all participants.)  <br />      </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
@@ -519,7 +519,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 5,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 9<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 50/- per person     (Free for NITJ students.)<br />     </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 50/- per person     (Free for NITJ students, user your college roll number and bring your college ID cards of all participants.)<br />     </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
@@ -568,7 +568,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 5,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 9<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 50/- per person     (Free for NITJ students.) </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 50/- per person     (Free for NITJ students, user your college roll number and bring your college ID cards of all participants.) </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
@@ -622,7 +622,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 6,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 9<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 100/- Per person (Free for NITJ students.) </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 100/- Per person (Free for NITJ students, user your college roll number and bring your college ID cards of all participants.) </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
@@ -673,7 +673,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 6,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 10<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 100/- per person  (Free for NITJ students.)  </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 100/- per person  (Free for NITJ students, user your college roll number and bring your college ID cards of all participants.)  </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
@@ -728,7 +728,7 @@ export default function Fas() {
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 5,000/-
                                                                 INR</b></span><br /><br />
                                                             <span style={{ color: 'white' }}>Date: 10<sup>th</sup> March.</span><br />
-                                                            <span style={{ color: 'white' }}>Entry Fee: 50/- per person  (Free for NITJ students.) </span> <br /><br />
+                                                            <span style={{ color: 'white' }}>Entry Fee: 50/- per person  (Free for NITJ students, user your college roll number and bring your college ID cards of all participants.) </span> <br /><br />
                                                             <span style={{ color: 'white' }}>Reach 1 day prior to your event.
                                                             </span><br /><br />
                                                             <span style={{ color: 'white' }}>
