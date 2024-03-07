@@ -288,7 +288,7 @@ export default function Fas() {
                                                         {/* Single Schedule Thumb */}
                                                         {/* Single Schedule Info */}
                                                         <div className="single-schedule-info">
-                                                            <h3> DO-ART </h3>
+                                                            <h3> DO ART </h3>
                                                             <p>Participants need to create artwork using only dots with the
                                                                 provided art medium.
                                                             </p><br />
@@ -299,11 +299,11 @@ export default function Fas() {
                                                                 </b><br />
                                                                 <br />Time limit: 1.5 hours
                                                                 <br />Team size: 1 member<br /><br />
-                                                                <br />1. Black Pen will be provided to each participant using
-                                                                which they have to create the art.
-                                                                <br />2. The paper sheet will be provided.
+                                                                <br />1. Black pen and a paper sheet will be provided to each participant using which they have to create the art.
+                                                                <br />2. Participants can not use mobile phones.
                                                                 <br />3. Participants need to create artwork using only dots with
                                                                 the provided art medium.
+                                                                <br />
                                                             </p>
                                                             <br /><br />
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 5,000/- INR</b></span><br /><br />
@@ -339,10 +339,11 @@ export default function Fas() {
                                                         {/* Single Schedule Info */}
                                                         <div className="single-schedule-info">
                                                             <h3> CINEART ODYSSEY </h3>
-                                                            <p>We are sure you wanna paint your own phone case! Isn't that COOL?
-                                                                With an added theme of freestyle art. Each student will be
-                                                                provided with a mobile case that they can paint freely in their
-                                                                own art.
+                                                            <p>Create captivating movie posters inspired by Bollywood, Hollywood, or other
+                                                                language-specific industries in this art competition. Participants, randomly
+                                                                assigned, showcase their skills within a time limit. Judging criteria include movie
+                                                                relevance, thematic alignment, and overall perfection. Celebrate creativity and
+                                                                earn recognition in this exciting journey of imaginative expression!
                                                             </p><br />
                                                             <h6 style={{ color: 'white' }}>Rules:</h6>
                                                             <p>
@@ -351,12 +352,11 @@ export default function Fas() {
                                                                 </b><br />
                                                                 <br />Time limit: 1 hours
                                                                 <br />Team size: 1 member<br /><br />
-                                                                <br />1. Each participant will be provided with acrylic color and
-                                                                a mobile case that they can paint freely in their art style.
-                                                                <br />2. Participants should complete their art
-                                                                (Draw+paint+Dry)within a time limit.
-                                                                <br />3. Participants cannot use their mobile phones for any
-                                                                reference
+
+                                                                <li> Participants would choose a chit and should draw a poster according to the film industry assigned in the chit.</li>
+                                                                <li> Each participant is assigned to showcase their artistic talent in either Bollywood, Hollywood, or other language-specific movie domains.</li>
+                                                                <li> Judging criteria revolve around the relevance of the chosen movie, thematic alignment with the industry, and the overall perfection of the artwork.</li>
+                                                                <li> Participants can not use mobile phones.</li>
                                                             </p>
                                                             <br /><br />
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 5,000/-
@@ -445,7 +445,7 @@ export default function Fas() {
                                                         {/* Single Schedule Info */}
                                                         <div className="single-schedule-info">
                                                             <h3> RELAY ART CHALLENGE </h3>
-                                                            <p>UTKANSH’23 brings to you RELAY ART CHALLENGE, an art event to
+                                                            <p>UTKANSH’24 brings to you RELAY ART CHALLENGE, an art event to
                                                                 showcase your creativity and artistic talent. Participants would
                                                                 choose a chit and draw the specified item.
                                                             </p><br />
@@ -499,8 +499,9 @@ export default function Fas() {
                                                         {/* Single Schedule Info */}
                                                         <div className="single-schedule-info">
                                                             <h3> PEBBLE PAINTING EXTRAVAGANZA </h3>
-                                                            <p>In this event, participants will create art or draw by their
-                                                                choice on a given leaf.
+                                                            <p>Get ready for a pebble painting competition that goes beyond the ordinary.
+                                                                Unleash your creativity and add a splash of color to the mundane with our themed
+                                                                pebble painting event – "Pebble Palette."
                                                             </p><br />
                                                             <h6 style={{ color: 'white' }}>Rules:</h6>
                                                             <p>
@@ -509,11 +510,12 @@ export default function Fas() {
                                                                 </b><br />
                                                                 <br />Time limit: 60 minutes
                                                                 <br />Team size: 1 member<br /><br />
-                                                                <br />1. Colors will be provided.
-                                                                <br />2. In this event one has to paint their ideas on the leaf
-                                                                provided.
-                                                                <br />3. Only a single leaf will be provided to each participant.
-                                                                <br />4. Decisions of the Judges will be considered final.
+
+
+                                                              <li>  Each participant will receive a set of high-quality acrylic colors and a pebble canvas to bring their artistic visions to life.</li>
+                                                              <li>  Participants are required to complete their masterpiece (painting + drying) within the allocated time limit.</li>
+                                                              <li>  Mobile phones are strictly prohibited for reference during the competition, encouraging participants to rely solely on their imagination and artistic instincts.</li>
+                                                              <li>  Participants can not use mobile phones.</li>
                                                             </p>
                                                             <br /><br />
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 5,000/-
@@ -599,24 +601,20 @@ export default function Fas() {
                                                         {/* Single Schedule Info */}
                                                         <div className="single-schedule-info">
                                                             <h3> ART BEYOND SIGHT </h3>
-                                                            <p>Madhubani folk art, also known as Mithila painting, is a
-                                                                traditional art form that originated in the Mithila region of
-                                                                Bihar, India. Madhubani art is known for its intricate and
-                                                                colorful designs, which often feature geometric patterns, nature
-                                                                scenes, and religious themes.
+                                                            <p>Silent strokes dance in darkness, crafting visions unseen; blindfolded hands, artists of imagination, painting realms through touch's serene.
                                                             </p><br />
                                                             <h6 style={{ color: 'white' }}>Rules:</h6>
                                                             <p>
                                                                 <b>
                                                                     <font size={4}> Event rules and guidelines</font>
                                                                 </b><br />
-                                                                <br />Time limit: 120 minutes
+                                                                <br />Time limit: 60 minutes
                                                                 <br />Team size: 2 members<br /><br />
-                                                                <br />1. Color Combo and the Paper sheet will be provided to each
-                                                                participant.
-                                                                <br />2. Participants will be painting a Madhubani (which is
-                                                                Indian folk art) / mandala/another Indian form of art.
-                                                                <br />3. Participants can use their mobile phones.
+                                                                <li>A picture would be provided to one of the members of each team. This member would become the instructor.</li>
+                                                                <li>The other member will be blindfolded to paint.</li>
+                                                                <li>A3 sheets, acrylic colors, paint brushes will be provided.</li>
+                                                                <li>Only non-contact gestures will be allowed to guide the blindfolded participant.</li>
+                                                                <li>Participants can not use mobile phones.</li>
                                                             </p>
                                                             <br /><br />
                                                             <span style={{ color: 'white' }}><b>Prize Pool: 6,000/-
@@ -704,9 +702,9 @@ export default function Fas() {
                                                         {/* Single Schedule Info */}
                                                         <div className="single-schedule-info">
                                                             <h3> DOODLE DELIGHT </h3>
-                                                            <p>This will require students to design their emoji. The art needs
-                                                                to reflect their expression through painting facial emotions,
-                                                                places, types of animals, etc.
+                                                            <p>"A doodle a day keeps the dullness away; let your creativity play." Welcome to a
+                                                                World of Doodles and Delight! Join us for a Colorful Journey with FAS - Fine Art
+                                                                Society of NITJ!
                                                             </p><br />
                                                             <h6 style={{ color: 'white' }}>Rules:</h6>
                                                             <p>
