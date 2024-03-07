@@ -75,7 +75,7 @@ export default function Fas() {
         if (tabId === "step-five") {
             setEventdetails({
                 eventId: '65d5adc8a74298259eff0cc6',
-                minParticipants: 1,
+                minParticipants: 3,
                 maxParticipants: 3,
                 amount: 100,
                 perTeam: true,
@@ -455,7 +455,7 @@ export default function Fas() {
                                                                     <font size={4}> Event rules and guidelines</font>
                                                                 </b><br />
                                                                 <br />Time limit: 60 minutes
-                                                                <br />Team size: 1-3 member<br /><br />
+                                                                <br />Team size: 3 member<br /><br />
 
                                                                 <li> Team would choose a chit and draw according to the given idea.</li>
                                                                 <li> Create a relay art challenge where each artist contributes to a shared artwork, passing it along for others to continue and build upon.</li>
