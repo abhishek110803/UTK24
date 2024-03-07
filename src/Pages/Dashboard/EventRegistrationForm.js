@@ -224,13 +224,15 @@ function EventRegistrationForm() {
                                 <div className="col-md-4 mb-3">
                                     <button className="btn btn-primary w-100 mb-2" type="button" onClick={() => setPopup(true)} style={{ zIndex: '0' }}>Make Payment</button>
                                 </div>
-                                <label htmlFor="paymentReferenceNumber" className="form-label">Enter Payment Ref. No./UTR No </label>
+                                <h4></h4>
+                                <br></br>
+                                <label htmlFor="paymentReferenceNumber" className="form-label">Enter Payment Ref. No./UTR No (For Free events, write NA)</label>
                                 <div className="input-group" style={{ width: '95%', margin: '10px', borderRadius: '10px' }}>
                                     <input style={{ borderRadius: '10px' }} type="text" className={`form-control ${formErrors.paymentReferenceNumber ? 'is-invalid' : ''}`} id="paymentReferenceNumber" name="paymentReferenceNumber" value={formData.paymentReferenceNumber} onChange={handleChange} required />
                                 </div>
                                 {formErrors.paymentReferenceNumber && <div className="invalid-feedback">{formErrors.paymentReferenceNumber}</div>}
 
-                                
+
                             </div>
                             <div className='mb-2'>
                                 <div className='row'>
@@ -250,7 +252,7 @@ function EventRegistrationForm() {
                                         <label htmlFor="paymentReferenceNumber" className="form-label">IFSC Code </label>
                                         <input style={{ borderRadius: '10px' }} type="text" className={`form-control ${formErrors.IFSC_Code ? 'is-invalid' : ''}`} name="IFSC_Code" value={formData.IFSC_Code} onChange={handleChange} required />
                                     </div>
-                                   
+
                                 </div>
                             </div>
                             <div className="row justify-content-center">
