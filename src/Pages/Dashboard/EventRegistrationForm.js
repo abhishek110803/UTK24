@@ -29,6 +29,7 @@ function EventRegistrationForm() {
     const [popup, setPopup] = useState(false);
 
     useEffect(() => {
+        alert(`We suggest you first check your browser settings. Sometimes, blocked third-party cookies may cause inconsistencies and failed submissions.\n\n If you found third-party cookies blocked then first allow our site , and then try after re-login.`);
         if (eventId) {
             setFormData(prevState => ({
                 ...prevState,
