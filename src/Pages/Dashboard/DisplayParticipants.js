@@ -152,7 +152,7 @@ const DisplayParticipants = () => {
                       {" "}
                       Participant {index + 1} :{" "}
                     </span>
-                    {element?.collegeName}
+                    {element?.teamName}
                   </p>
 
                 </li>
