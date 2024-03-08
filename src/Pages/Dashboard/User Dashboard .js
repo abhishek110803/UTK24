@@ -76,7 +76,7 @@ const UserDashboard = () => {
                 {/* <th>Payment</th> */}
                 <th>UTR No</th>
                 <th>Status</th>
-                <th>Receipt</th>
+                {/* <th>Receipt</th> */}
 
               </tr>
             </thead>
@@ -177,13 +177,13 @@ const UserDashboard = () => {
                       }
                       className="bg-none hover:bg-green-600 transition-all ease-in-out duration-30 text-xl py-2 px-4 rounded-md font-bold color-black"
                     > */}
-                      <MdOutlineDownload onClick={
+                      {/* <MdOutlineDownload onClick={
                         () => {
                           return toast.error("Receipt can be downloaded after verification..");
 
                         }
 
-                      } />
+                      } /> */}
                       {/* </button> */}
                     </td>
                   </tr>
