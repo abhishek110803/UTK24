@@ -12,7 +12,7 @@ const Homepage = () => {
         <>
             <div className="homepage">
                 <video className="background-video" autoPlay muted loop>
-                    <source src='https://res.cloudinary.com/dijzvijky/video/upload/v1708785472/InShot_20240221_192422896_rhgsvm.mp4' type="video/mp4" />
+                    <source src='https://res.cloudinary.com/diiyq5fwx/video/upload/v1709633389/InShot_20240221_192422896_rhgsvm_ey7d4c.mp4' type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
 

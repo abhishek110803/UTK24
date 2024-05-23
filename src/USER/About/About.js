@@ -22,7 +22,7 @@ const AboutUsSection = () => {
 
           <div className="ultimateImg" style={{ marginTop: '0px' }}>
             <video id="aftermovie3" className="img-fluid crousel_video_mdn" controls autoPlay muted loop controlsList="nodownload">
-              <source src="https://res.cloudinary.com/dijzvijky/video/upload/v1708785280/trailer_3_2_sxafxj.mp4" type="video/mp4" />
+              <source src="https://res.cloudinary.com/diiyq5fwx/video/upload/v1709633383/trailer_3_2_sxafxj_z2ytwf.mp4" type="video/mp4" />
             </video>
           </div>
 
