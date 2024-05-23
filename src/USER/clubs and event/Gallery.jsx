@@ -8,14 +8,16 @@ import { useLocation } from 'react-router-dom';
 export default function Gallery() {
 
     const galleryItems = [
-        'https://res.cloudinary.com/dijzvijky/image/upload/v1677902291/gallery/1_prffnm.jpg',
-        'https://res.cloudinary.com/dijzvijky/image/upload/v1677902284/gallery/1_2_jcq82k.jpg',
-        'https://res.cloudinary.com/dijzvijky/image/upload/v1677902284/gallery/1_3_hqdecm.jpg',
-        'https://res.cloudinary.com/dijzvijky/image/upload/v1677902286/gallery/1_4_vlvtip.jpg',
-        'https://res.cloudinary.com/dijzvijky/image/upload/v1677902287/gallery/1_7_t6x92w.jpg',
-        'https://res.cloudinary.com/dijzvijky/image/upload/v1677902287/gallery/1_6_n7toyb.jpg',
-        'https://res.cloudinary.com/dijzvijky/image/upload/v1677902287/gallery/1_8_kshskq.jpg',
-        'https://res.cloudinary.com/dijzvijky/image/upload/v1677902288/gallery/1_9_yoexyu.jpg'
+        'https://res.cloudinary.com/diiyq5fwx/image/upload/v1709633375/1_9_yoexyu-min_vzdcm8.jpg',
+        'https://res.cloudinary.com/diiyq5fwx/image/upload/v1709633376/1_8_kshskq-min_rtcngm.jpg',
+        'https://res.cloudinary.com/diiyq5fwx/image/upload/v1709633375/1_prffnm-min_wstuvd.jpg',
+        'https://res.cloudinary.com/diiyq5fwx/image/upload/v1709633375/1_7_t6x92w-min_qnrhnz.jpg',
+        'https://res.cloudinary.com/diiyq5fwx/image/upload/v1709633374/1_4_vlvtip-min_wwsknp.jpg',
+        'https://res.cloudinary.com/diiyq5fwx/image/upload/v1709633374/1_6_n7toyb-min_a39tzu.jpg',
+        'https://res.cloudinary.com/diiyq5fwx/image/upload/v1709633374/1_5_qzff0s-min_horunf.jpg',
+        'https://res.cloudinary.com/diiyq5fwx/image/upload/v1709633373/1_2_jcq82k-min_f84ztd.jpg',
+        'https://res.cloudinary.com/diiyq5fwx/image/upload/v1709633372/1_15_fba4uf-min_rphthz.jpg',
+        'https://res.cloudinary.com/diiyq5fwx/image/upload/v1709633373/1_3_hqdecm-min_bxl2ha.jpg'
     ];
 
     const location = useLocation();

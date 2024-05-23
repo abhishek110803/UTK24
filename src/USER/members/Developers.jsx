@@ -29,7 +29,7 @@ const Developers = () => {
                     
 
                         <span>
-                            <img src="https://res.cloudinary.com/dijzvijky/image/upload/v1708777849/B612_20231006_194738_445_rjzo20.jpg" alt="" />
+                            <img src="https://res.cloudinary.com/diiyq5fwx/image/upload/v1709633355/B612_20231006_194738_445_gsqxbd-min_m6cwny.jpg" alt="" />
                         </span>
                         <div className="content">
                             <h2>01</h2>
@@ -55,7 +55,7 @@ const Developers = () => {
                         <h3>CSE 3rd Year</h3>
                         <h4>Web Dev Lead</h4>
                         <span>
-                            <img src="https://res.cloudinary.com/dijzvijky/image/upload/v1708774429/1708333534327_gzayyd.jpg" alt="" />
+                            <img src="https://res.cloudinary.com/diiyq5fwx/image/upload/v1709633365/1708333534327_gzayyd-min_jqsbnt.jpg" alt="" />
                         </span>
                         <div className="content">
                             <h2>02</h2>
@@ -77,7 +77,7 @@ const Developers = () => {
                         <h3>CSE 3rd Year</h3>
                         <h4>Web Dev Lead</h4>
                         <span>
-                            <img src="https://res.cloudinary.com/dijzvijky/image/upload/v1708775392/kunal_cqwsaj.jpg" alt="" />
+                            <img src="https://res.cloudinary.com/diiyq5fwx/image/upload/v1709633376/kunal_cqwsaj-min_qqmdcw.jpg" alt="" />
                         </span>
                         <div className="content">
                             <h2>03</h2>
@@ -102,7 +102,7 @@ const Developers = () => {
                         <h3>ECE 2nd Year</h3>
                         <h4>Member</h4>
                         <span>
-                            <img src="https://res.cloudinary.com/dpgxz1q1x/image/upload/v1709060017/WhatsApp_Image_2024-02-28_at_12.21.34_AM_uniyrp.jpg" alt="" />
+                            <img src="https://res.cloudinary.com/diiyq5fwx/image/upload/v1709633357/sheetal_e6apre-min_hkyqfa.jpg" alt="" />
                         </span>
                         <div className="content">
                             <h2>04</h2>
@@ -124,7 +124,7 @@ const Developers = () => {
                         <h3>CHE 2nd Year</h3>
                         <h4>Member</h4>
                         <span>
-                            <img src="https://res.cloudinary.com/dijzvijky/image/upload/v1708775255/devansh_nmilzd.jpg" alt="" />
+                            <img src="https://res.cloudinary.com/diiyq5fwx/image/upload/v1709633355/devansh_nmilzd-min_q60cwa.jpg" alt="" />
                         </span>
                         <div className="content">
                             <h2>05</h2>
