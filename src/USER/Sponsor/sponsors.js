@@ -25,176 +25,22 @@ class SponsorSection extends React.Component {
             <section>
                 <h2 className="titl" >Our Sponsors</h2>
                 <marquee behavior="scroll" direction="left" ref={this.marqueeRef} onMouseOver={() => this.marqueeRef.current.stop()} onMouseOut={() => this.marqueeRef.current.start()}>
-                    <a href="https://www.coca-colacompany.com/" target="_blank"><img src={p10} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://sbi.co.in/" target="_blank"><img src={p9} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://canarabank.com/" target="_blank"><img src={p4} alt="sponsor" style={{ height: '80px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="" target="_blank"><img src={p6} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.aubank.in/" target="_blank"><img src={p2} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
+                    <a href="https://www.coca-colacompany.com/" target="_blank"><img src={p10} alt="sponsor" class="imgg" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
+                    <a href="https://sbi.co.in/" target="_blank"><img src={p9} alt="sponsor" class="imgg" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
+                    <a href="https://canarabank.com/" target="_blank"><img src={p4} alt="sponsor" class="imgg"style={{ height: '80px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
+                    <a href="" target="_blank"><img src={p6} alt="sponsor" class="imgg" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
+                    <a href="https://www.aubank.in/" target="_blank"><img src={p2} alt="sponsor" class="imgg" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
 
-                    <a href="https://www.snofflecoffee.com/" target="_blank"><img src={p8} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
+                    <a href="https://www.snofflecoffee.com/" target="_blank"><img src={p8} alt="sponsor" class="imgg"style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
 
-                    <a href="https://zebronics.com/" target="_blank"><img src={p11} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-
-                    <a href="https://www.crunchbase.com/" target="_blank"><img src={p1} alt="sponsor" style={{ height: '120px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.dukeindia.com/" target="_blank"><img src={p5} alt="sponsor" style={{ height: '120px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.coca-colacompany.com/" target="_blank"><img src={p10} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://sbi.co.in/" target="_blank"><img src={p9} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://canarabank.com/" target="_blank"><img src={p4} alt="sponsor" style={{ height: '80px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="" target="_blank"><img src={p6} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.aubank.in/" target="_blank"><img src={p2} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://www.snofflecoffee.com/" target="_blank"><img src={p8} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://zebronics.com/" target="_blank"><img src={p11} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
+                    <a href="https://zebronics.com/" target="_blank"><img src={p11} alt="sponsor" class="imgg" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
 
 
-                    <a href="https://www.crunchbase.com/" target="_blank"><img src={p1} alt="sponsor" style={{ height: '120px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.dukeindia.com/" target="_blank"><img src={p5} alt="sponsor" style={{ height: '120px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.coca-colacompany.com/" target="_blank"><img src={p10} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://sbi.co.in/" target="_blank"><img src={p9} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://canarabank.com/" target="_blank"><img src={p4} alt="sponsor" style={{ height: '80px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="" target="_blank"><img src={p6} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.aubank.in/" target="_blank"><img src={p2} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://www.snofflecoffee.com/" target="_blank"><img src={p8} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://zebronics.com/" target="_blank"><img src={p11} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-
-                    <a href="https://www.crunchbase.com/" target="_blank"><img src={p1} alt="sponsor" style={{ height: '120px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.dukeindia.com/" target="_blank"><img src={p5} alt="sponsor" style={{ height: '120px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.coca-colacompany.com/" target="_blank"><img src={p10} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://sbi.co.in/" target="_blank"><img src={p9} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://canarabank.com/" target="_blank"><img src={p4} alt="sponsor" style={{ height: '80px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="" target="_blank"><img src={p6} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.aubank.in/" target="_blank"><img src={p2} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://www.snofflecoffee.com/" target="_blank"><img src={p8} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://zebronics.com/" target="_blank"><img src={p11} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-
-                    <a href="https://www.crunchbase.com/" target="_blank"><img src={p1} alt="sponsor" style={{ height: '120px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.dukeindia.com/" target="_blank"><img src={p5} alt="sponsor" style={{ height: '120px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.coca-colacompany.com/" target="_blank"><img src={p10} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://sbi.co.in/" target="_blank"><img src={p9} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://canarabank.com/" target="_blank"><img src={p4} alt="sponsor" style={{ height: '80px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="" target="_blank"><img src={p6} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.aubank.in/" target="_blank"><img src={p2} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://www.snofflecoffee.com/" target="_blank"><img src={p8} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://zebronics.com/" target="_blank"><img src={p11} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-
-                    <a href="https://www.crunchbase.com/" target="_blank"><img src={p1} alt="sponsor" style={{ height: '120px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.dukeindia.com/" target="_blank"><img src={p5} alt="sponsor" style={{ height: '120px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.coca-colacompany.com/" target="_blank"><img src={p10} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://sbi.co.in/" target="_blank"><img src={p9} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://canarabank.com/" target="_blank"><img src={p4} alt="sponsor" style={{ height: '80px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="" target="_blank"><img src={p6} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.aubank.in/" target="_blank"><img src={p2} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://www.snofflecoffee.com/" target="_blank"><img src={p8} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://zebronics.com/" target="_blank"><img src={p11} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-
-                    <a href="https://www.crunchbase.com/" target="_blank"><img src={p1} alt="sponsor" style={{ height: '120px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.dukeindia.com/" target="_blank"><img src={p5} alt="sponsor" style={{ height: '120px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.coca-colacompany.com/" target="_blank"><img src={p10} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://sbi.co.in/" target="_blank"><img src={p9} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://canarabank.com/" target="_blank"><img src={p4} alt="sponsor" style={{ height: '80px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="" target="_blank"><img src={p6} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.aubank.in/" target="_blank"><img src={p2} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://www.snofflecoffee.com/" target="_blank"><img src={p8} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://zebronics.com/" target="_blank"><img src={p11} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-
-                    <a href="https://www.crunchbase.com/" target="_blank"><img src={p1} alt="sponsor" style={{ height: '120px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.dukeindia.com/" target="_blank"><img src={p5} alt="sponsor" style={{ height: '120px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.coca-colacompany.com/" target="_blank"><img src={p10} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://sbi.co.in/" target="_blank"><img src={p9} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://canarabank.com/" target="_blank"><img src={p4} alt="sponsor" style={{ height: '80px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="" target="_blank"><img src={p6} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.aubank.in/" target="_blank"><img src={p2} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://www.snofflecoffee.com/" target="_blank"><img src={p8} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://zebronics.com/" target="_blank"><img src={p11} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-
-                    <a href="https://www.crunchbase.com/" target="_blank"><img src={p1} alt="sponsor" style={{ height: '120px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.dukeindia.com/" target="_blank"><img src={p5} alt="sponsor" style={{ height: '120px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.coca-colacompany.com/" target="_blank"><img src={p10} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://sbi.co.in/" target="_blank"><img src={p9} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://canarabank.com/" target="_blank"><img src={p4} alt="sponsor" style={{ height: '80px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="" target="_blank"><img src={p6} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.aubank.in/" target="_blank"><img src={p2} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://www.snofflecoffee.com/" target="_blank"><img src={p8} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://zebronics.com/" target="_blank"><img src={p11} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-
-                    <a href="https://www.crunchbase.com/" target="_blank"><img src={p1} alt="sponsor" style={{ height: '120px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.dukeindia.com/" target="_blank"><img src={p5} alt="sponsor" style={{ height: '120px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.coca-colacompany.com/" target="_blank"><img src={p10} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://sbi.co.in/" target="_blank"><img src={p9} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://canarabank.com/" target="_blank"><img src={p4} alt="sponsor" style={{ height: '80px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="" target="_blank"><img src={p6} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.aubank.in/" target="_blank"><img src={p2} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://www.snofflecoffee.com/" target="_blank"><img src={p8} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://zebronics.com/" target="_blank"><img src={p11} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-
-                    <a href="https://www.crunchbase.com/" target="_blank"><img src={p1} alt="sponsor" style={{ height: '120px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.dukeindia.com/" target="_blank"><img src={p5} alt="sponsor" style={{ height: '120px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.coca-colacompany.com/" target="_blank"><img src={p10} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://sbi.co.in/" target="_blank"><img src={p9} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://canarabank.com/" target="_blank"><img src={p4} alt="sponsor" style={{ height: '80px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="" target="_blank"><img src={p6} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.aubank.in/" target="_blank"><img src={p2} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://www.snofflecoffee.com/" target="_blank"><img src={p8} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://zebronics.com/" target="_blank"><img src={p11} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-
-                    <a href="https://www.crunchbase.com/" target="_blank"><img src={p1} alt="sponsor" style={{ height: '120px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.dukeindia.com/" target="_blank"><img src={p5} alt="sponsor" style={{ height: '120px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.coca-colacompany.com/" target="_blank"><img src={p10} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://sbi.co.in/" target="_blank"><img src={p9} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://canarabank.com/" target="_blank"><img src={p4} alt="sponsor" style={{ height: '80px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="" target="_blank"><img src={p6} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.aubank.in/" target="_blank"><img src={p2} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://www.snofflecoffee.com/" target="_blank"><img src={p8} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://zebronics.com/" target="_blank"><img src={p11} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-
-                    <a href="https://www.crunchbase.com/" target="_blank"><img src={p1} alt="sponsor" style={{ height: '120px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.dukeindia.com/" target="_blank"><img src={p5} alt="sponsor" style={{ height: '120px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.coca-colacompany.com/" target="_blank"><img src={p10} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://sbi.co.in/" target="_blank"><img src={p9} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://canarabank.com/" target="_blank"><img src={p4} alt="sponsor" style={{ height: '80px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="" target="_blank"><img src={p6} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.aubank.in/" target="_blank"><img src={p2} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://www.snofflecoffee.com/" target="_blank"><img src={p8} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-                    <a href="https://zebronics.com/" target="_blank"><img src={p11} alt="sponsor" style={{ height: '150px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
-
-                    <a href="https://www.crunchbase.com/" target="_blank"><img src={p1} alt="sponsor" style={{ height: '120px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-                    <a href="https://www.dukeindia.com/" target="_blank"><img src={p5} alt="sponsor" style={{ height: '120px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
-
+                    <a href="https://www.crunchbase.com/" target="_blank"><img src={p1} alt="sponsor" class="imgg" style={{ height: '120px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
+                    <a href="https://www.dukeindia.com/" target="_blank"><img src={p5} alt="sponsor" class="imgg" style={{ height: '120px', width: '200px', marginLeft: '30px', marginRight: '30px', display: 'inline-block' }} /></a>
+                  
+                  
+                  
                 </marquee>
             </section>
         );
